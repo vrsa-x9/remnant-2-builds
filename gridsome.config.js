@@ -7,7 +7,7 @@ const tailwindcss = require('tailwindcss')
 const autoprefixer = require('autoprefixer')
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Remnant II',
   plugins: [],
   css: {
     loaderOptions: {
