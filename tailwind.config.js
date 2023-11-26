@@ -12,6 +12,12 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    extend: {
+      visibility: ['responsive', 'hover', 'focus', 'group-hover'],
+    }
+  },
+  plugins: [
+    require('tailwindcss-interaction-variants'),
+  ],
 }

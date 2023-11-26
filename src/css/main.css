@@ -32,39 +32,38 @@ button{
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    -webkit-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    -moz-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    box-shadow: 2px 0 8px -2px #7aa2b0;
-    background: #8dc6de;
+    -webkit-box-shadow: 2px 0px 8px -2px #41120E;
+    -moz-box-shadow: 2px 0px 8px -2px #41120E;
+    box-shadow: 2px 0 8px -2px #41120E;
     color: #fff;
     font-weight: bold;
-    background: #8dc6de;
+    background: #3A110B;
     transition-duration: .3s;
     transition-timing-function: ease-out;
-    background: -webkit-linear-gradient(45deg,#9f9e92,#d6d5ba);
-    background: linear-gradient(45deg,#9f9e92,#d6d5ba);
+    background: -webkit-linear-gradient(45deg,#5F0D0E,#940D18);
+    background: linear-gradient(45deg,#5F0D0E,#940D18);
 }
 
 button:hover {
     text-decoration: none;
-    -webkit-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    -moz-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    box-shadow: 2px 0 8px -2px #7aa2b0;
+    -webkit-box-shadow: 2px 0px 8px -2px #41120E;
+    -moz-box-shadow: 2px 0px 8px -2px #41120E;
+    box-shadow: 2px 0 8px -2px #41120E;
     background: #8dc6de;
-    background: -webkit-linear-gradient(45deg,#d6d5ba,#9f9e92);
-    background: linear-gradient(45deg,#d6d5ba,#9f9e92);
+    background: -webkit-linear-gradient(45deg,#940D18,#5F0D0E);
+    background: linear-gradient(45deg,#940D18,#5F0D0E);
 }
 
 button:active{
     position: relative;
     top: 1px;
     color: #fff;
-    -webkit-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    -moz-box-shadow: 2px 0px 8px -2px #7aa2b0;
-    box-shadow: 2px 0 8px -2px #7aa2b0;
+    -webkit-box-shadow: 2px 0px 8px -2px #41120E;
+    -moz-box-shadow: 2px 0px 8px -2px #41120E;
+    box-shadow: 2px 0 8px -2px #41120E;
     background: #8dc6de;
-    background: -webkit-linear-gradient(45deg,#9f9e92,#9f9e92);
-    background: linear-gradient(45deg,#9f9e92,#9f9e92);
+    background: -webkit-linear-gradient(45deg,#940D18,#940D18);
+    background: linear-gradient(45deg,#940D18,#940D18);
 }
 
 
