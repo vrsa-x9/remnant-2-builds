@@ -60,7 +60,7 @@ export default {
         <div class="relative h-full rings z-2"> 
           <g-image src="~/assets/remnant.webp" width="500" style="margin-top:150px;" />
           <div class="input mt-10 w-full" :class="{'active':isActive}">
-            <input v-model="build_name" type="text" class="text-gray-300 font-medium text-xl" placeholder="Enter build name here"  @focus="isActive = true" @blur="isActive = false"  />
+            <input v-model="build_name" type="text" class="text-gray-300 font-medium" placeholder="Enter build name here"  @focus="isActive = true" @blur="isActive = false"  />
           </div>
           <button class="w-full mt-4" v-if="build_name.length>0"> Create new build</button>
           <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
