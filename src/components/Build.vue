@@ -2,6 +2,7 @@
 import Stats from '~/components/Stats.vue'
 import Effects from '~/components/Effects.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
+import Item from '~/components/Item.vue'
 
 export default {
     metaInfo: {
@@ -14,7 +15,7 @@ export default {
         }
     },
     components: {
-        Stats, Effects, ItemPicker
+        Stats, Effects, ItemPicker,Item
     },
     data() {
         return {
@@ -77,11 +78,11 @@ export default {
                     style="top:470px;right:185px;"></div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:570px;right:150px;" @click="selection = 'Relics'">
-                    <g-image v-if="build.Relics" :src="build.Relics.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.Relics"></Item>
                 </div>
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;right:-20px;" @click="selection = 'LongGuns'">
-                    <g-image v-if="build.LongGuns" :src="build.LongGuns.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.LongGuns"></Item>
                 </div>
             </div>
             <div class="relative h-full rings z-2 group">
@@ -100,12 +101,12 @@ export default {
                     </div>
                 </div>
                 <div class="text-center" style="background:none;" v-else>
-                    <div class="text-gray-300 text-lg mt-10 font-semibold" style="background:none;"> {{ build_name}}</div>
+                    <div class="text-gray-300 text-lg mt-10 font-semibold" style="background:none;"> {{ build_name }}</div>
                     <button class="mt-4 invisible group-hover:visible" @click="is_editing = true"> Edit</button>
                 </div>
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;left:45px;" @click="selection = 'Melee'">
-                    <g-image v-if="build.Melee" :src="build.Melee.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.Melee"></Item>
                 </div>
             </div>
             <div class="relative h-full rings">
@@ -114,29 +115,27 @@ export default {
                     style="top:30px;left:50px;"></div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:170px;left:150px;" @click="selection = 'Amulet'">
-                    <g-image v-if="build.Amulet" :src="build.Amulet.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.Amulet"></Item>
                 </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:270px;left:185px;" @click="selection = 'Ring1'">
-                    <g-image v-if="build.Ring1" :src="build.Ring1.itemImageLinkFullPath" style="width:100%;" />
-
+                    <Item :item="build.Ring1"></Item>
                 </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:370px;left:210px;" @click="selection = 'Ring2'">
-                    <g-image v-if="build.Ring2" :src="build.Ring2.itemImageLinkFullPath" style="width:100%;" />
-
+                    <Item :item="build.Ring2"></Item>
                 </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:470px;left:185px;" @click="selection = 'Ring3'">
-                    <g-image v-if="build.Ring3" :src="build.Ring3.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.Ring3"></Item>
                 </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:570px;left:150px;" @click="selection = 'Ring4'">
-                    <g-image v-if="build.Ring4" :src="build.Ring4.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.Ring4"></Item>
                 </div>
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;left:-20px;" @click="selection = 'handGuns'">
-                    <g-image v-if="build.handGuns" :src="build.handGuns.itemImageLinkFullPath" style="width:100%;" />
+                    <Item :item="build.handGuns"></Item>
                 </div>
             </div>
             <Effects>
@@ -178,4 +177,5 @@ export default {
     border-bottom-right-radius: 50%;
     border-top-right-radius: 50%;
     right: 58px;
-}</style>
+}
+</style>
