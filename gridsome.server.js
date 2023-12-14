@@ -17,4 +17,16 @@ module.exports = function (api) {
       component: './src/templates/Build.vue'
     })
   })
+
+
+  api.afterBuild(({ redirects }) => {
+    // Redirect rules
+    if (redirects) {
+      let rules = []
+      for (const rule of redirects) {
+        rules.push(`${rule.from}\t${rule.to}\t${rule.status}`)
+      }
+      fs.appendFileSync('./dist/_redirects', rules.join('\n'))
+    }
+  }) 
 }
