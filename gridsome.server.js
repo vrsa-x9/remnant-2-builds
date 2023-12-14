@@ -21,6 +21,8 @@ module.exports = function (api) {
     })
   })
 
+  
+
 
   api.afterBuild(({ redirects }) => {
     // Redirect rules

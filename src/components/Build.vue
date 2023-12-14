@@ -15,7 +15,7 @@ export default {
         }
     },
     components: {
-        Stats, Effects, ItemPicker,Item
+        Stats, Effects, ItemPicker, Item
     },
     data() {
         return {
@@ -62,7 +62,8 @@ export default {
 
 <template>
     <div class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
-        <div class="grid  justify-center items-center h-full" style="grid-template-columns:1fr 300px 250px 300px 1fr;">
+        <div class="grid  justify-center items-center h-full overflow-auto"
+            style="grid-template-columns:1fr 300px 250px 300px 1fr;">
             <Stats></Stats>
             <div class="relative h-full rings">
                 <div class="border-l ring-background left" style="background:transparent;"></div>
