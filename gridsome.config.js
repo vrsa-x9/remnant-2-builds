@@ -9,7 +9,6 @@ const autoprefixer = require('autoprefixer')
 module.exports = {
   siteName: 'Remnant II',
   siteUrl: 'https://vrsa-x9.github.io',
-  pathPrefix: '/remnant-2-builds',
   plugins: [],
   css: {
     loaderOptions: {
