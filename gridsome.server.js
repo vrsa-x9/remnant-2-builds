@@ -4,6 +4,9 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const fs = require('fs')
+
+
 
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
