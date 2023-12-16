@@ -32,7 +32,7 @@ import { jwtDecode } from "jwt-decode";
 
 const signin_ref = ref(null);
 
-const credential = window?.localStorage?.getItem('credential');
+const credential = typeof window !== "undefined" ? window?.localStorage?.getItem('credential') : null;
 const user = ref(credential ? jwtDecode(credential) : null);
 
 

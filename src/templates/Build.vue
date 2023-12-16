@@ -1,17 +1,15 @@
 <template>
-  <Empty>
+  <Layout>
     <Build v-if="build" :saved_build="build" @update-build="updateBuild"></Build>
-  </Empty>
+  </Layout>
 </template>
   
 <script>
 import Build from "~/components/Build.vue";
-import Empty from '~/layouts/Empty.vue'
 
 export default {
   components: {
-    Build,
-    Empty
+    Build
   },
   data() {
     return {
