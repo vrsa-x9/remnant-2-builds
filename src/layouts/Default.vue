@@ -31,11 +31,7 @@ import { ref, onMounted } from "vue";
 import { jwtDecode } from "jwt-decode";
 
 const signin_ref = ref(null);
-
-const credential = typeof window !== "undefined" ? window?.localStorage?.getItem('credential') : null;
-const user = ref(credential ? jwtDecode(credential) : null);
-
-
+const user = ref(null);
 
 var renderGoogleSigninButton = function () {
   google.accounts.id.initialize({
@@ -52,6 +48,11 @@ var renderGoogleSigninButton = function () {
 
 
 onMounted(() => {
+  const credential = typeof window !== "undefined" ? window?.localStorage?.getItem('credential') : null;
+  if (credential) {
+    console.log(jwtDecode(credential));
+    user.value = jwtDecode(credential)
+  }
   renderGoogleSigninButton();
 })
 </script>
