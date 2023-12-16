@@ -16,13 +16,8 @@
           exact-active-class="border-gray-600  text-gray-400 " to="/planner"> <font-awesome :icon="['fas', 'plus']" />
           BUILD PLANNER</g-link>
       </nav>
-      <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
-        <font-awesome :icon="['fab', 'google']" /> Sign in
+      <div ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
       </div>
-      <div v-show="user" class="absolute right-5 top-3 cursor-pointer" @click="signOut">
-        Sign out
-      </div>
-
     </header>
     <slot />
   </div>
@@ -33,39 +28,20 @@ import { ref, onMounted } from "vue";
 
 const signin_ref = ref(null);
 const user = ref(null);
-var startApp = function () {
-  gapi.load('auth2', function () {
-    // Retrieve the singleton for the GoogleAuth library and set up the client.
-    gapi.auth2.init({
-      client_id: '198301617155-f2jb82g7ibfro25gtpk2iivssoscva0g.apps.googleusercontent.com',
-      cookiepolicy: 'single_host_origin',
-
-    });
-    attachSignin(signin_ref.value);
+var renderGoogleSigninButton = function () {
+  google.accounts.id.initialize({
+    client_id: '198301617155-f2jb82g7ibfro25gtpk2iivssoscva0g.apps.googleusercontent.com',
+    callback: function (user_profile) {
+      user.value = user_profile;
+      console.log(user_profile);
+    }
   });
+  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", shape: "circle", size: 'medium', type: 'icon' })
 };
-
-function attachSignin(element) {
-  var auth2 = gapi.auth2.getAuthInstance();
-  auth2.attachClickHandler(element, {},
-    function (googleUser) {
-      console.log(googleUser);
-      user.value = googleUser;
-    }, function (error) {
-      alert(JSON.stringify(error, undefined, 2));
-    });
-}
-
-function signOut() {
-  var auth2 = gapi.auth2.getAuthInstance();
-  auth2.signOut().then(function () {
-    console.log('User signed out.');
-  });
-}
 
 
 onMounted(() => {
-  startApp();
+  renderGoogleSigninButton();
 })
 </script>
 
