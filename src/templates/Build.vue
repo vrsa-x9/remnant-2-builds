@@ -1,28 +1,30 @@
 <template>
-  <Layout>
+  <Empty>
     <Build v-if="build" :saved_build="build" @update-build="updateBuild"></Build>
-  </Layout>
+  </Empty>
 </template>
   
-  <script>
+<script>
 import Build from "~/components/Build.vue";
+import Empty from '~/layouts/Empty.vue'
 
 export default {
   components: {
-    Build
+    Build,
+    Empty
   },
-  data(){
+  data() {
     return {
-        build:null,
+      build: null,
     }
   },
-  methods:{
-    updateBuild(build){
-        const { id } = this.$route.params;
-        const builds = JSON.parse(window.localStorage.getItem('builds'));
-        builds[id] = build;
-        window.localStorage.setItem("builds", JSON.stringify(builds));
-        this.$router.push({ path: '/builds' });
+  methods: {
+    updateBuild(build) {
+      const { id } = this.$route.params;
+      const builds = JSON.parse(window.localStorage.getItem('builds'));
+      builds[id] = build;
+      window.localStorage.setItem("builds", JSON.stringify(builds));
+      this.$router.push({ path: '/builds' });
     }
   },
   async mounted() {
@@ -33,4 +35,4 @@ export default {
 };
 </script>
   
-  <style></style>
+<style></style>
