@@ -25,6 +25,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import { jwtDecode } from "jwt-decode";
 
 const signin_ref = ref(null);
 const user = ref(null);
@@ -32,8 +33,8 @@ var renderGoogleSigninButton = function () {
   google.accounts.id.initialize({
     client_id: '198301617155-f2jb82g7ibfro25gtpk2iivssoscva0g.apps.googleusercontent.com',
     callback: function (user_profile) {
-      user.value = user_profile;
-      console.log(user_profile);
+      user.value = jwtDecode(user_profile?.credential);
+      console.log(user.value);
     }
   });
   google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", shape: "circle", size: 'medium', type: 'icon' })
