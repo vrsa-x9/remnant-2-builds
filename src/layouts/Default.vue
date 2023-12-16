@@ -16,7 +16,10 @@
           exact-active-class="border-gray-600  text-gray-400 " to="/planner"> <font-awesome :icon="['fas', 'plus']" />
           BUILD PLANNER</g-link>
       </nav>
-      <div ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
+      <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
+      </div>
+      <div v-show="user" class="absolute right-5 top-3 cursor-pointer rounded-full w-8 h-8 overflow-hidden">
+        <img :src="user?.picture" />
       </div>
     </header>
     <slot />
@@ -28,13 +31,20 @@ import { ref, onMounted } from "vue";
 import { jwtDecode } from "jwt-decode";
 
 const signin_ref = ref(null);
-const user = ref(null);
+
+const credential = localStorage.getItem('credential');
+const user = ref(credential ? jwtDecode(credential) : null);
+
+
+
 var renderGoogleSigninButton = function () {
   google.accounts.id.initialize({
     client_id: '198301617155-f2jb82g7ibfro25gtpk2iivssoscva0g.apps.googleusercontent.com',
     callback: function (user_profile) {
-      user.value = jwtDecode(user_profile?.credential);
-      console.log(user.value);
+      if (user_profile?.credential) {
+        localStorage.setItem('credential', user_profile?.credential);
+        user.value = jwtDecode(user_profile?.credential);
+      }
     }
   });
   google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", shape: "circle", size: 'medium', type: 'icon' })
