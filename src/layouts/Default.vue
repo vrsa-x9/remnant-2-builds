@@ -32,7 +32,7 @@ import { jwtDecode } from "jwt-decode";
 
 const signin_ref = ref(null);
 
-const credential = localStorage.getItem('credential');
+const credential = window.localStorage.getItem('credential');
 const user = ref(credential ? jwtDecode(credential) : null);
 
 
@@ -42,7 +42,7 @@ var renderGoogleSigninButton = function () {
     client_id: '198301617155-f2jb82g7ibfro25gtpk2iivssoscva0g.apps.googleusercontent.com',
     callback: function (user_profile) {
       if (user_profile?.credential) {
-        localStorage.setItem('credential', user_profile?.credential);
+        window.localStorage.setItem('credential', user_profile?.credential);
         user.value = jwtDecode(user_profile?.credential);
       }
     }
