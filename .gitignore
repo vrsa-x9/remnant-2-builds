@@ -7,3 +7,6 @@ dist
 .env
 .env.*
 .history
+
+# editor files
+.idea/
