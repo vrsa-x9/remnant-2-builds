@@ -1,12 +1,16 @@
 <script>
 import Stats from '~/components/Stats.vue'
-import Effects from '~/components/Effects.vue'
+import Traits from '~/components/Traits.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
 import Item from '~/components/Item.vue'
-
+import { inject } from 'vue'
 export default {
     metaInfo: {
         title: 'Build Planner'
+    },
+    setup() {
+        const supabase = inject('supabase');
+        return { supabase }
     },
     props: {
         saved_build: {
@@ -15,7 +19,7 @@ export default {
         }
     },
     components: {
-        Stats, Effects, ItemPicker, Item
+        Stats, Traits, ItemPicker, Item
     },
     data() {
         return {
@@ -26,36 +30,55 @@ export default {
             build: {
 
             },
+            traits: [],
         }
     },
     mounted() {
         this.build = this.saved_build;
+        this.traits = this.saved_build.traits || [];
         this.build_name = this.saved_build.build_name || '';
         this.is_editing = !this.saved_build.build_name;
-
     },
     methods: {
         selectItem(item) {
-            this.build[this.selection] = item;
+            if (this.selection === 'Traits') {
+                this.traits.push(item);
+            }
+            else
+                this.build[this.selection] = item;
             this.selection = null;
         },
-        updateBuild() {
+        async updateBuild() {
             this.$emit('update-build', {
                 ...this.build,
+                traits: this.traits,
                 build_name: this.build_name
             });
         },
-        createNewBuild() {
+        async getUserData() {
+            const { data, error } = await supabase
+                .from('Users')
+                .select('*');
+
+        },
+        async createNewBuild() {
             const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
             builds.push({
                 ...this.build,
+                traits: this.traits,
                 build_name: this.build_name
             });
             window.localStorage.setItem("builds", JSON.stringify(builds));
             this.$router.push({ path: '/builds' });
+        },
+        deleteTrait(index) {
+            this.traits.splice(index, 1);
         }
     }
 }
+
+
+
 
 
 </script>
@@ -139,8 +162,13 @@ export default {
                     <Item :item="build.handGuns"></Item>
                 </div>
             </div>
-            <Effects>
-            </Effects>
+            <div>
+                <Traits :traits="traits" @delete="deleteTrait">
+                </Traits>
+                <div class="flex items-center justify-center"> <button class=" mt-4" @click="selection = 'Traits'"> Add
+                        traits</button></div>
+
+            </div>
         </div>
         <ItemPicker v-if="selection" :selected_item="selection"
             :is_weapon="['Melee', 'handGuns', 'LongGuns'].includes(selection)" @close="selection = null"

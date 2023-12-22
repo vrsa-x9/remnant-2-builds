@@ -50,10 +50,9 @@ var renderGoogleSigninButton = function () {
 onMounted(() => {
   const credential = typeof window !== "undefined" ? window?.localStorage?.getItem('credential') : null;
   if (credential) {
-    console.log(jwtDecode(credential));
     user.value = jwtDecode(credential)
   }
-  renderGoogleSigninButton();
+  window.addEventListener('load', renderGoogleSigninButton);
 })
 </script>
 
