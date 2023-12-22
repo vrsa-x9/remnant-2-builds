@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { faHouse,faPlus,faList,faTrash } from '@fortawesome/free-solid-svg-icons'
+import { faHouse,faPlus,faList,faTrash,faMinus } from '@fortawesome/free-solid-svg-icons'
 
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -23,7 +23,7 @@ import './css/main.css'
 
 
 config.autoAddCss = false;
-library.add(faHouse,faGoogle,faPlus,faList,faTrash)
+library.add(faHouse,faGoogle,faList,faTrash,faPlus,faMinus)
 
 export default function (Vue, { router, head, isClient }) {
   Vue.use(

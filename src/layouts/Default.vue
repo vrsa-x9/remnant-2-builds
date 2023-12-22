@@ -27,8 +27,13 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, provide } from "vue";
 import { jwtDecode } from "jwt-decode";
+import { createClient } from '@supabase/supabase-js'
+
+const supabase = createClient('https://oztxoqanibwswcpcqfnp.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96dHhvcWFuaWJ3c3djcGNxZm5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDMwMDE2OTIsImV4cCI6MjAxODU3NzY5Mn0.2PUUL4_8WYW-OOXNk_7kvF399IF65r52e-QmZtU0xbI')
+provide('supabase', supabase);
+
 
 const signin_ref = ref(null);
 const user = ref(null);
@@ -53,6 +58,7 @@ onMounted(() => {
     user.value = jwtDecode(credential)
   }
   window.addEventListener('load', renderGoogleSigninButton);
+  renderGoogleSigninButton();
 })
 </script>
 

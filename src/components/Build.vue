@@ -42,6 +42,7 @@ export default {
     methods: {
         selectItem(item) {
             if (this.selection === 'Traits') {
+                item.points = 10;
                 this.traits.push(item);
             }
             else
@@ -163,8 +164,7 @@ export default {
                 </div>
             </div>
             <div>
-                <Traits :traits="traits" @delete="deleteTrait">
-                </Traits>
+                <Traits :traits="traits" @delete="deleteTrait"></Traits>
                 <div class="flex items-center justify-center"> <button class=" mt-4" @click="selection = 'Traits'"> Add
                         traits</button></div>
 
