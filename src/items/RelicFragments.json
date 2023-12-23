@@ -1,0 +1,353 @@
+[
+  {
+    "itemId": 0,
+    "itemName": "Mythic Ammo Pickups",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_pickups_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_pickups_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ammo+Pickups",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Pickups"
+  },
+  {
+    "itemId": 1,
+    "itemName": "Mythic Ammo Reserves",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_reserves_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_reserves_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ammo+Reserves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Reserves"
+  },
+  {
+    "itemId": 2,
+    "itemName": "Mythic Armor Effectiveness",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Armor+Effectiveness",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Armor+Effectiveness"
+  },
+  {
+    "itemId": 3,
+    "itemName": "Mythic Blight Resistance",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_blight_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_blight_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Blight+Resistance",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Blight+Resistance"
+  },
+  {
+    "itemId": 4,
+    "itemName": "Mythic Casting Speed",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_casting_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_casting_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Casting+Speed",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Casting+Speed"
+  },
+  {
+    "itemId": 5,
+    "itemName": "Mythic Charge Melee Cost",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_charge_melee_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_charge_melee_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Charge+Melee+Cost",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Charge+Melee+Cost"
+  },
+  {
+    "itemId": 6,
+    "itemName": "Mythic Consumable Duration",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_consumable_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_consumable_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Consumable+Duration",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Duration"
+  },
+  {
+    "itemId": 7,
+    "itemName": "Mythic Consumable Speed",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_consumable_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_consumable_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Consumable+Speed",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Speed"
+  },
+  {
+    "itemId": 8,
+    "itemName": "Mythic Damage Reduction",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_damage_reduction_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_damage_reduction_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Damage+Reduction",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Damage+Reduction"
+  },
+  {
+    "itemId": 9,
+    "itemName": "Mythic Elemental Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_elemental_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_elemental_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Elemental+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Damage"
+  },
+  {
+    "itemId": 10,
+    "itemName": "Mythic Elemental Resistance",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_elemental_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_elemental_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Elemental+Resistance",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Resistance"
+  },
+  {
+    "itemId": 11,
+    "itemName": "Mythic Grey Health Rate",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_grey_health_rate_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_grey_health_rate_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Grey+Health+Rate",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Grey+Health+Rate"
+  },
+  {
+    "itemId": 12,
+    "itemName": "Mythic Healing Effectiveness",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_healing_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_healing_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Healing+Effectiveness",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Healing+Effectiveness"
+  },
+  {
+    "itemId": 13,
+    "itemName": "Mythic Health",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_health_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_health_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Health",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Health"
+  },
+  {
+    "itemId": 14,
+    "itemName": "Mythic Melee Attack Speed",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_melee_attack_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_attack_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Melee+Attack+Speed",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Attack+Speed"
+  },
+  {
+    "itemId": 15,
+    "itemName": "Mythic Melee Critical Chance",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_melee_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Melee+Critical+Chance",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Chance"
+  },
+  {
+    "itemId": 16,
+    "itemName": "Mythic Melee Critical Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_melee_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Melee+Critical+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Damage"
+  },
+  {
+    "itemId": 17,
+    "itemName": "Mythic Melee Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_melee_daamge_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_daamge_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Melee+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Damage"
+  },
+  {
+    "itemId": 18,
+    "itemName": "Mythic Mod Cost",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_mod_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Mod+Cost",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Cost"
+  },
+  {
+    "itemId": 19,
+    "itemName": "Mythic Mod Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_mod_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Mod+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Damage"
+  },
+  {
+    "itemId": 20,
+    "itemName": "Mythic Mod Duration",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_mod_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Mod+Duration",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Duration"
+  },
+  {
+    "itemId": 21,
+    "itemName": "Mythic Ranged Critical Chance",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ranged+Critical+Chance",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Chance"
+  },
+  {
+    "itemId": 22,
+    "itemName": "Mythic Ranged Critical Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ranged+Critical+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Damage"
+  },
+  {
+    "itemId": 23,
+    "itemName": "Mythic Ranged Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ranged+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Damage"
+  },
+  {
+    "itemId": 24,
+    "itemName": "Mythic Ranged Fire Rate",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_fire_rate_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_fire_rate_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ranged+Fire+Rate",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Fire+Rate"
+  },
+  {
+    "itemId": 25,
+    "itemName": "Mythic Ranged Weakspot Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_weakspot_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_weakspot_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Ranged+Weakspot+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Weakspot+Damage"
+  },
+  {
+    "itemId": 26,
+    "itemName": "Mythic Recoil",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_recoil_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_recoil_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Recoil",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Recoil"
+  },
+  {
+    "itemId": 27,
+    "itemName": "Mythic Revive Speed",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/revive_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/revive_speed_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Revive+Speed",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Revive+Speed"
+  },
+  {
+    "itemId": 28,
+    "itemName": "Mythic Shield Effectiveness",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_shield_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_shield_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Shield+Effectiveness",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Shield+Effectiveness"
+  },
+  {
+    "itemId": 29,
+    "itemName": "Mythic Skill Cooldown",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_skill_cooldown_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_cooldown_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Skill+Cooldown",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Cooldown"
+  },
+  {
+    "itemId": 30,
+    "itemName": "Mythic Skill Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_skill_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Skill+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Damage"
+  },
+  {
+    "itemId": 31,
+    "itemName": "Mythic Skill Duration",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_skill_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_duration_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Skill+Duration",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Duration"
+  },
+  {
+    "itemId": 32,
+    "itemName": "Mythic Spread Recovery",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_spread_recovery_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_spread_recovery_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Spread+Recovery",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Spread+Recovery"
+  },
+  {
+    "itemId": 33,
+    "itemName": "Mythic Stagger Damage",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_stagger_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stagger_damage_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Stagger+Damage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stagger+Damage"
+  },
+  {
+    "itemId": 34,
+    "itemName": "Mythic Stamina",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_stamina1_relic_fragment_remnant2_wiki_guide_100px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina1_relic_fragment_remnant2_wiki_guide_100px.png",
+    "itemHref": "/Cracked+Stamina",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina"
+  },
+  {
+    "itemId": 35,
+    "itemName": "Mythic Stamina Cost",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_stamina_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina_cost_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Stamina+Cost",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Cost"
+  },
+  {
+    "itemId": 36,
+    "itemName": "Mythic Stamina Recovery Delay",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_stamina_recovery_delay_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina_recovery_delay_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Stamina+Recovery+Delay",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Recovery+Delay"
+  },
+  {
+    "itemId": 37,
+    "itemName": "Mythic Weapon Spread",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_weapon_spread_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_weapon_spread_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Weapon+Spread",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Spread"
+  },
+  {
+    "itemId": 38,
+    "itemName": "Mythic Weapon Swap",
+    "itemType": "relic_fragments",
+    "itemImageLinkPath": "/file/Remnant-2/cracked_weapon_swap_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_weapon_swap_relic_fragment_remnant2_wiki_guide_250px.png",
+    "itemHref": "/Cracked+Weapon+Swap",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Swap"
+  }
+]
