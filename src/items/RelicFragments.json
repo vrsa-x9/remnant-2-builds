@@ -6,7 +6,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_pickups_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_pickups_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ammo+Pickups",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Pickups"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Pickups",
+    "itemDescription": "X% Ammo Pickups"
   },
   {
     "itemId": 1,
@@ -15,7 +16,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_reserves_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_reserves_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ammo+Reserves",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Reserves"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ammo+Reserves",
+    "itemDescription": "X% Ammo Reserves"
   },
   {
     "itemId": 2,
@@ -24,7 +26,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ammo_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ammo_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Armor+Effectiveness",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Armor+Effectiveness"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Armor+Effectiveness",
+    "itemDescription": "+X% Armor"
   },
   {
     "itemId": 3,
@@ -33,7 +36,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_blight_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_blight_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Blight+Resistance",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Blight+Resistance"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Blight+Resistance",
+    "itemDescription": "+X% Blight Resistance"
   },
   {
     "itemId": 4,
@@ -42,7 +46,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_casting_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_casting_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Casting+Speed",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Casting+Speed"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Casting+Speed",
+    "itemDescription": "X% Mod & Skill Cast Speed"
   },
   {
     "itemId": 5,
@@ -51,7 +56,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_charge_melee_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_charge_melee_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Charge+Melee+Cost",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Charge+Melee+Cost"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Charge+Melee+Cost",
+    "itemDescription": "-X% Melee Charge Attack Stamina Cost"
   },
   {
     "itemId": 6,
@@ -60,7 +66,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_consumable_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_consumable_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Consumable+Duration",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Duration"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Duration",
+    "itemDescription": "X% Consumable Duration"
   },
   {
     "itemId": 7,
@@ -69,7 +76,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_consumable_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_consumable_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Consumable+Speed",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Speed"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Consumable+Speed",
+    "itemDescription": "X% Consumable Use Speed"
   },
   {
     "itemId": 8,
@@ -78,7 +86,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_damage_reduction_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_damage_reduction_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Damage+Reduction",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Damage+Reduction"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Damage+Reduction",
+    "itemDescription": "X% Damage Reduction"
   },
   {
     "itemId": 9,
@@ -87,7 +96,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_elemental_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_elemental_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Elemental+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Damage",
+    "itemDescription": "X% Elemental Damage"
   },
   {
     "itemId": 10,
@@ -96,7 +106,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_elemental_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_elemental_resistance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Elemental+Resistance",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Resistance"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Elemental+Resistance",
+    "itemDescription": "X% Elemental Damage Resistance"
   },
   {
     "itemId": 11,
@@ -105,7 +116,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_grey_health_rate_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_grey_health_rate_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Grey+Health+Rate",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Grey+Health+Rate"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Grey+Health+Rate",
+    "itemDescription": "+X% Health"
   },
   {
     "itemId": 12,
@@ -114,7 +126,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_healing_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_healing_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Healing+Effectiveness",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Healing+Effectiveness"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Healing+Effectiveness",
+    "itemDescription": "+X% Healing Effectiveness"
   },
   {
     "itemId": 13,
@@ -123,7 +136,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_health_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_health_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Health",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Health"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Health",
+    "itemDescription": "+X% Health"
   },
   {
     "itemId": 14,
@@ -132,7 +146,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_melee_attack_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_attack_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Melee+Attack+Speed",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Attack+Speed"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Attack+Speed",
+    "itemDescription": "+X% Melee Attack Speed"
   },
   {
     "itemId": 15,
@@ -141,7 +156,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_melee_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Melee+Critical+Chance",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Chance"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Chance",
+    "itemDescription": "+X% Melee Crit Chance"
   },
   {
     "itemId": 16,
@@ -150,7 +166,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_melee_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Melee+Critical+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Critical+Damage",
+    "itemDescription": "+X% Melee Crit Chance"
   },
   {
     "itemId": 17,
@@ -159,7 +176,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_melee_daamge_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_melee_daamge_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Melee+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Melee+Damage",
+    "itemDescription": "+X% Melee Damage"
   },
   {
     "itemId": 18,
@@ -168,7 +186,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_mod_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Mod+Cost",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Cost"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Cost",
+    "itemDescription": "-X% Mod Cost"
   },
   {
     "itemId": 19,
@@ -177,7 +196,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_mod_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Mod+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Damage",
+    "itemDescription": "X% Mod Damage"
   },
   {
     "itemId": 20,
@@ -186,7 +206,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_mod_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_mod_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Mod+Duration",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Duration"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Mod+Duration",
+    "itemDescription": "+X% Mod Duration"
   },
   {
     "itemId": 21,
@@ -195,7 +216,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_critical_chance_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ranged+Critical+Chance",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Chance"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Chance",
+    "itemDescription": "+X% Ranged Crit Chance"
   },
   {
     "itemId": 22,
@@ -204,7 +226,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_critical_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ranged+Critical+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Critical+Damage",
+    "itemDescription": "+X% Ranged Crit Damage"
   },
   {
     "itemId": 23,
@@ -213,7 +236,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ranged+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Damage",
+    "itemDescription": "+X% Ranged Damage"
   },
   {
     "itemId": 24,
@@ -222,7 +246,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_fire_rate_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_fire_rate_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ranged+Fire+Rate",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Fire+Rate"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Fire+Rate",
+    "itemDescription": "+X% Fire Rate"
   },
   {
     "itemId": 25,
@@ -231,7 +256,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_ranged_weakspot_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_ranged_weakspot_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Ranged+Weakspot+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Weakspot+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Ranged+Weakspot+Damage",
+    "itemDescription": "+X% Weakspot Damage"
   },
   {
     "itemId": 26,
@@ -240,7 +266,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_recoil_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_recoil_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Recoil",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Recoil"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Recoil",
+    "itemDescription": "-X% Recoil"
   },
   {
     "itemId": 27,
@@ -249,7 +276,8 @@
     "itemImageLinkPath": "/file/Remnant-2/revive_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/revive_speed_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Revive+Speed",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Revive+Speed"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Revive+Speed",
+    "itemDescription": "X% Revive Speed"
   },
   {
     "itemId": 28,
@@ -258,7 +286,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_shield_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_shield_effectiveness_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Shield+Effectiveness",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Shield+Effectiveness"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Shield+Effectiveness",
+    "itemDescription": "+X% Shield Amount"
   },
   {
     "itemId": 29,
@@ -267,7 +296,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_skill_cooldown_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_cooldown_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Skill+Cooldown",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Cooldown"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Cooldown",
+    "itemDescription": "+X% Skill Cooldown"
   },
   {
     "itemId": 30,
@@ -276,7 +306,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_skill_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Skill+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Damage",
+    "itemDescription": "X% Skill Damage"
   },
   {
     "itemId": 31,
@@ -285,7 +316,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_skill_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_skill_duration_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Skill+Duration",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Duration"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Skill+Duration",
+    "itemDescription": "+X% Skill Duration"
   },
   {
     "itemId": 32,
@@ -294,7 +326,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_spread_recovery_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_spread_recovery_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Spread+Recovery",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Spread+Recovery"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Spread+Recovery",
+    "itemDescription": "X% Reticle Spread Recovery"
   },
   {
     "itemId": 33,
@@ -303,7 +336,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_stagger_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stagger_damage_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Stagger+Damage",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stagger+Damage"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stagger+Damage",
+    "itemDescription": "+X% Stagger Damage"
   },
   {
     "itemId": 34,
@@ -312,7 +346,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_stamina1_relic_fragment_remnant2_wiki_guide_100px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina1_relic_fragment_remnant2_wiki_guide_100px.png",
     "itemHref": "/Cracked+Stamina",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina",
+    "itemDescription": "+X% Stamina"
   },
   {
     "itemId": 35,
@@ -321,7 +356,8 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_stamina_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina_cost_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Stamina+Cost",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Cost"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Cost",
+    "itemDescription": "-X% Reduced Stamina Cost"
   },
   {
     "itemId": 36,
@@ -330,16 +366,18 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_stamina_recovery_delay_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_stamina_recovery_delay_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Stamina+Recovery+Delay",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Recovery+Delay"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Stamina+Recovery+Delay",
+    "itemDescription": "-X% Stamina Recovery Delay"
   },
   {
     "itemId": 37,
-    "itemName": "Mythic Weapon Spread",
+    "itemName": "Mythic\u00a0Weapon Spread",
     "itemType": "relic_fragments",
     "itemImageLinkPath": "/file/Remnant-2/cracked_weapon_spread_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_weapon_spread_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Weapon+Spread",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Spread"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Spread",
+    "itemDescription": "-X% Weapon Spread"
   },
   {
     "itemId": 38,
@@ -348,6 +386,7 @@
     "itemImageLinkPath": "/file/Remnant-2/cracked_weapon_swap_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cracked_weapon_swap_relic_fragment_remnant2_wiki_guide_250px.png",
     "itemHref": "/Cracked+Weapon+Swap",
-    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Swap"
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cracked+Weapon+Swap",
+    "itemDescription": "X% Weapon Swap Speed"
   }
 ]
