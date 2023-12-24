@@ -13,26 +13,29 @@
       {
         "skillId": 1,
         "skillName": "War Stomp",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/War+Stomp",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/War+Stomp\" title=\"Remnant 2 War Stomp\"><img alt=\"war stomp skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/war_stomp_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 War Stomp\"/><br/>War Stomp<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/War+Stomp"
       },
       {
         "skillId": 2,
         "skillName": "Juggernaut",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Juggernaut",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Juggernaut\" title=\"Remnant 2 Juggernaut\"><img alt=\"juggernaut skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/juggernaut_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Juggernaut\"/><br/>Juggernaut<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Juggernaut"
       },
       {
         "skillId": 3,
         "skillName": "Rampage",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Rampage",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Rampage\" title=\"Remnant 2 Rampage\"><img alt=\"rampage skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/rampage_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Rampage\"/><br/>Rampage<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Rampage"
       }
     ]
   },
@@ -50,26 +53,29 @@
       {
         "skillId": 1,
         "skillName": "Guard Dog",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Guard+Dog",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Guard+Dog\" title=\"Remnant 2 Guard Dog\"><img alt=\"guard dog skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/guard_dog_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Guard Dog\"/><br/>Guard Dog<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Guard+Dog"
       },
       {
         "skillId": 2,
         "skillName": "Support Dog",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Support+Dog",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Support+Dog\" title=\"Remnant 2 Support Dog\"><img alt=\"support dog skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/support_dog_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Support Dog\"/><br/>Support Dog<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Support+Dog"
       },
       {
         "skillId": 3,
         "skillName": "Attack Dog",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Attack+Dog",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Attack+Dog\" title=\"Remnant 2 Attack Dog\"><img alt=\"attack dog skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/attack_dog_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Attack Dog\"/><br/>Attack Dog<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Attack+Dog"
       }
     ]
   },
@@ -87,26 +93,29 @@
       {
         "skillId": 1,
         "skillName": "Hunter's Mark",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Hunter's+Mark",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Hunter's+Mark\" title=\"Remnant 2 Hunter's Mark\"><img alt=\"hunters mark skills remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/hunters_mark_skills_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Hunter's Mark\"/><br/>Hunter's Mark<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Mark"
       },
       {
         "skillId": 2,
         "skillName": "Hunter's Focus",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Hunter's+Focus",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Hunter's+Focus\" title=\"Remnant 2 Hunter's Focus\"><img alt=\"hunters focus skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/hunters_focus_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Hunter's Focus\"/><br/>Hunter's Focus<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Focus"
       },
       {
         "skillId": 3,
         "skillName": "Hunter's Shroud",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Hunter's+Shroud",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Hunter's+Shroud\" title=\"Remnant 2 Hunter's Shroud\"><img alt=\"hunters shroud skills remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/hunters_shroud_skills_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Hunter's Shroud\"/><br/>Hunter's Shroud<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Shroud"
       }
     ]
   },
@@ -124,26 +133,29 @@
       {
         "skillId": 1,
         "skillName": "Quick Draw",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Quick+Draw",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Quick+Draw\" title=\"Remnant 2 Quick Draw\"><img alt=\"quick draw gunslinger skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/quick_draw_gunslinger_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Quick Draw\"/><br/>Quick Draw<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Quick+Draw"
       },
       {
         "skillId": 2,
         "skillName": "Sidewinder",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Sidewinder",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Sidewinder\" title=\"Remnant 2 Sidewinder\"><img alt=\"sidewinder gunslinger skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/sidewinder__gunslinger_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Sidewinder\"/><br/>Sidewinder<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Sidewinder"
       },
       {
         "skillId": 3,
         "skillName": "Bulletstorm",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Bulletstorm",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Bulletstorm\" title=\"Remnant 2 Bulletstorm\"><img alt=\"bulletstorm gunslinger skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/bulletstorm_gunslinger_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Bulletstorm\"/><br/>Bulletstorm<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Bulletstorm"
       }
     ]
   },
@@ -161,26 +173,29 @@
       {
         "skillId": 1,
         "skillName": "Wellspring",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Wellspring",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Wellspring\" title=\"Remnant 2 Wellspring\"><img alt=\"wellspring skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/wellspring_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Wellspring\"/><br/>Wellspring<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Wellspring"
       },
       {
         "skillId": 2,
         "skillName": "Healing Shield",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Healing+Shield",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Healing+Shield\" title=\"Remnant 2 Healing Shield\"><img alt=\"healing shield skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/healing_shield_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Healing Shield\"/><br/>Healing Shield<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Healing+Shield"
       },
       {
         "skillId": 3,
         "skillName": "Redemption",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Redemption",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Redemption\" title=\"Remnant 2 Redemption\"><img alt=\"redemption skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/redemption_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Redemption\"/><br/>Redemption<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Redemption"
       }
     ]
   },
@@ -198,26 +213,29 @@
       {
         "skillId": 1,
         "skillName": "Vial: Stone Mist",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Vial:+Stone+Mist",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Vial:+Stone+Mist\" title=\"Remnant 2 Vial: Stone Mist\"><img alt=\"vial stone mist alchemist skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/vial_stone_mist_alchemist_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Vial: Stone Mist\"/><br/>Vial: Stone Mist<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Stone+Mist"
       },
       {
         "skillId": 2,
         "skillName": "Vial: Frenzy Dust",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Remnant-2/vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px.png",
         "itemHref": "/Vial:+Frenzy+Dust",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Vial:+Frenzy+Dust\" title=\"Remnant 2 Vial: Frenzy Dust\"><img alt=\"vial frenzy dust alchemist skill remnant2 wiki guide 75px\" height=\"75\" src=\"/file/Remnant-2/vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px.png\" title=\"vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px\" width=\"75\"/><br/>Vial: Frenzy Dust</a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Frenzy+Dust"
       },
       {
         "skillId": 3,
         "skillName": "Vial: Elixir of Life",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Vial:+Elixir+of+Life",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Vial:+Elixir+of+Life\" title=\"Remnant 2 Vial: Elixir of Life\"><img alt=\"vial elixir of life alchemist skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/vial_elixir_of_life_alchemist_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Vial: Elixir of Life\"/><br/>Vial: Elixir of Life<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Elixir+of+Life"
       }
     ]
   },
@@ -235,26 +253,29 @@
       {
         "skillId": 1,
         "skillName": "Reality Rune",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Reality+Rune",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Reality+Rune\" title=\"Remnant 2 Reality Rune\"><img alt=\"reality rune archon skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/reality_rune_archon_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Reality Rune\"/><br/>Reality Rune<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Reality+Rune"
       },
       {
         "skillId": 2,
         "skillName": "Chaos Gate",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Chaos+Gate",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Chaos+Gate\" title=\"Remnant 2 Chaos Gate\"><img alt=\"chaos gate archon skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/chaos_gate_archon_skill_remnant2_wiki_guide_75px.png\" height=\"75\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Chaos Gate\" width=\"75\"/><br/>Chaos Gate<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Chaos+Gate"
       },
       {
         "skillId": 3,
         "skillName": "Havoc Form",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Havoc+Form",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Havoc+Form\" title=\"Remnant 2 Havoc Form\"><img alt=\"havoc form archon skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/havoc_form_archon_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Havoc Form\"/><br/>Havoc Form<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Havoc+Form"
       }
     ]
   },
@@ -272,26 +293,29 @@
       {
         "skillId": 1,
         "skillName": "Heavy Weapon: Vulcan",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Heavy+Weapon:+Vulcan",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Heavy+Weapon:+Vulcan\" title=\"Remnant 2 Heavy Weapon: Vulcan\"><img alt=\"heavy weapon vulcan engineer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/heavy_weapon_vulcan_engineer_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Heavy Weapon: Vulcan\"/><br/>Heavy Weapon: Vulcan<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Vulcan"
       },
       {
         "skillId": 2,
         "skillName": "Heavy Weapon: Flamethrower",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Heavy+Weapon:+Flamethrower",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Heavy+Weapon:+Flamethrower\" title=\"Remnant 2 Heavy Weapon: Flamethrower\"><img alt=\"heavy weapon flame thrower engineer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/heavy_weapon_flame_thrower_engineer_skill_remnant2_wiki_guide_75px.png\" height=\"75\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Heavy Weapon: Flamethrower\" width=\"75\"/><br/>Heavy Weapon: Flamethrower<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Flamethrower"
       },
       {
         "skillId": 3,
         "skillName": "Heavy Weapon: Impact Cannon",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Heavy+Weapon:+Impact+Cannon",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Heavy+Weapon:+Impact+Cannon\" title=\"Remnant 2 Heavy Weapon: Impact Cannon\"><img alt=\"heavy weapon impact cannon engineer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/heavy_weapon_impact_cannon_engineer_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Heavy Weapon: Impact Cannon\"/><br/>Heavy Weapon: Impact Cannon<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Impact+Cannon"
       }
     ]
   },
@@ -309,26 +333,29 @@
       {
         "skillId": 1,
         "skillName": "Plainswalker",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Plainswalker",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Plainswalker\" title=\"Remnant 2 Plainswalker\"><img alt=\"plainswalker explorer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/plainswalker_explorer_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Plainswalker\"/><br/>Plainswalker<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Plainswalker"
       },
       {
         "skillId": 2,
         "skillName": "Gold Digger",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Gold+Digger",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Gold+Digger\" title=\"Remnant 2 Gold Digger\"><img alt=\"gold digger explorer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/gold_digger_explorer_skill_remnant2_wiki_guide_75px.png\" height=\"75\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Gold Digger\" width=\"75\"/><br/>Gold Digger<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Gold+Digger"
       },
       {
         "skillId": 3,
         "skillName": "Fortune Hunter",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Fortune+Hunter",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Fortune+Hunter\" title=\"Remnant 2 Fortune Hunter\"><img alt=\"fortune hunter explorer skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/fortune_hunter_explorer_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Fortune Hunter\"/><br/>Fortune Hunter<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Fortune+Hunter"
       }
     ]
   },
@@ -346,26 +373,29 @@
       {
         "skillId": 1,
         "skillName": "Void Cloak",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Void+Cloak",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Void+Cloak\" title=\"Remnant 2 Void Cloak\"><img alt=\"void cloak invader skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/void_cloak_invader_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Void Cloak\"/><br/>Void Cloak<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Void+Cloak"
       },
       {
         "skillId": 2,
         "skillName": "Worn Hole",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Worn+Hole",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Worn+Hole\" title=\"Remnant 2 Worn Hole\"><img alt=\"worm hole invader skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/worm_hole_invader_skill_remnant2_wiki_guide_75px.png\" height=\"75\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Worn Hole\" width=\"75\"/><br/>Worn Hole<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Worn+Hole"
       },
       {
         "skillId": 3,
         "skillName": "Reboot",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Reboot",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Reboot\" title=\"Remnant 2 Reboot\"><img alt=\"reboot invader skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/reboot_invader_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Reboot\"/><br/>Reboot<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Reboot"
       }
     ]
   },
@@ -383,26 +413,29 @@
       {
         "skillId": 1,
         "skillName": "Minion: Hollow",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Minion:+Hollow",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Minion:+Hollow\" title=\"Remnant 2 Minion: Hollow\"><img alt=\"minion hollow summoner skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/minion_hollow_summoner_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Minion: Hollow\"/><br/>Minion: Hollow<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Hollow"
       },
       {
         "skillId": 2,
         "skillName": "Minion: Flyer",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Minion:+Flyer",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Minion:+Flyer\" title=\"Remnant 2 Minion: Flyer\"><img alt=\"minion Flyer summoner skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/minion_Flyer_summoner_skill_remnant2_wiki_guide_75px.png\" height=\"75\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Minion: Flyer\" width=\"75\"/><br/>Minion: Flyer<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Flyer"
       },
       {
         "skillId": 3,
         "skillName": "Minion: Reaver",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemHref": "/Minion:+Reaver",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link wiki_tooltip\" href=\"/Minion:+Reaver\" title=\"Remnant 2 Minion: Reaver\"><img alt=\"mnion reaver summoner skill remnant2 wiki guide 75px\" class=\"lazyload\" data-src=\"/file/Remnant-2/mnion_reaver_summoner_skill_remnant2_wiki_guide_75px.png\" src=\"/file/Monster-Hunter-World/thumbnails/mhws.png\" style=\"width: 75px; height: 75px;\" title=\"Remnant 2 Minion: Reaver\"/><br/>Minion: Reaver<br/></a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Reaver"
       }
     ]
   },
@@ -420,26 +453,29 @@
       {
         "skillId": 1,
         "skillName": "Eruption",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Remnant-2/eruption_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/eruption_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemHref": "/Eruption",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link\" href=\"/Eruption\" title=\"Remnant 2 Eruption\"><img alt=\"eruption ritualist skill remnant2 wiki guide 75px\" height=\"75\" src=\"/file/Remnant-2/eruption_ritualist_skill_remnant2_wiki_guide_75px.png\" title=\"eruption_ritualist_skill_remnant2_wiki_guide_75px\" width=\"75\"/><br/>Eruption</a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Eruption"
       },
       {
         "skillId": 2,
         "skillName": "Miasma",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Remnant-2/miasma_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/miasma_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemHref": "/Miasma",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link\" href=\"/Miasma\" title=\"Remnant 2 Miasma\"><img alt=\"miasma ritualist skill remnant2 wiki guide 75px\" height=\"75\" src=\"/file/Remnant-2/miasma_ritualist_skill_remnant2_wiki_guide_75px.png\" title=\"miasma_ritualist_skill_remnant2_wiki_guide_75px\" width=\"75\"/><br/>Miasma</a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Miasma"
       },
       {
         "skillId": 3,
         "skillName": "Deathwish",
+        "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Remnant-2/death_wish_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/death_wish_ritualist_skill_remnant2_wiki_guide_75px.png",
         "itemHref": "/Death+Wish",
-        "itemFullHref": "https://remnant2.wiki.fextralife.com<div class=\"col-sm-4 col-xs-4\">\n<h5 align=\"center\"><a class=\"wiki_link\" href=\"/Death+Wish\" title=\"Remnant 2 Death Wish\"><img alt=\"death wish ritualist skill remnant2 wiki guide 75px\" height=\"75\" src=\"/file/Remnant-2/death_wish_ritualist_skill_remnant2_wiki_guide_75px.png\" title=\"death_wish_ritualist_skill_remnant2_wiki_guide_75px\" width=\"75\"/><br/>Deathwish</a></h5>\n</div>"
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Death+Wish"
       }
     ]
   }
