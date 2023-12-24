@@ -1,0 +1,482 @@
+[
+  {
+    "itemId": 1,
+    "itemName": "Challenger",
+    "itemDescription": "\nClose Range, Durable. Hard to Kill\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Challenger",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Challenger",
+    "trait": "Strong Back",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "War Stomp",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/War+Stomp",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/War+Stomp"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Juggernaut",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Juggernaut",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Juggernaut"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Rampage",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Rampage",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Rampage"
+      }
+    ]
+  },
+  {
+    "itemId": 2,
+    "itemName": "Handler",
+    "itemDescription": "\nPet Companion, Teamwork, Utility\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Handler",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Handler",
+    "trait": "Kinship",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Guard Dog",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Guard+Dog",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Guard+Dog"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Support Dog",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Support+Dog",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Support+Dog"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Attack Dog",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Attack+Dog",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Attack+Dog"
+      }
+    ]
+  },
+  {
+    "itemId": 3,
+    "itemName": "Hunter",
+    "itemDescription": "\nLong Range, Marking, Precision Damage\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Hunter",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter",
+    "trait": "Longshot",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Hunter's Mark",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Hunter's+Mark",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Mark"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Hunter's Focus",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Hunter's+Focus",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Focus"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Hunter's Shroud",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Hunter's+Shroud",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Hunter's+Shroud"
+      }
+    ]
+  },
+  {
+    "itemId": 4,
+    "itemName": "Gunslinger",
+    "itemDescription": "\nGun Handling, Fire Rate, Ammo\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Gunslinger",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Gunslinger",
+    "trait": "Ammo Reserves",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Quick Draw",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Quick+Draw",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Quick+Draw"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Sidewinder",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Sidewinder",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Sidewinder"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Bulletstorm",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Bulletstorm",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Bulletstorm"
+      }
+    ]
+  },
+  {
+    "itemId": 5,
+    "itemName": "Medic",
+    "itemDescription": "\nHealing, Support, Well-Wounded\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Medic",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Medic",
+    "trait": "Triage",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Wellspring",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Wellspring",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Wellspring"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Healing Shield",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Healing+Shield",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Healing+Shield"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Redemption",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Redemption",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Redemption"
+      }
+    ]
+  },
+  {
+    "itemId": 6,
+    "itemName": "Alchemist",
+    "itemDescription": "\nUtility, Support, Buffing Allies\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Alchemist",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Alchemist",
+    "trait": "Potency",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Vial: Stone Mist",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Vial:+Stone+Mist",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Stone+Mist"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Vial: Frenzy Dust",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Remnant-2/vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/vial_frenzy_dust_alchemist_skill_remnant2_wiki_guide_75px.png",
+        "itemHref": "/Vial:+Frenzy+Dust",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Frenzy+Dust"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Vial: Elixir of Life",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Vial:+Elixir+of+Life",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Vial:+Elixir+of+Life"
+      }
+    ]
+  },
+  {
+    "itemId": 7,
+    "itemName": "Archon",
+    "itemDescription": "\nMod Power, Mod Generation\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Archon",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Archon",
+    "trait": "Flash Caster",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Reality Rune",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Reality+Rune",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Reality+Rune"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Chaos Gate",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Chaos+Gate",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Chaos+Gate"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Havoc Form",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Havoc+Form",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Havoc+Form"
+      }
+    ]
+  },
+  {
+    "itemId": 8,
+    "itemName": "Engineer",
+    "itemDescription": "\nHeavy Weapons, Turret Support\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Engineer",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Engineer",
+    "trait": "Fortify",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Heavy Weapon: Vulcan",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Heavy+Weapon:+Vulcan",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Vulcan"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Heavy Weapon: Flamethrower",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Heavy+Weapon:+Flamethrower",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Flamethrower"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Heavy Weapon: Impact Cannon",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Heavy+Weapon:+Impact+Cannon",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Heavy+Weapon:+Impact+Cannon"
+      }
+    ]
+  },
+  {
+    "itemId": 9,
+    "itemName": "Explorer",
+    "itemDescription": "\nFinding Loot, General Utility\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Explorer",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Explorer",
+    "trait": "Swiftness",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Plainswalker",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Plainswalker",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Plainswalker"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Gold Digger",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Gold+Digger",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Gold+Digger"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Fortune Hunter",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Fortune+Hunter",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Fortune+Hunter"
+      }
+    ]
+  },
+  {
+    "itemId": 10,
+    "itemName": "Invader",
+    "itemDescription": "\nEvasion, Shadow Decoys\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Invader",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Invader",
+    "trait": "Untouchable",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Void Cloak",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Void+Cloak",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Void+Cloak"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Worm Hole",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Worn+Hole",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Worn+Hole"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Reboot",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Reboot",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Reboot"
+      }
+    ]
+  },
+  {
+    "itemId": 11,
+    "itemName": "Summoner",
+    "itemDescription": "\nMinions, Health Regen, Being Evil\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Summoner",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Summoner",
+    "trait": "Regrowth",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Minion: Hollow",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Minion:+Hollow",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Hollow"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Minion: Flyer",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Minion:+Flyer",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Flyer"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Minion: Reaver",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+        "itemHref": "/Minion:+Reaver",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Minion:+Reaver"
+      }
+    ]
+  },
+  {
+    "itemId": 12,
+    "itemName": "Ritualist",
+    "itemDescription": "\nAOE, Status Effects Damage\n",
+    "itemType": "archetypes",
+    "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
+    "itemHref": "/Ritualist",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Ritualist",
+    "trait": "Affliction",
+    "skills": [
+      {
+        "skillId": 1,
+        "skillName": "Eruption",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Remnant-2/eruption_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/eruption_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemHref": "/Eruption",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Eruption"
+      },
+      {
+        "skillId": 2,
+        "skillName": "Miasma",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Remnant-2/miasma_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/miasma_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemHref": "/Miasma",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Miasma"
+      },
+      {
+        "skillId": 3,
+        "skillName": "Deathwish",
+        "itemType": "archetype_skills",
+        "itemImageLinkPath": "/file/Remnant-2/death_wish_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/death_wish_ritualist_skill_remnant2_wiki_guide_75px.png",
+        "itemHref": "/Death+Wish",
+        "itemFullHref": "https://remnant2.wiki.fextralife.com/Death+Wish"
+      }
+    ]
+  }
+]
