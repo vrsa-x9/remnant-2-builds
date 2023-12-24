@@ -381,7 +381,7 @@
       },
       {
         "skillId": 2,
-        "skillName": "Worn Hole",
+        "skillName": "Worm Hole",
         "itemType": "archetype_skills",
         "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
         "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
@@ -442,7 +442,7 @@
   {
     "itemId": 12,
     "itemName": "Ritualist",
-    "itemDescription": "\nAOE, Status Effects,\u00a0Damage\n",
+    "itemDescription": "\nAOE, Status Effects Damage\n",
     "itemType": "archetypes",
     "itemImageLinkPath": "/file/Monster-Hunter-World/thumbnails/mhws.png",
     "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Monster-Hunter-World/thumbnails/mhws.png",
