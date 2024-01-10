@@ -1,0 +1,542 @@
+[
+  {
+    "itemId": 0,
+    "itemName": "Academic's Hat",
+    "itemDescription": "A soft and durable felt hat fashioned to stylize, not necessarily protect, the most important part of your body. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/academics_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/academics_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Academic's+Hat",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Academic's+Hat",
+    "itemLore": "\nJust because those bookish types are smart doesn't mean they know nothin'. Some of the best thinking comes from the commonfolk, but because they can't spell or count right, nobody cares to listen.\n",
+    "helmetInfo": {
+      "armor": "112.7",
+      "weight": "5.2",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 1,
+    "itemName": "Bruiser Helmet",
+    "itemDescription": "The visibility in this helmet leaves much to be desired, but that's not really the point. It goes a long way in keeping your head on your shoulders.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/bruiser_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bruiser_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Bruiser+Helmet",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bruiser+Helmet",
+    "itemLore": "\nBelieve it or not, I've met certain folks who have risen above reliance on the five senses. In place of sight and sound, they rely on foresight and instinct.\n",
+    "helmetInfo": {
+      "armor": "17.6",
+      "weight": "8.1",
+      "bleedResistance": "1",
+      "fireResistance": "2",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 2,
+    "itemName": "Trainer Cap",
+    "itemDescription": "For some reason, your head feels naked without this simple baseball cap with a fox logo. That aside, it keeps the sun out of your eyes, and that's all you ask of it. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/trainer_cap_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/trainer_cap_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Trainer+Cap",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Trainer+Cap",
+    "itemLore": "\nIt's funny how something as trivial as a cloth cap can call to mind more innocent times. In these dark days, that's arguable more vital than a solid defense.\n",
+    "helmetInfo": {
+      "armor": "7",
+      "weight": "4",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 3,
+    "itemName": "Dendroid Mask",
+    "itemDescription": "It's like putting your head inside the monsters you've been killing all this time. It's comfortable enough though, so long as you don't think about where it's been. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/dendroid_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/dendroid_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Dendroid+Mask",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Dendroid+Mask",
+    "itemLore": "\nThe corruption began as an idea, a seed released by witnessing the truth of all things. Like all ideas, the seed took root. It bloomed, and the ide took form, growing of its own accord, until it could no longer be quelled even by those who created it.\n",
+    "helmetInfo": {
+      "armor": "7.7",
+      "weight": "3.1",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 4,
+    "itemName": "Elder Headdress",
+    "itemDescription": "This headpiece hails from the wild and mysterious world of Yaesha. Its smooth,featureless. design is both eerie and elegant, painted a stark white and adornedwith luxuriant fur and imposing horns.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/elder_headdress_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/elder_headdress_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Elder+Headdress",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Elder+Headdress",
+    "itemLore": "\nThe mask, crafted by the Red Widows of Yaesha, serves as a haunting reminderthat power can shift in an instant, depending on the tools at hand. It's a testamentto the fact that those who were once healers and medicine women can becomequeens, elders, and even gods with the right resources.\n",
+    "helmetInfo": {
+      "armor": "7.5",
+      "weight": "3",
+      "bleedResistance": "0",
+      "fireResistance": "3",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 5,
+    "itemName": "Fae Royal Headcover",
+    "itemDescription": "It feels like you're not wearing any helmet at all - you'd swear you could even feel the wind in your hair. Yet it turns an arrow as effectively as any steel. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/fae_royal_headcover_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/fae_royal_headcover_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Fae+Royal+Headcover",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Fae+Royal+Headcover",
+    "itemLore": "\nWho watches the king's men? They themselves do. There is no trust among the royal guard except in battle. Each watches the other, seeking any opportunity to betray one another, thus gaining accolades for themselves.\n",
+    "helmetInfo": {
+      "armor": "15.4",
+      "weight": "6.6",
+      "bleedResistance": "2",
+      "fireResistance": "2",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 6,
+    "itemName": "Field Medic Hat",
+    "itemDescription": "While it may shield your eyes from the sun, it's not particularly protective against the dangers of the Root. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/field_medic_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/field_medic_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Field+Medic+Hat",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Field+Medic+Hat",
+    "itemLore": "\nI sed to wear a field cap and sunglasses combo like this during field operations. It's a practical and comfortable headwear that helps reduce glare and keeps the sun out of your eyes.\n",
+    "helmetInfo": {
+      "armor": "10.6",
+      "weight": "4.4",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 7,
+    "itemName": "Field Medic Mask",
+    "itemDescription": "This face covering protects you from contagions without obstructing your sight. You feel like a creature from another world in this thing. Perhaps that's fitting. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/field_medic_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/field_medic_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Field+Medic+Mask",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Field+Medic+Mask",
+    "itemLore": "\nIn a world of living nightmares, you think of a hero as the person with the shiny blade spilling blood and slicing up monsters. Don't ever forget that it takes a certain brand of bravery to go back for the wounded and challenge death itself.\n",
+    "helmetInfo": {
+      "armor": "10.6",
+      "weight": "4.4",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 8,
+    "itemName": "High Noon Hat",
+    "itemDescription": "Something about this hat just feels right. Paired with a bandana, it keeps the sun and elements from hindering your all-important aim. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/high_noon_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/high_noon_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/High+Noon+Hat",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/High+Noon+Hat",
+    "itemLore": "\nIf you ever catch sight of cold steel and a colder gaze aimed at you from beneath a wide-brim hat, it's time to make your peace.\n",
+    "helmetInfo": {
+      "armor": "8",
+      "weight": "4",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 9,
+    "itemName": "Knotted Helm",
+    "itemDescription": "A hauntingly familiar visage, convincing enough to still be alive. To truly know your enemy, you must get inside its head. Literally. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/knotted_helm_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/knotted_helm_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Knotted+Helm",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Knotted+Helm",
+    "itemLore": "\nTo hunt is to know its prey. To see what they see. Hear what they hear. But know them too well, and it may become prey itself\n",
+    "helmetInfo": {
+      "armor": "13",
+      "weight": "8",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 10,
+    "itemName": "Void Skull",
+    "itemDescription": "The skull-like helm hails from the inhospitable world of Rhom, where survival demands more than just strength and cunning. Fashioned from a mysterious material, its surface glimmers with an otherworldly sheen that seems to shift and change with the light. Its sleek and angular lines, reminiscent of some alien technology, evoke a sense of unease in those who gaze upon it. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/void_skull_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/void_skull_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Void+Skull",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Void+Skull",
+    "itemLore": "\nI dont ever want to go back to that hellhole, just looking this helm reminds me of the horrors I faced on Rhom. I may have left that world behind, but it will always be a part of me.\n",
+    "helmetInfo": {
+      "armor": "15.9",
+      "weight": "7.1",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 11,
+    "itemName": "Leto Mark II Helmet",
+    "itemDescription": "While this ironclad helmet is somewhat difficult to breathe in, you feel secure knowing even the heaviest weapon would have little chance of cracking into your skull. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/leto_mark_ii_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/leto_mark_ii_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Leto+Mark+II+Helmet",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+II+Helmet",
+    "itemLore": "\nWhen the whole world could disappear in the blink of an eye and most folks are getting their affairs in order or trying to find a glimmer of joy in the chaos, leave it to a tried-and-true scientist to focus on protecting their gray matter from the faintest threat of potential damage.\n",
+    "helmetInfo": {
+      "armor": "21.8",
+      "weight": "11.1",
+      "bleedResistance": "2",
+      "fireResistance": "3",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Lodestone Crown",
+    "itemDescription": "This crown was worn by King Kolket himself. It could be heresy for a paxultek to wear such an artifact, but there are few left among the Pan who would even recognize it as their own.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/lodestone_crown_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/lodestone_crown_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Lodestone+Crown",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Lodestone+Crown",
+    "itemLore": "\nAlthough much of the knowledge of the ancient Pan has been lost to time, it is known they had their own form of magic. The lodestones are thought to be part of this, allowing them to create artifacts that reacted to each other's presence in unique and sometimes powerful ways.\n",
+    "helmetInfo": {
+      "armor": "6.5",
+      "weight": "2.6",
+      "bleedResistance": "-2",
+      "fireResistance": "0",
+      "shockResistance": "-1",
+      "blightResistance": "5",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 13,
+    "itemName": "Navigator's Helm",
+    "itemDescription": "It's hard to imagine someone piloting an entire world, but that's who this helm was for. The sockets allowed them to speak with N'Erud directly. N'Erud had dozens of pilots, all working in concert-both with each other and with the world itself. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/navigators_helm_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/navigators_helm_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Navigator's+Helm",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Navigator's+Helm",
+    "itemLore": "\nThose we dubbed \"pilots\" were little more than tools--minds serving as interfaces. The Astropaths determined N'Erud's course, and the Custodian ensured the ship arrived safely. Pilots were merely delegates for our collective will.\n",
+    "helmetInfo": {
+      "armor": "16",
+      "weight": "7.6",
+      "bleedResistance": "-1",
+      "fireResistance": "-1",
+      "shockResistance": "2",
+      "blightResistance": "-1",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 14,
+    "itemName": "Nightstalker Shroud",
+    "itemDescription": "A hunting mask with advanced respirator capabilities. It purifies yet does nothing to mask the stench of death that permeates the air. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/nightstalker_shroud_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/nightstalker_shroud_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Nightstalker+Shroud",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Nightstalker+Shroud",
+    "itemLore": "\nWhen you find yourself staring down a situation where even the air promises destruction, sometimes all that keeps you moving one foot in front of the other is the hunt.\n",
+    "helmetInfo": {
+      "armor": "11",
+      "weight": "6",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "3",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 15,
+    "itemName": "Radiant Visage",
+    "itemDescription": "The cowl is a striking blue, which contrasts with the large, featureless golden mask that covers the face of the wearer. This armor was highly coveted and only granted to those few who were recognized as the \"Radiant Ones.\" ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/radiant_visage_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/radiant_visage_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Radiant+Visage",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Radiant+Visage",
+    "itemLore": "\nDespite spending many years on Yaesha, the intricacies of Pan society still elude me, but what I do know for certain is that the Ahanae possessed a mastery over crystal manipulation that defies comprehension.\n",
+    "helmetInfo": {
+      "armor": "17.2",
+      "weight": "7.9",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "3",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 16,
+    "itemName": "Realmwalker Beret",
+    "itemDescription": "This hat once belonged to Founder Ford. He was only a captain then-a much younger Ford, from a long time and many lives ago. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/realmwalker_beret_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/realmwalker_beret_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Realmwalker+Beret",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Realmwalker+Beret",
+    "itemLore": "\nThe Dreamer Program was Harsgaard's brain child. He wasn't the one who discovered the runes or the World Stone, but he figured out what they meant-what they could show us. I wish to God he hadn't.\n",
+    "helmetInfo": {
+      "armor": "4",
+      "weight": "2",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 17,
+    "itemName": "Red Widow Headdress",
+    "itemDescription": "The horns of this helmet are ornamental, designed to be displayed in addition to the Pan wearer's own horns-which themselves protrude from additional openings in the armor-to create a truly frightening visage. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/red_widow_headdress_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/red_widow_headdress_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Red+Widow+Headdress",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Red+Widow+Headdress",
+    "itemLore": "\nThey say King Kolket was tall-taller than any Pan. He spent most days on the, prow of his vessel so that he could be clearly seen by his people on any other\u00a0ship as a symbol of hope and defiance against the black waters.\n",
+    "helmetInfo": {
+      "armor": "13",
+      "weight": "8",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 18,
+    "itemName": "Space Worker Mask",
+    "itemDescription": "People (Mudtooth mostly) tell stories of how, before the Root, humans could fly into space. It's probably not true, but if it were, they'd need something like this to keep them alive out there. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/space_worker_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/space_worker_mask_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Space+Worker+Mask",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Space+Worker+Mask",
+    "itemLore": "\nAs an Astropath, I have never been outside N'Erud's shell myself. That was the domain of Xul and Ofildi. That is not to say | have not seen the void. I see everything, but what others call void is, to me, an infinite dance of force and light.\n",
+    "helmetInfo": {
+      "armor": "6",
+      "weight": "3",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 19,
+    "itemName": "Technician Helmet",
+    "itemDescription": "An overwhelming amount of information shines within the helmet's display, the vast majority of it incomprehensible. Whether that's because it's a foreign language or the helmet has been damaged by whatever destroyed this place is anybody's guess. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/technician_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/technician_helmet_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Technician+Helmet",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Technician+Helmet",
+    "itemLore": "\nHouse Lythla acquired knowledge beyond anything the other houses could imagine. While the rest of us spent ageless eons searching for signs of life that didn't exist, the Xul's field of study was right in front of them at all times.\n",
+    "helmetInfo": {
+      "armor": "16.6",
+      "weight": "7.5",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 20,
+    "itemName": "Labyrinth Headplate",
+    "itemDescription": "This helmet is reminiscent of a statue from a time long, long before. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/labyrinth_headplate_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/labyrinth_headplate_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Labyrinth+Headplate",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Labyrinth+Headplate",
+    "itemLore": "\nSince the beginning, I have been known only as the Keeper. The entities' use of names and epithets is... inefficient. And strange.\n",
+    "helmetInfo": {
+      "armor": "12",
+      "weight": "7",
+      "bleedResistance": "0",
+      "fireResistance": "2",
+      "shockResistance": "3",
+      "blightResistance": "0",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 21,
+    "itemName": "Crown of the Red Prince",
+    "itemDescription": "A flashy, flame-hot diadem that demands respect and attention in equal measure...were there any subjects left to offer such sentiments. ",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/crown_of_the_red_prince_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/crown_of_the_red_prince_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Crown+of+the+Red+Prince",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Crown+of+the+Red+Prince",
+    "itemLore": "\nThat the One True King suffered the young prince to live despite his attempted coup is a curious thing. Either the king thought exile a punishment graver than death...or his mercy bespoke that which he dared not otherwise admit.\n",
+    "helmetInfo": {
+      "armor": "6",
+      "weight": "6",
+      "bleedResistance": "-6",
+      "fireResistance": "25",
+      "shockResistance": "-6",
+      "blightResistance": "13",
+      "toxinResistance": "-6"
+    }
+  },
+  {
+    "itemId": 22,
+    "itemName": "Bandit's Mask",
+    "itemDescription": "The helm of the bandit armor is a haunting symbol of the ruthless opportunism that arose after the cataclysmic destruction of Earth. Yet, for those who wear it, it also represents a means of survival in a world where mercy is a scarce commodity",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/bandit_mask_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bandit_mask_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Bandit's+Mask",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bandit's+Mask",
+    "itemLore": "\n__lore__\n",
+    "helmetInfo": {
+      "armor": "6.8",
+      "weight": "2.7",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "3",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 23,
+    "itemName": "Cultist Hat",
+    "itemDescription": "A simple and unassuming headpiece that belies its storied past. Once worn by members of a secretive and enigmatic cult. It now serves as a symbol of redemption for those who have turned their backs on the gruoup's teachings.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/cultist_hat_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cultist_hat_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Cultist+Hat",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cultist+Hat",
+    "itemLore": "No item lore found.",
+    "helmetInfo": {
+      "armor": "11.1",
+      "weight": "4.6",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 24,
+    "itemName": "Leto Mark I Helmet",
+    "itemDescription": "Reinforced and designed to completely enclose the head, providing maximum protection against the dangers of the Root",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/leto_mark_i_helmet_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/leto_mark_i_helmet_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Leto+Mark+I+Helmet",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+I+Helmet",
+    "itemLore": "\n__lore__\n",
+    "helmetInfo": {
+      "armor": "22.6",
+      "weight": "11.9",
+      "bleedResistance": "3",
+      "fireResistance": "4",
+      "shockResistance": "2",
+      "blightResistance": "4",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 25,
+    "itemName": "Zealot's Hat",
+    "itemDescription": "A large-brimmed hat that manages to strike fear in those who see it despite its simplistic and unintimidating design. Its main use is to cast its wearer's face ina shadow as dark as the deeds they seek to commit under black of night.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/zealot's_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/zealot's_hat_helmets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Zealot's+Hat",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Zealot's+Hat",
+    "itemLore": "\n\u00a0\u201cIn these times of political upheaval and rampant vengeance, a clever disguise is perhaps more integral to survival than a sharpened blade. After all, the latter will only get you killed, while the former allows one to move amongst the shadows until an opportune time for reemergence presents itself.\u201d\n",
+    "helmetInfo": {
+      "armor": "11.3",
+      "weight": "4.7",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "1",
+      "blightResistance": "1\u00a0",
+      "toxinResistance": "0\u00a0"
+    }
+  },
+  {
+    "itemId": 26,
+    "itemName": "Crimson Guard Shroud",
+    "itemDescription": "The hooded mask wreathes you in a vicious, fiery visage that evokes both fear and admiration. The incandescent eye slits color your vision with the hues of hellfire.",
+    "itemType": "armors_helmet",
+    "itemImageLinkPath": "/file/Remnant-2/crimson_guard_shroud_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/crimson_guard_shroud_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Crimson+Guard+Shroud",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Crimson+Guard+Shroud",
+    "itemLore": "\nThe prince's mother is always depicted with her face veiled by a mask. Some claim the mask concealed harrowing battle scars, or perhaps preserved an impossibly beautiful and delicate visage. Of course, I know the truth of the matter: that the king would not dare permit his consort to ever reveal her face, not even to her son - who now obscures his own in precisely the same mmaner.\u00a0\n",
+    "helmetInfo": {
+      "armor": "15.6",
+      "weight": "6.7",
+      "bleedResistance": "2",
+      "fireResistance": "2",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  }
+]
