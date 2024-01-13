@@ -1,0 +1,462 @@
+[
+  {
+    "itemId": 0,
+    "itemName": "Academic's Gloves",
+    "itemDescription": "The initials of the Dran who once owned these - and misplaged them often - are embroidered on the wool-lined inside.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//academics_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//academics_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Academic's+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Academic's+Gloves",
+    "itemLore": "\nYou can tell a Dran's character by his hands. Bruises, sae needle pricks...Those are the hands of a humble and hard-working Dran. Softand blemish free, sty cozy gloves -\u00a0don't know a thing about the world, but probably thinks he does\n",
+    "itemStats": {
+      "armor": "13.2",
+      "weight": "5.2",
+      "bleedResistance": "0",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 1,
+    "itemName": "Bruiser Gloves",
+    "itemDescription": "These gauntlets are as tough as steel, as hard as stone, and up for whatever dangers or challenges come their way. They suit you well.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//bruiser_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//bruiser_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Bruiser+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bruiser+Gloves",
+    "itemLore": "\nThe Root only understand pain. To make it in this twisted world of theirs, one become fluent in that language.\n",
+    "itemStats": {
+      "armor": "17.6",
+      "weight": "8.1",
+      "bleedResistance": "1",
+      "fireResistance": "2",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 2,
+    "itemName": "Dendroid Grips",
+    "itemDescription": "Against all logic, these gloves feel natural. Like extensions of who you were meant to be. Seems like that should bother you more.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//dendroid_grips_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//dendroid_grips_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Dendroid+Grips",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Dendroid+Grips",
+    "itemLore": "\nThe initial purpose of the corruption is unclear. Did its creators intend to destroy the boundaries of their world or perhaps their very creator? Or did the corruptuion begin as something else - something... beneficent?\n",
+    "itemStats": {
+      "armor": "7.7",
+      "weight": "3.1",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 3,
+    "itemName": "Elder Gloves",
+    "itemDescription": "Features striking loops of gold that add an ornate touch to the otherwise plain design. Curiously, these embellishments are only present on the left-hand glove, making it stand out from its counterpart on the right.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//elder_gloves_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//elder_gloves_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Elder+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Elder+Gloves",
+    "itemLore": "\nNavun wore gloves like these, made my last visit to Yaesha truly\u00a0unforgettable.\n",
+    "itemStats": {
+      "armor": "7.5",
+      "weight": "3",
+      "bleedResistance": "0",
+      "fireResistance": "2",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 4,
+    "itemName": "Fae Royal Vambraces",
+    "itemDescription": "Suitable for archery or swordplay - for killing of any sort really.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//fae_royal_vambraces_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//fae_royal_vambraces_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Fae+Royal+Vambraces",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Fae+Royal+Vambraces",
+    "itemLore": "\nThe royal guard are among the Fae's greatest murderers. Indeed the tyrant usually chose them explicitly for this aspect of their character.\n",
+    "itemStats": {
+      "armor": "15",
+      "weight": "6.6",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 5,
+    "itemName": "Field Medic Gloves",
+    "itemDescription": "At a glance it's clear that these fingerless gloves won't keep you warm or offer much protection. Even still, you wear them because they provide improved grip without impacting precision.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/field_medic_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/field_medic_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Field+Medic+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Field+Medic+Gloves",
+    "itemLore": "\nA field medic's hands are something special. They can be a blessing or a\u00a0cursed depending whose side you're on. They harbor the power to give life, and to just easily take it away.\n",
+    "itemStats": {
+      "armor": "10.6",
+      "weight": "4.4",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 6,
+    "itemName": "High Noon Armguards",
+    "itemDescription": "Metal arm guards paired with well-worn gloves that are more comfortable gripping a warm gun than reaching for a handshake. They're tasked with protecting your greatest asset - your trigger finger.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//high_noon_armguards_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//high_noon_armguards_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/High+Noon+Armguards",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/High+Noon+Armguards",
+    "itemLore": "\nThey seem innocuous enough, but if those gloves could tell of gunpowder, death, and redemption.\n",
+    "itemStats": {
+      "armor": "8",
+      "weight": "6",
+      "bleedResistance": "0",
+      "fireResistance": "2",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 7,
+    "itemName": "Knotted Gloves",
+    "itemDescription": "The deadwood claws fit you almost too snug, making it difficult to remember where bark ends and your own flesh begins.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//knotted_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//knotted_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Knotted+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Knotted+Gloves",
+    "itemLore": "\nThe Blood Moon heralds death, as does the pestilence. One end, and the other brings it.\n",
+    "itemStats": {
+      "armor": "10",
+      "weight": "6",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 8,
+    "itemName": "Void Wraps",
+    "itemDescription": "Crafted from an enigmatic substance that resembles hardened bone in appearance. These gloves are a powerful tool in the hands of those who would wield the void, drawing energy from the emptiness between worlds to unleash devastating attacks. But with great power comes great cost, and those who dare to wear these gloves must be prepared to pay the price.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//void_wraps_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//void_wraps_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Void+Wraps",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Void+Wraps",
+    "itemLore": "\nEvery time I lay eyes upon these, I'm transported back to the horrors of Rhom.The twisted contours of their bone-like appearance fill me with an unease that I just can't shake. The power they offer may be tempting, but I've had enough of thar forsaken planet's terrors to know better.\n",
+    "itemStats": {
+      "armor": "15.9",
+      "weight": "7.1",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 9,
+    "itemName": "Leto Mark II Gloves",
+    "itemDescription": "These gauntlets are sturdy enough to hold up even agaist the Root: They're tough and intimidating while providing the bare-minimnum level of dexterity for,a steady grip on your weapon of choice. Just don't plan on completing any tasks that require subtlety when wearing these.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//leto_mark_ii_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//leto_mark_ii_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Leto+Mark+II+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+II+Gloves",
+    "itemLore": "\nEverything about these gauntlets can either be chalked up to a creation of pure genius or the child of absolute madness. IF you knew Leto like I did, the answer would be clear as day. It's both.\n",
+    "itemStats": {
+      "armor": "21.8",
+      "weight": "11.1",
+      "bleedResistance": "2",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "1",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 10,
+    "itemName": "Nightstalker Gloves",
+    "itemDescription": "A single glove and arm wrap are all you need or\u2018want for ar protection. The only defense you can truly rely on is a loaded gun and a cle shot.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//nightstalker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//nightstalker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Nightstalker+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Nightstalker+Gloves",
+    "itemLore": "\nAfter enough time traverling far and distant lands, your priorities have a way\u00a0shifting. All that matters is successfully stalking your prey, and even self-\u00a0preservation falls to the wayside.\n",
+    "itemStats": {
+      "armor": "6",
+      "weight": "3",
+      "bleedResistance": "2",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "7",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 11,
+    "itemName": "Radiant Bracers",
+    "itemDescription": "The fingerless leather gloves provide exceptional dexterity to the wearer, while the vambracers are adorned with a blue gem that gives the wearer acess to the volatile energy stored within.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//radiant_bracers_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//radiant_bracers_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Radiant+Bracers",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Radiant+Bracers",
+    "itemLore": "\nEven though I've spent years on Yeasha. I still can't wrap my head around how some of the Pan folks use those glowing stones to do the stuff they do. But hey, I've seen it with my own two eyes, so I can't deny it either. It's just one of those things that I can't quite explain.\n",
+    "itemStats": {
+      "armor": "17.2",
+      "weight": "7.9",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Realmwalker Gloves",
+    "itemDescription": "Ford's gloves were designed for warmth and dexterity. The soldier who wore these was not swinging blades or forging metal. He was pulling triggers and throwing grenades",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//realmwalker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//realmwalker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Realmwalker+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Realmwalker+Gloves",
+    "itemLore": "\nIt was Harsgaard's idea to distribute our research. He figured out the\u00a0World Stone would still function in shards. So began the Wards, where the real work was done. Progress came faster then, for a while at least\u00a0-until Wards became doors for the enemy. Hindsight's a *****\n",
+    "itemStats": {
+      "armor": "3",
+      "weight": "2",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 13,
+    "itemName": "Red Widow Bracers",
+    "itemDescription": "These gloves are light, with openings for the fingers to allow the wearer maximum dexterity - a necesary consideration for traditional Pan weaponry.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//red_widow_bracers_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//red_widow_bracers_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Red+Widow+Bracers",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Red+Widow+Bracers",
+    "itemLore": "\nThough the Red Widows now rule, they were once the hands of the king, serving as a both healers and morticians. It was they who interred King Kolket in his tomb, protecting his royal form and a artifacts from the chaotic seasons that would come after his death.\n",
+    "itemStats": {
+      "armor": "7",
+      "weight": "5",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 14,
+    "itemName": "Space Worker Gloves",
+    "itemDescription": "Electromagnets are worked into the grip, activating automatically when the hand closes. Seems like a useful feature, so long as everything/you work with is metal.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//space_worker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//space_worker_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Space+Worker+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Space+Worker+Gloves",
+    "itemLore": "\nIt is said that the Seekers are the heart of the Drzyr, the Astropaths our sight, the Xul our thoughts, and the Phetyr our strength. The ofildi were often omitted from this proverb, but withour hands, the Drzyr could accomplish nothing.\n",
+    "itemStats": {
+      "armor": "6",
+      "weight": "2",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 15,
+    "itemName": "Survivor Gloves",
+    "itemDescription": "Made of durable leather and include a makeshift wrist guard consisting of a etalk plate secured by leather straps, providing addition protection to the wearer's wrists withour sacrificing dexterity.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//survivor_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//survivor_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Survivor+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Survivor+Gloves",
+    "itemLore": "\nWhen you're out there, you gotta protect your hands, but you also gotta have enough mobility to use your weapon when it counts. These gloves might not be fancy, but they get job done - a little protection and enough dexterity to handle whatever comes your way.\n",
+    "itemStats": {
+      "armor": "8",
+      "weight": "4",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 16,
+    "itemName": "Technician Gloves",
+    "itemDescription": "A tingle runs across your palm within these gloves - like bugs skittering over your hand.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//technician_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//technician_gloves_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Technician+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Technician+Gloves",
+    "itemLore": "\nEverything within N'Erud was constructed by machines, most of them microscopic. It's astounding that such a massive monument could be bult by something so small, yet did not the Drzyr create a star in the same way? Through cooperation, there is nothing a species cannot accomplish.\n",
+    "itemStats": {
+      "armor": "16.6",
+      "weight": "7.5",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 17,
+    "itemName": "Trainer Bracer",
+    "itemDescription": "An arm guard that also functions as a bite sleeve for training on the subtle nuances of when and who to bite.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2//trainer_bracer_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//trainer_bracer_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Trainer+Bracer",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Trainer+Bracer",
+    "itemLore": "\nYou can't scratch a pup's head with gloves and gauntlets in the way. Enough said.\n",
+    "itemStats": {
+      "armor": "7",
+      "weight": "3",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "3",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 18,
+    "itemName": "Labyrinth Gauntlets",
+    "itemDescription": "Craggy, uneven stone melds tightly to your hands and forearms, as if the skin of something that once was has at last found new purchase.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/labyrinth_gauntlets_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/labyrinth_gauntlets_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Labyrinth+Gauntlets",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Labyrinth+Gauntlets",
+    "itemLore": "\nPerhaps it is not only my place to maintain... but to alter, create, expand. To\u00a0become.\n",
+    "itemStats": {
+      "armor": "12.9",
+      "weight": "5.4",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 19,
+    "itemName": "Bandit Gloves",
+    "itemDescription": "The bandit gloves are rough, patched together from scraps of leather and cloth, a testament to their owner's resourcefulness, and willingness to do whatever it takes to survive. Despite their rough and worn appearance, the gloves provide unexpected durability and protection amidst the unforgiving ruins of the city.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/bandit_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bandit_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Bandit+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bandit+Gloves",
+    "itemLore": "\n__lore__\n",
+    "itemStats": {
+      "armor": "6.8",
+      "weight": "2.7",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 20,
+    "itemName": "Cultist Gloves",
+    "itemDescription": "An unusual piece of attire that consist of leather and rope wrappings that encircle the wearer's wrists. These unconventional gloves were favored by the members of a mysterious cult that valued secrecy and esoteric knowledge above all else",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/cultist_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cultist_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Cultist+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cultist+Gloves",
+    "itemLore": "No item lore found.",
+    "itemStats": {
+      "armor": "11.1",
+      "weight": "4.6",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 21,
+    "itemName": "Leto Mark I Gloves",
+    "itemDescription": " Offering unparalleled protection against the unpredictable dangers of The Root, but the trade-off, is that they can be cumbersome and restrict dexterity, making it difficult to perform intricate tasks. ",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/leto_mark_i_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/leto_mark_i_gloves_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Leto+Mark+I+Gloves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+I+Gloves",
+    "itemLore": "\n__lore__\n",
+    "itemStats": {
+      "armor": "22.6",
+      "weight": "11.9",
+      "bleedResistance": "2",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "2",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 22,
+    "itemName": "Zealot's Wraps",
+    "itemDescription": "Long gloves fit like a vice around your arms, the pressure quickening your pulse and increasing your awareness. Your hands are well protected with the exception of a few exposed fingertips, intentionally left unguarded in case a given ritual requires quick access to fresh blood.",
+    "itemType": "armors_glove",
+    "itemImageLinkPath": "/file/Remnant-2/zealot's_wraps_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/zealot's_wraps_gauntlets_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Zealot's+Wraps",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Zealot's+Wraps",
+    "itemLore": "\nDran ritualists keep their means of sorcery a closely guarded secret\u2014and so, naturally, I took it upon myself to surface as much detail as I could safely muster without tempting death too greatly. What I uncovered was a world of blood, death, and mutilation that I shall not soon erase from my mind's eye.\u00a0\n",
+    "itemStats": {
+      "armor": "11.3\u00a0",
+      "weight": "4.7",
+      "bleedResistance": "0\u00a0",
+      "fireResistance": "1",
+      "shockResistance": "1\u00a0",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  }
+]
