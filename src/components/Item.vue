@@ -1,7 +1,7 @@
 <template>
-    <tippy :allowHTML="true" :trigger="item?'mouseenter':'manual'" arrow>
+    <tippy :allowHTML="true" :trigger="item ? 'mouseenter' : 'manual'" arrow>
         <template v-slot:trigger>
-            <g-image v-if="item" :src="item.itemImageLinkFullPath" style="width:100%;height:78px;" />
+            <g-image v-if="item" :src="item.itemImageLinkFullPath" :style="`width:100%;height:${image?.height || 78}px;`" />
         </template>
         <div v-if="item">
             <div class="text-lg font-medium">{{ item.itemName }} </div>
@@ -18,7 +18,8 @@
 <script>
 export default {
     props: {
-        item: {}
+        item: {},
+        image: {}
     }
 }
 </script>

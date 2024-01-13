@@ -30,6 +30,7 @@
 </template>
 
 <script>
+import Archetypes from "../items/Archetypes.json";
 import Amulet from "../items/Amulet.json";
 import handGuns from "../items/Handguns.json";
 import LongGuns from "../items/LongGuns.json";
@@ -37,7 +38,9 @@ import Melee from "../items/Melee.json";
 import Relics from "../items/Relics.json";
 import Rings from "../items/Rings.json";
 import Traits from "../items/Traits.json";
-
+import Mods from "../items/Mods.json";
+import Mutators from "../items/Mutators.json";
+import Helmets from "../items/Helmets.json";
 
 export default {
     props: {
@@ -51,10 +54,19 @@ export default {
             search: '',
             isActive: false,
             items_map: {
+                Archetype1: Archetypes,
+                Archetype2: Archetypes,
                 Amulet,
                 handGuns,
                 LongGuns,
                 Melee,
+                Helmet: Helmets,
+                Mod1: Mods,
+                Mod2: Mods,
+                Mod3: Mods,
+                Mutator1: Mutators,
+                Mutator2: Mutators,
+                Mutator3: Mutators,
                 Relics,
                 Traits,
                 Ring1: Rings,

@@ -3,13 +3,13 @@
     style="grid-template-rows:52px auto; text-shadow: 1px 1px #2c2c2c; background:#0f0f12">
     <header class="header text-gray-600 font-medium text-lg">
       <nav class="nav grid grid-flow-col auto-cols-fr text-center max-w-3xl m-auto justify-center items-center h-full">
-        <g-link
+        <!-- <g-link
           class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
           exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'house']" />
-          HOME</g-link>
+          HOME</g-link> -->
         <g-link
           class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600 text-gray-400" to="/builds"> <font-awesome :icon="['fas', 'list']" />
+          exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'list']" />
           MY BUILDS</g-link>
         <g-link
           class="nav__link  p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"

@@ -88,13 +88,18 @@ export default {
     <div class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
         <div class="grid  justify-center items-center h-full overflow-auto"
             style="grid-template-columns:1fr 300px 250px 300px 1fr;">
-            <Stats></Stats>
+            <div></div>
             <div class="relative h-full rings">
-                <div class="border-l ring-background left" style="background:transparent;"></div>
-                <div class="absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer"
-                    style="top:30px;right:50px;"></div>
+                <div class="border-l ring-background left" style="background:transparent;">
+                </div>
+                <div class="absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
+                    style="top:30px;right:50px;" @click="selection = 'Archetype1'">
+                    <Item :item="build.Archetype1" :image="{ height: 120 }"></Item>
+                </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
-                    style="top:170px;right:150px;"></div>
+                    style="top:170px;right:150px;" @click="selection = 'Helmet'">
+                    <Item :item="build.Helmet"></Item>
+                </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:270px;right:185px;"></div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
@@ -108,6 +113,14 @@ export default {
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;right:-20px;" @click="selection = 'LongGuns'">
                     <Item :item="build.LongGuns"></Item>
+                </div>
+                <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;right:-20px; width:75px;height:75px;" @click="selection = 'Mod1'">
+                    <Item :item="build.Mod1" :image="{ height: 70 }"></Item>
+                </div>
+                <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;right:65px; width:75px;height:75px;" @click="selection = 'Mutator1'">
+                    <Item :item="build.Mutator1" :image="{ height: 70 }"></Item>
                 </div>
             </div>
             <div class="relative h-full rings z-2 group">
@@ -133,11 +146,21 @@ export default {
                     style="top:670px;left:45px;" @click="selection = 'Melee'">
                     <Item :item="build.Melee"></Item>
                 </div>
+                <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;left:45px; width:75px;height:75px;" @click="selection = 'Mod2'">
+                    <Item :item="build.Mod2" :image="{ height: 70 }"></Item>
+                </div>
+                <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;left:130px; width:75px;height:75px;" @click="selection = 'Mutator2'">
+                    <Item :item="build.Mutator2" :image="{ height: 70 }"></Item>
+                </div>
             </div>
             <div class="relative h-full rings">
                 <div class="border-r ring-background right pointer-events-none" style="background:transparent"></div>
-                <div class="absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer"
-                    style="top:30px;left:50px;"></div>
+                <div class="absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
+                    style="top:30px;left:50px;" @click="selection = 'Archetype2'">
+                    <Item :item="build.Archetype2" :image="{ height: 120 }"></Item>
+                </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:170px;left:150px;" @click="selection = 'Amulet'">
                     <Item :item="build.Amulet"></Item>
@@ -161,6 +184,14 @@ export default {
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;left:-20px;" @click="selection = 'handGuns'">
                     <Item :item="build.handGuns"></Item>
+                </div>
+                <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;left:-20px; width:75px;height:75px;" @click="selection = 'Mod3'">
+                    <Item :item="build.Mod3" :image="{ height: 70 }"></Item>
+                </div>
+                <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:585px;left:65px; width:75px;height:75px;" @click="selection = 'Mutator3'">
+                    <Item :item="build.Mutator3" :image="{ height: 70 }"></Item>
                 </div>
             </div>
             <div>
