@@ -41,6 +41,7 @@ import Traits from "../items/Traits.json";
 import Mods from "../items/Mods.json";
 import Mutators from "../items/Mutators.json";
 import Helmets from "../items/Helmets.json";
+import RelicFragments from "../items/RelicFragments.json"
 
 export default {
     props: {
@@ -73,6 +74,9 @@ export default {
                 Ring2: Rings,
                 Ring3: Rings,
                 Ring4: Rings,
+                RelicFragment1: RelicFragments,
+                RelicFragment2: RelicFragments,
+                RelicFragment3: RelicFragments
             }
         }
     },

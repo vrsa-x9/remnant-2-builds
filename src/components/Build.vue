@@ -110,6 +110,18 @@ export default {
                     style="top:570px;right:150px;" @click="selection = 'Relics'">
                     <Item :item="build.Relics"></Item>
                 </div>
+                <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:570px;right:235px;width:23.33px;height:23.33px;" @click="selection = 'RelicFragment1'">
+                    <Item :item="build.RelicFragment1" :image="{ height: 20 }"></Item>
+                </div>
+                <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:598px;right:235px;width:23.33px;height:23.33px;" @click="selection = 'RelicFragment2'">
+                    <Item :item="build.RelicFragment2" :image="{ height: 20 }"></Item>
+                </div>
+                <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:626px;right:235px;width:23.33px;height:23.33px;" @click="selection = 'RelicFragment3'">
+                    <Item :item="build.RelicFragment3" :image="{ height: 20 }"></Item>
+                </div>
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:670px;right:-20px;" @click="selection = 'LongGuns'">
                     <Item :item="build.LongGuns"></Item>
