@@ -46,7 +46,7 @@ export default {
                 this.traits.push(item);
             }
             else
-                this.build[this.selection] = item;
+                this.build[this.selection?.key || this.selection] = item;
             this.selection = null;
         },
         async updateBuild() {
@@ -96,6 +96,11 @@ export default {
                     style="top:30px;right:50px;" @click="selection = 'Archetype1'">
                     <Item :item="build.Archetype1" :image="{ height: 120 }"></Item>
                 </div>
+                <div v-if="build.Archetype1"
+                    class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:45px;right:180px;" @click="selection = { data: build.Archetype1.skills, key: 'skill1' }">
+                    <Item :item="build.skill1"></Item>
+                </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:170px;right:150px;" @click="selection = 'Helmet'">
                     <Item :item="build.Helmet"></Item>
@@ -127,12 +132,12 @@ export default {
                     <Item :item="build.LongGuns"></Item>
                 </div>
                 <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
-                    style="top:585px;right:-20px; width:75px;height:75px;" @click="selection = 'Mod1'">
-                    <Item :item="build.Mod1" :image="{ height: 70 }"></Item>
+                    style="top:585px;right:-20px; width:75px;height:75px;" @click="selection = 'Mutator1'">
+                    <Item :item="build.Mutator1" :image="{ height: 70 }"></Item>
                 </div>
                 <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
-                    style="top:585px;right:65px; width:75px;height:75px;" @click="selection = 'Mutator1'">
-                    <Item :item="build.Mutator1" :image="{ height: 70 }"></Item>
+                    style="top:585px;right:65px; width:75px;height:75px;" @click="selection = 'Mod1'">
+                    <Item :item="build.Mod1" :image="{ height: 70 }"></Item>
                 </div>
             </div>
             <div class="relative h-full rings z-2 group">
@@ -172,6 +177,11 @@ export default {
                 <div class="absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
                     style="top:30px;left:50px;" @click="selection = 'Archetype2'">
                     <Item :item="build.Archetype2" :image="{ height: 120 }"></Item>
+                </div>
+                <div v-if="build.Archetype2"
+                    class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
+                    style="top:45px;left:180px;" @click="selection = { data: build.Archetype2.skills, key: 'skill2' }">
+                    <Item :item="build.skill2"></Item>
                 </div>
                 <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:170px;left:150px;" @click="selection = 'Amulet'">

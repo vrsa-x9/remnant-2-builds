@@ -6,14 +6,14 @@
                     {{ trait.itemName }}
                     <div class="flex">
                         <div v-for="(item, index) in trait.points" :key="index">
-                            <div v-if="item" class="rounded-full w-2.5 h-2.5 border-2 bg-red-400 mr-1"
+                            <div v-if="trait.is_archetype" class="rounded-full w-2.5 h-2.5 border-2 bg-red-400 mr-1"
                                 style="box-shadow: 0px 0px 2px #ccc; border-color:#1a1b1f"></div>
                             <div v-else class="rounded-full w-2.5 h-2.5 border-2 bg-gray-400 mr-1"
                                 style="box-shadow: 0px 0px 2px #ccc; border-color:#1a1b1f"></div>
                         </div>
                     </div>
                 </div>
-                <div class=" mt-2 cursor-pointer  invisible group-hover:visible flex">
+                <div v-if="!trait.is_archetype" class=" mt-2 cursor-pointer  invisible group-hover:visible flex">
                     <div @click="trait.points++; $forceUpdate();"
                         :class="{ 'opacity-10 pointer-events-none': trait.points == 10 }"
                         class="ml-2 opacity-60 hover:opacity-100">

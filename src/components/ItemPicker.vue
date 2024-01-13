@@ -18,7 +18,7 @@
                     <div class="grid gap-3" :style="`grid-template-columns:${is_weapon ? '150px' : '75px'} 1fr;`">
                         <g-image :src="item.itemImageLinkFullPath" style="width:100%;" />
                         <div>
-                            <div class="text-lg font-semibold text-gray-400">{{ item.itemName }}</div>
+                            <div class="text-lg font-semibold text-gray-400">{{ item.itemName || item.skillName }}</div>
                             <div class="text-sm text-gray-400 mt">{{ item.itemDescription }}</div>
                             <div class="text-xs text-gray-400 mt-2">{{ item.itemLore }}</div>
                         </div>
@@ -82,8 +82,8 @@ export default {
     },
     computed: {
         items_list() {
-            return (this.items_map[this.selected_item] || []).filter(item => {
-                return item.itemName.toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
+            return (this.selected_item?.data || this.items_map[this.selected_item] || []).filter(item => {
+                return (item.skillName || item.itemName).toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
             })
         }
     }
