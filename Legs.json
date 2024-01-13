@@ -1,0 +1,462 @@
+[
+  {
+    "itemId": 0,
+    "itemName": "Academic's Trousers",
+    "itemDescription": "Expensive-looking shoes fit for a lecture hall...that wouldn't last a week outsid it.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//academics_trousers_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//academics_trousers_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Academic's+Trousers",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Academic's+Trousers",
+    "itemLore": "\nYou think a shoe's simple 'til you try to cobble one yourself. It takes skills and know how, and without either of those your cold feet would be bare. Don't ever take abyone's craft for granted, you hear me?\n",
+    "itemStats": {
+      "armor": "24.6",
+      "weight": "10.4",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "4"
+    }
+  },
+  {
+    "itemId": 1,
+    "itemName": "Bruiser Boots",
+    "itemDescription": "While they're not exactly aesthetic, you're more comfortable in twice-temper steel and repurposed tire tread than you care to admit.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//bruiser_boots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//bruiser_boots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Bruiser+Boots",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bruiser+Boots",
+    "itemLore": "\nJust like a discarded tire fashioned into makeshift armor, for certain stalwart individuals, their service never ends-it simply evolves.\n",
+    "itemStats": {
+      "armor": "35",
+      "weight": "16.2",
+      "bleedResistance": "1",
+      "fireResistance": "4",
+      "shockResistance": "0",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 2,
+    "itemName": "Dendroid Leggings",
+    "itemDescription": "The deadwood boots are surprisingly snug. You're not sure what you expecte shodding your feet inside the bloodthirsty branches of the Root, but it wasn't this cushioned comfort.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//dendroid_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//dendroid_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Dendroid+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Dendroid+Leggings",
+    "itemLore": "\nAt every point and in every world, the speed with which the corruption has spread has been underestimated. Even its own creators did not foresee how quickly own annihilation could occur.\n",
+    "itemStats": {
+      "armor": "15.4",
+      "weight": "6.2",
+      "bleedResistance": "3",
+      "fireResistance": "0",
+      "shockResistance": "2",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 3,
+    "itemName": "Elder Leggings",
+    "itemDescription": "Designed for both form and function. Made from durable yet lightweight materials, they allow for a full range of movement and flexibility in combat.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//elder_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//elder_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Elder+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Elder+Leggings",
+    "itemLore": "\nThe Pan are known for their meticulous attention to detail, even when it co! putting on a pair of pants. Their ceremonial approach extended to the intricate wrapping of their feet in leather straps, ensuring that every aspect of their dress was imbued with meaning and significance.\n",
+    "itemStats": {
+      "armor": "14.8",
+      "weight": "6",
+      "bleedResistance": "0",
+      "fireResistance": "3",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 4,
+    "itemName": "Fae Royal Greaves",
+    "itemDescription": "Although apparently made of steel, they feel lighter than any boots you've eve worn. No... you feel lighter when wearing them.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//fae_royal_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//fae_royal_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Fae+Royal+Greaves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Fae+Royal+Greaves",
+    "itemLore": "\nMagic imbues everything of us-both body and garb. There is nothing that is not magic of our world. It is who we are. Do not trust your eyes, therefore. For the eyes are more easily deceived than most senses.\n",
+    "itemStats": {
+      "armor": "30",
+      "weight": "13.2",
+      "bleedResistance": "2",
+      "fireResistance": "3",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 5,
+    "itemName": "Field Medic Trousers",
+    "itemDescription": "With an assortment of pockets, pouches, and loops for your various concoctioy you're essentially a walking apothecary.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//field_medic_trousers_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//field_medic_trousers_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Field+Medic+Trousers",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Field+Medic+Trousers",
+    "itemLore": "\nIt takes more than tonics and herbs to heal a broken world, there's no arguin; that-but damned if they ain't a start.\n",
+    "itemStats": {
+      "armor": "21.4",
+      "weight": "8.8",
+      "bleedResistance": "4",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 6,
+    "itemName": "High Noon Soles",
+    "itemDescription": "Durable pants with spurred boots and a strip of leather for a belt. The only accent is an imposing skull on the belt buckle, a constant reminder that death is always lurking in the shadows.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//high_noon_soles_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//high_noon_soles_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/High+Noon+Soles",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/High+Noon+Soles",
+    "itemLore": "\nYou'd do well to remember that the clinking of spurs followed by the\u00a0deafening burst of a bullet are the last sounds many a soul will ever hear.\n",
+    "itemStats": {
+      "armor": "18",
+      "weight": "10",
+      "bleedResistance": "0",
+      "fireResistance": "3",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 7,
+    "itemName": "Knotted Greaves",
+    "itemDescription": "These boots are surprisingly light and agile, carrying you through foliage and bramble with ease. They seem to know where to go before you even lift you foot.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//knotted_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//knotted_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Knotted+Greaves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Knotted+Greaves",
+    "itemLore": "\nThe Nymphs understand the Kin-Mother better than Pan and pestilence both. They bend all of nature to their capricious will, and they do not forgive those who defile their blessings.\n",
+    "itemStats": {
+      "armor": "26",
+      "weight": "14",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "2",
+      "toxinResistance": "4"
+    }
+  },
+  {
+    "itemId": 8,
+    "itemName": "Void Greaves",
+    "itemDescription": "A sturdy pair of footwear, expertly crafted from the same unknown material the other Void armor pieces. Their angular design and jagged edges give their wearer an intimidating and fearsome look. But these boots are more than fashion statement-they provided unparalleled protection and stability in the treacherous environments of Rhom.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//void_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//void_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Void+Greaves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Void+Greaves",
+    "itemLore": "\nEvery time I look at these boots. I'm reminded of the horrors I faced on Rhom. I wouldn't dare set foot on that planet again, not even with these boots on. They may look like they were pulled straight from a nightmare, but the memories they bring back are too real.\n",
+    "itemStats": {
+      "armor": "31.8",
+      "weight": "14.2",
+      "bleedResistance": "0",
+      "fireResistance": "2",
+      "shockResistance": "2",
+      "blightResistance": "0",
+      "toxinResistance": "3"
+    }
+  },
+  {
+    "itemId": 9,
+    "itemName": "Leto Mark II Leggings",
+    "itemDescription": "Strong yet streamlined. Practical yet aesthetic. Although you can't expect to make a quick getaway in these, they're just what you need to stand strong against the looming threat of destruction. The care and attention to detail t| went into them is something to behold.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/leto_mark_ii_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/leto_mark_ii_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Leto+Mark+II+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+II+Leggings",
+    "itemLore": "\nLike a firefighter running towards the flame, scientists don't run from an impossible problem. They face it head on, even at the risk of life and limb. The'll never back down until they've achieved the understanding they seek, 'cause for folks like them, that's the ultimate victory.\n",
+    "itemStats": {
+      "armor": "44.4",
+      "weight": "22.6",
+      "bleedResistance": "3",
+      "fireResistance": "2",
+      "shockResistance": "3",
+      "blightResistance": "3",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 10,
+    "itemName": "Nightstalker Pants",
+    "itemDescription": "Thin shoes that fit perfectly and feel like they practically disappear on your feet. They're ideal for stealthy maneuvering while stalking your prey.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//nightstalker_pants_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//nightstalker_pants_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Nightstalker+Pants",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Nightstalker+Pants",
+    "itemLore": "\nIf certain creatures notice you. you 're as good as dead. In their presence. the\u00a0snap of a twig can easfly lead to the snap of a neck.\n",
+    "itemStats": {
+      "armor": "18",
+      "weight": "9",
+      "bleedResistance": "2",
+      "fireResistance": "2",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 11,
+    "itemName": "Radiant Greaves",
+    "itemDescription": "Gleaming golden plates overlap and protect the wearer's feet and shins. Originally designed to be worn by the Pan, it's impressive how the armor can be adapted to fit human proportions without sacrificing its durability or protective properties.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//radiant_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//radiant_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Radiant+Greaves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Radiant+Greaves",
+    "itemLore": "\nThe Pan give credit to the Thaen Tree for their continued existence, but it's the arcane magic of the Ahanae tht really helps them crush their enemies in the end.\n",
+    "itemStats": {
+      "armor": "34.5",
+      "weight": "15.8",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "3",
+      "blightResistance": "1",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 12,
+    "itemName": "Realmwalker Pantaloons",
+    "itemDescription": "There is hardly a world where these boots haven't tread.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//realmwalker_pantaloons_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//realmwalker_pantaloons_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Realmwalker+Pantaloons",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Realmwalker+Pantaloons",
+    "itemLore": "\nThere were something like twenty Wards across the country, each with room at least a dozen Dreamers. Neville wanted to see every world there was, not that ever got close. Only a couple of people I know have walked the worlds, and I'm pretty sure everyone of 'em would say we're better off alone.\n",
+    "itemStats": {
+      "armor": "12",
+      "weight": "6",
+      "bleedResistance": "2",
+      "fireResistance": "1",
+      "shockResistance": "2",
+      "blightResistance": "3",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 13,
+    "itemName": "Red Widow Leggings",
+    "itemDescription": "Even though this armor was designed to be worn by a Pan warrior, you are still able wear it and benefit from its protection.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//red_widow_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//red_widow_leggings_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Red+Widow+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Red+Widow+Leggings",
+    "itemLore": "\nKolket was not a swift warrior, but his reign-spent as most of it was on the Dark Sea-did not require one to be fleet of foot but rather to stand one's ground.\n",
+    "itemStats": {
+      "armor": "23",
+      "weight": "12",
+      "bleedResistance": "3",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "3",
+      "toxinResistance": "1"
+    }
+  },
+  {
+    "itemId": 14,
+    "itemName": "Space Worker Legs",
+    "itemDescription": "The magnets in the boots are far stronger than those in the gloves. It's unclear how they know when to activate, but they do so on their own. Massive as N'Erud is, it must not provide enough gravity to ensure its workers remain attached to...",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//space_worker_legs_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//space_worker_legs_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Space+Worker+Legs",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Space+Worker+Legs",
+    "itemLore": "\nDespite being seen as the least of all Drzyr, great care was taken to protect and preserve the Ofildi. A lifeform's utility does not determine its worth. Life itself does that.\n",
+    "itemStats": {
+      "armor": "12",
+      "weight": "7",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "3",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 15,
+    "itemName": "Survivor Leggings",
+    "itemDescription": "Provides minimal protection, but serve the purpose of covering up skin to prevent minor cuts and scrapes while trekking through rough terrain.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//space_worker_legs_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//space_worker_legs_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Survivor+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Survivor+Leggings",
+    "itemLore": "\nWhen you're out there, you gotta take what you can get and make do with what you have if you wanna keep on living.\n",
+    "itemStats": {
+      "armor": "24",
+      "weight": "10",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 16,
+    "itemName": "Technician Greaves",
+    "itemDescription": "Designed for stability rather than speed. Plant your weight in these things, and you'd be very difficult to move.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//technician_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//technician_greaves_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Technician+Greaves",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Technician+Greaves",
+    "itemLore": "\nThough all other Drzyr desired to travel, to search this vast universe of ours for any, sign of life, the Xul were content where they were. They served the greater good while at the same time being themselves fulfilled without ever leaving N'Erud's metal hull.\n",
+    "itemStats": {
+      "armor": "33.2",
+      "weight": "15",
+      "bleedResistance": "0",
+      "fireResistance": "1",
+      "shockResistance": "3",
+      "blightResistance": "0",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 17,
+    "itemName": "Trainer Workboots",
+    "itemDescription": "Durable pants that are used to handling more than a little dirt and fur. The canteen is for your companion, while the flask is all yours.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2//trainer_workboots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2//trainer_workboots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Trainer+Workboots",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Trainer+Workboots",
+    "itemLore": "\nA lot of people will look at a creature with four legs and sharp fangs and see, fierce predator..others see a future ally.\n",
+    "itemStats": {
+      "armor": "17",
+      "weight": "8",
+      "bleedResistance": "1",
+      "fireResistance": "0",
+      "shockResistance": "1",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 18,
+    "itemName": "Labyrinth Treads",
+    "itemDescription": "The grime of a thousand different worlds mars the side of boots that walk in one place where all paths converge.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/labyrinth_treads_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/labyrinth_treads_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Labyrinth+Treads",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Labyrinth+Treads",
+    "itemLore": "\nThe Labyrinth is a manifestation of me, and | of the Labyrinth. Outside entities have influenced the manifestation. Influenced me.\n",
+    "itemStats": {
+      "armor": "19",
+      "weight": "10",
+      "bleedResistance": "0",
+      "fireResistance": "3",
+      "shockResistance": "4",
+      "blightResistance": "0",
+      "toxinResistance": "0"
+    }
+  },
+  {
+    "itemId": 19,
+    "itemName": "Bandit Trousers",
+    "itemDescription": "Consists of a pair of basic slacks and sturdy boots. While it may not offer much in terms of protection, it allows for easy movement and agility in the dangerous terrain of the ruined cityscapes. The simplicity of the design is a testament to the practicality of the bandits, who prioritize functionality over aesthetics.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/bandit_trousers_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/bandit_trousers_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Bandit+Trousers",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Bandit+Trousers",
+    "itemLore": "\n__lore__\n",
+    "itemStats": {
+      "armor": "13.6",
+      "weight": "5.4",
+      "bleedResistance": "2",
+      "fireResistance": "0",
+      "shockResistance": "0",
+      "blightResistance": "1",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 20,
+    "itemName": "Cultist Britches",
+    "itemDescription": "Simple slacks and boots made of cloth and wrapped in rope. Cultists rely on their unwavering devotion to the Root for their safety instead.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/cultist_britches_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/cultist_britches_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Cultist+Britches",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Cultist+Britches",
+    "itemLore": "No item lore found.",
+    "itemStats": {
+      "armor": "22.2",
+      "weight": "9.2",
+      "bleedResistance": "1",
+      "fireResistance": "1",
+      "shockResistance": "1",
+      "blightResistance": "2",
+      "toxinResistance": "2"
+    }
+  },
+  {
+    "itemId": 21,
+    "itemName": "Leto Mark I Leggings",
+    "itemDescription": "Offering unparalleled protection at the cost of speed and agility. Although it hinders movement, the armor's strength allows its wearer to withstand even the most vicious attacks without fear of serious injury.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/leto_mark_i_leggings_armor_remnant2_wiki_guide75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/leto_mark_i_leggings_armor_remnant2_wiki_guide75px.png",
+    "itemHref": "/Leto+Mark+I+Leggings",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Leto+Mark+I+Leggings",
+    "itemLore": "\n__lore__\n",
+    "itemStats": {
+      "armor": "45.2",
+      "weight": "23.7",
+      "bleedResistance": "4",
+      "fireResistance": "3",
+      "shockResistance": "4",
+      "blightResistance": "3",
+      "toxinResistance": "4"
+    }
+  },
+  {
+    "itemId": 22,
+    "itemName": "Zealot's Seaboots",
+    "itemDescription": "Tall wading boots and toughened leather may protect your legs from the unruly waters of Losomn, but they will do nothing to guard against the treacherous creatures that lurk just beneath those sullied waves, thirsting for the blood of those who stray too far from shore.",
+    "itemType": "armors_leg",
+    "itemImageLinkPath": "/file/Remnant-2/zealot's_seaboots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemImageLinkFullPath": "https://remnant2.wiki.fextralife.com/file/Remnant-2/zealot's_seaboots_leg_armor_remnant2_wiki_guide_75px.png",
+    "itemHref": "/Zealot's+Seaboots",
+    "itemFullHref": "https://remnant2.wiki.fextralife.com/Zealot's+Seaboots",
+    "itemLore": "\n\u201cThe Dran live their menial lives at the sea's behest, tromping through dank sewers and damp docks like the vermin they are. To walk a mile in their dismal shoes is more than enough to demostrate the good fortune there is in being born a Fae... though I daresay only a few steps would have sufficed.\"\n",
+    "itemStats": {
+      "armor": "22.6\u00a0",
+      "weight": "9.4\u00a0",
+      "bleedResistance": "2\u00a0",
+      "fireResistance": "1\u00a0",
+      "shockResistance": "2\u00a0",
+      "blightResistance": "3\u00a0",
+      "toxinResistance": "0\u00a0"
+    }
+  }
+]
