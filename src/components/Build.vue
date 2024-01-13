@@ -217,6 +217,9 @@ export default {
                 </div>
             </div>
             <div>
+                <Traits v-if="build?.Archetype2 || build?.Archetype1"
+                    :traits="[build.Archetype1?.trait, build.Archetype2?.trait].filter(trait => trait).map(trait => ({ is_archetype: true, itemName: trait, points: 10 }))">
+                </Traits>
                 <Traits :traits="traits" @delete="deleteTrait"></Traits>
                 <div class="flex items-center justify-center"> <button class=" mt-4" @click="selection = 'Traits'"> Add
                         traits</button></div>
