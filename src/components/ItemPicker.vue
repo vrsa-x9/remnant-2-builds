@@ -32,8 +32,13 @@
 <script>
 import Archetypes from "../items/Archetypes.json";
 import Amulet from "../items/Amulet.json";
+import Body from "../items/Body.json";
+import Gloves from "../items/Gloves.json";
+import Legs from "../items/Legs.json";
 import handGuns from "../items/Handguns.json";
 import LongGuns from "../items/LongGuns.json";
+
+
 import Melee from "../items/Melee.json";
 import Relics from "../items/Relics.json";
 import Rings from "../items/Rings.json";
@@ -58,6 +63,9 @@ export default {
                 Archetype1: Archetypes,
                 Archetype2: Archetypes,
                 Amulet,
+                Body,
+                Gloves,
+                Legs,
                 handGuns,
                 LongGuns,
                 Melee,

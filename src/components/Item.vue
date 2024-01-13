@@ -1,10 +1,11 @@
 <template>
     <tippy :allowHTML="true" :trigger="item ? 'mouseenter' : 'manual'" arrow>
         <template v-slot:trigger>
-            <g-image v-if="item" :src="item.itemImageLinkFullPath" :style="`width:100%;height:${image?.height || 78}px;`" />
+            <g-image v-if="item" :src="item.itemImageLinkFullPath" :style="`width:100%;height:${image?.height || 78}px;`"
+                :class="image?.class" />
         </template>
         <div v-if="item">
-            <div class="text-lg font-medium">{{ item.itemName || item.skillName }} </div>
+            <div class="text-lg font-medium">{{ item.itemName }} </div>
             <div class="mt-4">
                 {{ item.itemDescription }}
             </div>
