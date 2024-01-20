@@ -241,7 +241,7 @@ export default {
 
             </div>
         </div>
-        <ItemPicker v-if="selection" :selected_item="selection" :build="build"
+        <ItemPicker v-if="selection" :selected_item="selection" :build="build" :traits="traits"
             :is_weapon="['Melee', 'handGuns', 'LongGuns'].includes(selection)" @close="selection = null"
             @select-item="selectItem">
         </ItemPicker>

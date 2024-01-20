@@ -50,12 +50,13 @@ import RelicFragments from "../items/RelicFragments.json"
 
 
 
-const removeExistingItems = (selected_item, build = {}) => {
+const removeExistingItems = (selected_item, build = {}, traits = []) => {
     const archetypes = [build.Archetype1, build.Archetype2];
     const mods = [build.Mod1, build.Mod2, build.Mod3];
     const mutators = [build.Mutator1, build.Mutator2, build.Mutator3];
     const rings = [build.Ring1, build.Ring2, build.Ring3, build.Ring4];
     const fragments = [build.RelicFragment1, build.RelicFragment2, build.RelicFragment3]
+    const traits_array = [build.Archetype1?.trait, build.Archetype2?.trait]
     const item_map = {
         Archetype1: archetypes,
         Archetype2: archetypes,
@@ -71,14 +72,21 @@ const removeExistingItems = (selected_item, build = {}) => {
         Ring4: rings,
         RelicFragment1: fragments,
         RelicFragment2: fragments,
-        RelicFragment3: fragments
+        RelicFragment3: fragments,
+        Traits: traits
     }
     const selected_item_list = item_map[selected_item];
-    if (selected_item_list) {
-        return item => !selected_item_list.filter(item => item).map(item => item.itemId).includes(item.itemId)
+    const filter_items = (items_list, item) => items_list.filter(item => item).map(item => item.itemId).includes(item.itemId)
+    console.log(traits, traits_array);
+    if (selected_item === 'Traits') {
+        const all_traits = [...traits.map(trait => trait.itemName), ...traits_array];
+        return item => !all_traits.includes(item.itemName);
+    }
+    else if (selected_item_list) {
+        return item => !filter_items(selected_item_list, item)
     }
     else {
-        return item => build[selected_item]?.itemId != item?.itemId
+        return item => Array.isArray(build[selected_item]) ? !filter_items(build[selected_item], item) : build[selected_item]?.itemId != item?.itemId
     }
 }
 
@@ -92,6 +100,9 @@ export default {
         },
         build: {
             type: Object
+        },
+        traits: {
+            type: Array
         }
     },
     data() {
@@ -129,7 +140,7 @@ export default {
     },
     computed: {
         items_list() {
-            const removeExistingItemsFn = removeExistingItems(this.selected_item, this.build);
+            const removeExistingItemsFn = removeExistingItems(this.selected_item, this.build, this.traits);
             return (this.selected_item?.data || this.items_map[this.selected_item] || []).filter(removeExistingItemsFn).filter(item => {
                 return (item.skillName || item.itemName).toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
             })
