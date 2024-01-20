@@ -48,11 +48,50 @@ import Mutators from "../items/Mutators.json";
 import Helmets from "../items/Helmets.json";
 import RelicFragments from "../items/RelicFragments.json"
 
+
+
+const removeExistingItems = (selected_item, build = {}) => {
+    const archetypes = [build.Archetype1, build.Archetype2];
+    const mods = [build.Mod1, build.Mod2, build.Mod3];
+    const mutators = [build.Mutator1, build.Mutator2, build.Mutator3];
+    const rings = [build.Ring1, build.Ring2, build.Ring3, build.Ring4];
+    const fragments = [build.RelicFragment1, build.RelicFragment2, build.RelicFragment3]
+    const item_map = {
+        Archetype1: archetypes,
+        Archetype2: archetypes,
+        Mod1: mods,
+        Mod2: mods,
+        Mod3: mods,
+        Mutator1: mutators,
+        Mutator2: mutators,
+        Mutator3: mutators,
+        Ring1: rings,
+        Ring2: rings,
+        Ring3: rings,
+        Ring4: rings,
+        RelicFragment1: fragments,
+        RelicFragment2: fragments,
+        RelicFragment3: fragments
+    }
+    const selected_item_list = item_map[selected_item];
+    if (selected_item_list) {
+        return item => !selected_item_list.filter(item => item).map(item => item.itemId).includes(item.itemId)
+    }
+    else {
+        return item => build[selected_item]?.itemId != item?.itemId
+    }
+}
+
+
+
 export default {
     props: {
         selected_item: {},
         is_weapon: {
             type: Boolean
+        },
+        build: {
+            type: Object
         }
     },
     data() {
@@ -90,7 +129,8 @@ export default {
     },
     computed: {
         items_list() {
-            return (this.selected_item?.data || this.items_map[this.selected_item] || []).filter(item => {
+            const removeExistingItemsFn = removeExistingItems(this.selected_item, this.build);
+            return (this.selected_item?.data || this.items_map[this.selected_item] || []).filter(removeExistingItemsFn).filter(item => {
                 return (item.skillName || item.itemName).toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
             })
         }

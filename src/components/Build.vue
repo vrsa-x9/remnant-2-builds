@@ -37,7 +37,6 @@ export default {
         }
     },
     mounted() {
-        console.log(versions);
         this.build = this.saved_build;
         this.traits = this.saved_build.traits || [];
         this.build_name = this.saved_build.build_name || '';
@@ -242,7 +241,7 @@ export default {
 
             </div>
         </div>
-        <ItemPicker v-if="selection" :selected_item="selection"
+        <ItemPicker v-if="selection" :selected_item="selection" :build="build"
             :is_weapon="['Melee', 'handGuns', 'LongGuns'].includes(selection)" @close="selection = null"
             @select-item="selectItem">
         </ItemPicker>
