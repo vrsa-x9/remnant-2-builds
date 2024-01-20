@@ -8,13 +8,14 @@
           exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'house']" />
           HOME</g-link> -->
         <g-link
-          class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'list']" />
-          MY BUILDS</g-link>
-        <g-link
           class="nav__link  p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600  text-gray-400 " to="/planner"> <font-awesome :icon="['fas', 'plus']" />
+          exact-active-class="border-gray-600  text-gray-400 " to="/"> <font-awesome :icon="['fas', 'plus']" />
           BUILD PLANNER</g-link>
+        <g-link
+          class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
+          exact-active-class="border-gray-600 text-gray-400" to="/builds"> <font-awesome :icon="['fas', 'list']" />
+          MY BUILDS</g-link>
+
       </nav>
       <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
       </div>

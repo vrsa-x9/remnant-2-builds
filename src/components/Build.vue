@@ -53,19 +53,23 @@ export default {
                 this.build[this.selection?.key || this.selection] = item;
             this.selection = null;
         },
-        async updateBuild() {
-            this.$emit('update-build', {
+        updateBuild() {
+            const build = {
                 ...this.build,
                 version: this.version,
                 traits: this.traits,
                 build_name: this.build_name
-            });
+            };
+            const { id } = this.$route.params;
+            const builds = JSON.parse(window.localStorage.getItem('builds'));
+            builds[id] = build;
+            window.localStorage.setItem("builds", JSON.stringify(builds));
+            this.$router.push({ path: '/builds' });
         },
         async getUserData() {
             const { data, error } = await supabase
                 .from('Users')
                 .select('*');
-
         },
         async createNewBuild() {
             const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
@@ -76,7 +80,7 @@ export default {
                 build_name: this.build_name
             });
             window.localStorage.setItem("builds", JSON.stringify(builds));
-            this.$router.push({ path: '/' });
+            this.$router.push({ path: '/builds' });
         },
         deleteTrait(index) {
             this.traits.splice(index, 1);

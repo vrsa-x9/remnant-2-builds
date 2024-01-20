@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Build v-if="build" :saved_build="build" @update-build="updateBuild"></Build>
+    <Build v-if="build" :saved_build="build"></Build>
   </Layout>
 </template>
   
@@ -14,15 +14,6 @@ export default {
   data() {
     return {
       build: null,
-    }
-  },
-  methods: {
-    updateBuild(build) {
-      const { id } = this.$route.params;
-      const builds = JSON.parse(window.localStorage.getItem('builds'));
-      builds[id] = build;
-      window.localStorage.setItem("builds", JSON.stringify(builds));
-      this.$router.push({ path: '/' });
     }
   },
   async mounted() {
