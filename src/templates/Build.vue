@@ -30,15 +30,12 @@ export default {
     this.loading = true;
     try {
       const { id } = this.$route.params;
-      const credentials = get_credentials();
-      if (credentials) {
-        const { data, error } = await this.supabase
-          .from('Builds').select().eq('id', id);
-        this.build = data[0]?.build_data || {};
-      }
-      else {
+      const { data, error } = await this.supabase
+        .from('Builds').select().eq('id', id);
+      this.build = data[0]?.build_data;
+      if (!this.build) {
         const builds = JSON.parse(window.localStorage.getItem('builds'));
-        this.build = builds[id];
+        this.build = builds[id] || {};
       }
     }
     catch (e) {

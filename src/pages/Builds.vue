@@ -7,7 +7,7 @@
             <div class="flex justify-center items-center h-full column" v-if="builds.length === 0">
                 <div class="text-center">
                     <div class="text-2xl font-medium text-gray-600"> No Builds Found </div>
-                    <button class="mt-4" @click="$router.push({ path: '/planner' })"> Create new build</button>
+                    <button class="mt-4" @click="$router.push({ path: '/' })"> Create new build</button>
                 </div>
             </div>
             <div class="grid gap-4 m-4" style="grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));" v-else>
@@ -57,9 +57,10 @@ export default {
     async mounted() {
         this.loading = true;
         try {
-            const { data } = await this.supabase.from('Builds').select();
+            const credentials = get_credentials();
+            const { data } = await this.supabase.from('Builds').select().eq('email', credentials?.email);
             this.builds = data?.map(build => { return { ...build.build_data, id: build.id } }) || [];
-            if (this.builds.length === 0) {
+            if (!credentials) {
                 this.builds = JSON.parse(localStorage.getItem('builds')) || [];
             }
 
