@@ -30,9 +30,9 @@ export default {
             build_name: '',
             is_editing: true,
             build: {
-
             },
             traits: [],
+            version: '1.7',
             versions
         }
     },
@@ -69,6 +69,7 @@ export default {
             const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
             builds.push({
                 ...this.build,
+                version: this.version,
                 traits: this.traits,
                 build_name: this.build_name
             });
@@ -164,8 +165,8 @@ export default {
                 <div v-if="is_editing" style="background:none;">
                     <div class="flex  mt-4 mb-4 text-center justify-center" style="background:none;">
                         <span class="text-gray-400 mr-2">Versions: </span>
-                        <select v-model="build.version">
-                            <option v-for="version in versions"> {{ version }} </option>
+                        <select v-model="this.version">
+                            <option v-for="(version, index) in versions"> {{ version }} </option>
                         </select>
                     </div>
                     <div class="input w-full" :class="{ 'active': isActive }">
