@@ -13,7 +13,8 @@ export default {
     },
     setup() {
         const supabase = inject('supabase');
-        return { supabase }
+        const credential = get_credentials();
+        return { supabase, credential }
     },
     props: {
         saved_build: {
@@ -67,7 +68,7 @@ export default {
                 const { id } = this.$route.params;
                 const credential = get_credentials();
                 if (credential) {
-                    await this.upsertUserData(build, credential.email, id);
+                    await this.upsertUserData(build, credential.email, build.email === credential.email ? id : undefined);
                 }
                 else {
                     const builds = JSON.parse(window.localStorage.getItem('builds'));
