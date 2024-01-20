@@ -38,6 +38,7 @@ export default {
     },
     mounted() {
         this.build = this.saved_build;
+        this.version = this.saved_build.version;
         this.traits = this.saved_build.traits || [];
         this.build_name = this.saved_build.build_name || '';
         this.is_editing = !this.saved_build.build_name;
@@ -55,6 +56,7 @@ export default {
         async updateBuild() {
             this.$emit('update-build', {
                 ...this.build,
+                version: this.version,
                 traits: this.traits,
                 build_name: this.build_name
             });
@@ -74,7 +76,7 @@ export default {
                 build_name: this.build_name
             });
             window.localStorage.setItem("builds", JSON.stringify(builds));
-            this.$router.push({ path: '/builds' });
+            this.$router.push({ path: '/' });
         },
         deleteTrait(index) {
             this.traits.splice(index, 1);
@@ -165,7 +167,7 @@ export default {
                 <div v-if="is_editing" style="background:none;">
                     <div class="flex  mt-4 mb-4 text-center justify-center" style="background:none;">
                         <span class="text-gray-400 mr-2">Versions: </span>
-                        <select v-model="this.version">
+                        <select v-model="version">
                             <option v-for="(version, index) in versions"> {{ version }} </option>
                         </select>
                     </div>
@@ -182,7 +184,9 @@ export default {
                     </div>
                 </div>
                 <div class="text-center" style="background:none;" v-else>
-                    <div class="text-gray-300 text-lg mt-10 font-semibold" style="background:none;"> {{ build_name }}</div>
+                    <div class="text-gray-300 text-lg mt-10 font-semibold" style="background:none;"> {{ build_name }} <span
+                            class="text-xs text-gray-500">({{
+                                version }})</span></div>
                     <button class="mt-4 invisible group-hover:visible" @click="is_editing = true"> Edit</button>
                 </div>
                 <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"

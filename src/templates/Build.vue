@@ -22,7 +22,7 @@ export default {
       const builds = JSON.parse(window.localStorage.getItem('builds'));
       builds[id] = build;
       window.localStorage.setItem("builds", JSON.stringify(builds));
-      this.$router.push({ path: '/builds' });
+      this.$router.push({ path: '/' });
     }
   },
   async mounted() {
