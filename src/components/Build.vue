@@ -2,8 +2,9 @@
 import Stats from '~/components/Stats.vue'
 import Traits from '~/components/Traits.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
+import Loading from '~/components/Loading.vue'
 import Item from '~/components/Item.vue'
-import { versions } from '~/constants.js'
+import { versions, get_credentials } from '~/constants.js'
 import { inject } from 'vue'
 
 export default {
@@ -29,16 +30,17 @@ export default {
             selection: null,
             build_name: '',
             is_editing: true,
+            is_loading: false,
             build: {
             },
             traits: [],
-            version: '1.7',
+            version: versions[0],
             versions
         }
     },
     mounted() {
         this.build = this.saved_build;
-        this.version = this.saved_build.version;
+        this.version = this.saved_build.version || this.version;
         this.traits = this.saved_build.traits || [];
         this.build_name = this.saved_build.build_name || '';
         this.is_editing = !this.saved_build.build_name;
@@ -53,41 +55,68 @@ export default {
                 this.build[this.selection?.key || this.selection] = item;
             this.selection = null;
         },
-        updateBuild() {
-            const build = {
-                ...this.build,
-                version: this.version,
-                traits: this.traits,
-                build_name: this.build_name
-            };
-            const { id } = this.$route.params;
-            const builds = JSON.parse(window.localStorage.getItem('builds'));
-            builds[id] = build;
-            window.localStorage.setItem("builds", JSON.stringify(builds));
-            this.$router.push({ path: '/builds' });
+        async updateBuild() {
+            this.is_loading = true;
+            try {
+                const build = {
+                    ...this.build,
+                    version: this.version,
+                    traits: this.traits,
+                    build_name: this.build_name
+                };
+                const { id } = this.$route.params;
+                const credential = get_credentials();
+                if (credential) {
+                    await this.upsertUserData(build, credential.email, id);
+                }
+                else {
+                    const builds = JSON.parse(window.localStorage.getItem('builds'));
+                    builds[id] = build;
+                    window.localStorage.setItem("builds", JSON.stringify(builds));
+                }
+                this.$router.push({ path: '/builds' });
+            }
+            catch (e) {
+                console.log(e);
+            }
+            this.is_loading = false;
         },
-        async getUserData() {
-            const { data, error } = await supabase
-                .from('Users')
-                .select('*');
+        async upsertUserData(build, email, id) {
+            const { data, error } = await this.supabase
+                .from('Builds')
+                .upsert({ email, game_version: build.version, build_data: build, id, name: build.build_name });
         },
         async createNewBuild() {
-            const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
-            builds.push({
-                ...this.build,
-                version: this.version,
-                traits: this.traits,
-                build_name: this.build_name
-            });
-            window.localStorage.setItem("builds", JSON.stringify(builds));
-            this.$router.push({ path: '/builds' });
+            this.is_loading = true;
+            try {
+                const build = {
+                    ...this.build,
+                    version: this.version,
+                    traits: this.traits,
+                    build_name: this.build_name
+                };
+                const credential = get_credentials();
+                if (credential) {
+                    await this.upsertUserData(build, credential.email);
+                }
+                else {
+                    const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
+                    builds.push(build);
+                    window.localStorage.setItem("builds", JSON.stringify(builds));
+                }
+                this.$router.push({ path: '/builds' });
+            }
+            catch (e) {
+                console.log(e);
+            }
+            this.is_loading = false;
         },
         deleteTrait(index) {
             this.traits.splice(index, 1);
         },
         get_locked_mod_data(locked_mod, actual_mod) {
 
-            return locked_mod ? {
+            return locked_mod?.modName ? {
                 itemImageLinkFullPath: locked_mod.modImageFullPath,
                 itemName: locked_mod.modName,
                 itemDescription: locked_mod.modDescription,
@@ -104,7 +133,10 @@ export default {
 </script>
 
 <template>
-    <div class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
+    <div v-if="is_loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
+        Updating...
+    </div>
+    <div v-else class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
         <div class="grid  justify-center items-center h-full overflow-auto"
             style="grid-template-columns:1fr 300px 250px 300px 1fr;">
             <div></div>
@@ -180,9 +212,16 @@ export default {
                             placeholder="Enter build name here" @focus="isActive = true" @blur="isActive = false" />
                     </div>
                     <div v-if="build_name.length > 0" style="background:none;">
-                        <button v-if="saved_build.build_name" class="w-full mt-4" @click="updateBuild"> Update
-                            build</button>
-                        <button v-else class="w-full mt-4" @click="createNewBuild"> Create new build</button>
+                        <button v-if="saved_build.build_name" class="w-full mt-4" :disabled="is_loading"
+                            @click="updateBuild">
+                            <Loading v-if="is_loading"></Loading>
+                            Update
+                            build
+                        </button>
+                        <button v-else class="w-full mt-4" @click="createNewBuild" :disabled="is_loading">
+                            <Loading v-if="is_loading"></Loading>
+                            Create new build
+                        </button>
                         <div class="mt-2 text-gray-500 text-xs text-center" style="background:none;"> You are not signed in,
                             saved builds will not be persisted across the devices</div>
                     </div>
