@@ -4,8 +4,9 @@ import Traits from '~/components/Traits.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
 import Loading from '~/components/Loading.vue'
 import Item from '~/components/Item.vue'
-import { versions, get_credentials } from '~/constants.js'
+import { get_credentials } from '~/constants.js'
 import { inject } from 'vue'
+import { versions } from "../items/Versions.json"
 
 export default {
     metaInfo: {
