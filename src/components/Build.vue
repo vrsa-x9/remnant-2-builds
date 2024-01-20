@@ -3,7 +3,9 @@ import Stats from '~/components/Stats.vue'
 import Traits from '~/components/Traits.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
 import Item from '~/components/Item.vue'
+import { versions } from '~/constants.js'
 import { inject } from 'vue'
+
 export default {
     metaInfo: {
         title: 'Build Planner'
@@ -31,9 +33,11 @@ export default {
 
             },
             traits: [],
+            versions
         }
     },
     mounted() {
+        console.log(versions);
         this.build = this.saved_build;
         this.traits = this.saved_build.traits || [];
         this.build_name = this.saved_build.build_name || '';
@@ -149,7 +153,13 @@ export default {
             <div class="relative h-full rings z-2 group">
                 <g-image src="~/assets/remnant.webp" width="500" style="margin-top:150px;" />
                 <div v-if="is_editing" style="background:none;">
-                    <div class="input mt-10 w-full" :class="{ 'active': isActive }">
+                    <div class="flex  mt-4 mb-4 text-center justify-center" style="background:none;">
+                        <span class="text-gray-400 mr-2">Versions: </span>
+                        <select v-model="build.version">
+                            <option v-for="version in versions"> {{ version }} </option>
+                        </select>
+                    </div>
+                    <div class="input w-full" :class="{ 'active': isActive }">
                         <input v-model="build_name" type="text" class="text-gray-300 font-medium"
                             placeholder="Enter build name here" @focus="isActive = true" @blur="isActive = false" />
                     </div>
