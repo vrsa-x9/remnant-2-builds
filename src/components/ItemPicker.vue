@@ -77,7 +77,6 @@ const removeExistingItems = (selected_item, build = {}, traits = []) => {
     }
     const selected_item_list = item_map[selected_item];
     const filter_items = (items_list, item) => items_list.filter(item => item).map(item => item.itemId).includes(item.itemId)
-    console.log(traits, traits_array);
     if (selected_item === 'Traits') {
         const all_traits = [...traits.map(trait => trait.itemName), ...traits_array];
         return item => !all_traits.includes(item.itemName);

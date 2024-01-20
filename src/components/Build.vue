@@ -77,6 +77,15 @@ export default {
         },
         deleteTrait(index) {
             this.traits.splice(index, 1);
+        },
+        get_locked_mod_data(locked_mod, actual_mod) {
+
+            return locked_mod ? {
+                itemImageLinkFullPath: locked_mod.modImageFullPath,
+                itemName: locked_mod.modName,
+                itemDescription: locked_mod.modDescription,
+            } : actual_mod
+
         }
     }
 }
@@ -146,7 +155,8 @@ export default {
                 </div>
                 <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:585px;right:65px; width:75px;height:75px;" @click="selection = 'Mod1'">
-                    <Item :item="build.Mod1" :image="{ height: 73 }"></Item>
+                    <Item :item="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1)" :image="{ height: 73 }">
+                    </Item>
                 </div>
             </div>
             <div class="relative h-full rings z-2 group">
@@ -180,7 +190,8 @@ export default {
                 </div>
                 <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:585px;left:45px; width:75px;height:75px;" @click="selection = 'Mod2'">
-                    <Item :item="build.Mod2" :image="{ height: 73 }"></Item>
+                    <Item :item="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2)" :image="{ height: 73 }">
+                    </Item>
                 </div>
                 <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:585px;left:130px; width:75px;height:75px;" @click="selection = 'Mutator2'">
@@ -224,7 +235,8 @@ export default {
                 </div>
                 <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:585px;left:-20px; width:75px;height:75px;" @click="selection = 'Mod3'">
-                    <Item :item="build.Mod3" :image="{ height: 73 }"></Item>
+                    <Item :item="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3)" :image="{ height: 73 }">
+                    </Item>
                 </div>
                 <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
                     style="top:585px;left:65px; width:75px;height:75px;" @click="selection = 'Mutator3'">
