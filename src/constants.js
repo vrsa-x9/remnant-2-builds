@@ -5,4 +5,4 @@ export const versions = [
 ]
 
 
-export const get_credentials = ()=> window?.localStorage?.getItem('credential')?jwtDecode(window?.localStorage?.getItem('credential')):null
+export const get_credentials = ()=> typeof window !== "undefined"? window?.localStorage?.getItem('credential')?jwtDecode(window?.localStorage?.getItem('credential')):null:null
