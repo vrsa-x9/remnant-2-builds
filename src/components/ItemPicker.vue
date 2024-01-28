@@ -1,7 +1,7 @@
 <template>
     <div class="fixed inset-0 bg-black bg-opacity-40 overflow-y-auto h-screen w-full">
-        <div class="relative top-44 mx-auto p-5 border border-gray-800 shadow-lg rounded-md "
-            style="background-color:#1a1f1f;width:800px">
+        <div class="relative md:top-44 mx-auto p-5 border  border-gray-800 shadow-lg rounded-md  max-w-screen-md"
+            style="background-color:#1a1f1f;">
             <div class="flex justify-between items-center cursor-pointer text-gray-200">
                 <div class="w-80">
                     <div class="input" :class="{ active: isActive }">
@@ -12,7 +12,7 @@
                 <div @click="$emit('close')" class="py-2 px-4 rounded border border-transparent hover:border-gray-600">X
                 </div>
             </div>
-            <div class="mt-3 max-h-96 overflow-auto">
+            <div class="mt-3 md:max-h-96 overflow-auto">
                 <div v-for="item in items_list" :key="item.name" class="mb-3 hover:bg-black rounded-xl p-3 cursor-pointer"
                     @click="$emit('select-item', item)">
                     <div class="grid gap-3" :style="`grid-template-columns:${is_weapon ? '150px' : '75px'} 1fr;`">

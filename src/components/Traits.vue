@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-1 justify-center items-center h-full text-gray-500 font-semibold text-sm">
+    <div class="grid grid-cols-1 justify-center items-center text-gray-500 font-semibold text-sm">
         <div class="grid grid-cols-1 justify-center items-center gap-2" style="grid-template-columns:130px;">
             <div v-for="(trait, i) in traits" :key="trait.itemName" class="flex items-center  group">
                 <div style="min-width: 150px;">
