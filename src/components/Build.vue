@@ -76,10 +76,11 @@ export default {
                     version: this.version,
                     traits: this.traits,
                     build_name: this.build_name,
-                    email: credential.email
+                    email: credential.email,
+                    user_name: credential.name
                 };
                 if (credential) {
-                    await this.upsertUserData(build, credential.email, this.build.email === credential.email ? id : undefined);
+                    await this.upsertUserData(build, credential.email, id);
                 }
                 else {
                     const builds = JSON.parse(window.localStorage.getItem('builds'));
@@ -95,20 +96,26 @@ export default {
         async upsertUserData(build, email, id) {
             const { data, error } = await this.supabase
                 .from('Builds')
-                .upsert({ email, game_version: build.version, build_data: build, id, name: build.build_name });
+                .upsert({ email, game_version: build.version, build_data: build, id, name: build.build_name }).select();
+            return data?.[0];
         },
         async createNewBuild() {
             this.is_loading = true;
             try {
+                const credential = get_credentials();
                 const build = {
                     ...this.build,
                     version: this.version,
                     traits: this.traits,
-                    build_name: this.build_name
+                    build_name: this.build_name,
+                    email: credential.email,
+                    user_name: credential.name
                 };
-                const credential = get_credentials();
                 if (credential) {
-                    await this.upsertUserData(build, credential.email);
+                    const new_build = await this.upsertUserData(build, credential.email);
+                    if (new_build?.id) {
+                        this.$router.push({ name: "build", params: { id: new_build.id } })
+                    }
                 }
                 else {
                     const builds = JSON.parse(window.localStorage.getItem('builds')) || [];
@@ -143,10 +150,7 @@ export default {
 </script>
 
 <template>
-    <div v-if="is_loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
-        Updating...
-    </div>
-    <div v-else class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
+    <div class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
         <div
             class=" md:justify-center items-center h-screen overflow-auto grid build-container w-screen pb-20 pt-20 md:pt-5">
             <div></div>
@@ -224,18 +228,22 @@ export default {
                             <input v-model="build_name" type="text" class="text-gray-300 font-medium"
                                 placeholder="Enter build name here" @focus="isActive = true" @blur="isActive = false" />
                         </div>
+
                         <div v-if="build_name.length > 0" style="background:none;">
-                            <button v-if="saved_build.build_name" class="w-full mt-4" :disabled="is_loading"
-                                @click="updateBuild">
-                                <Loading v-if="is_loading"></Loading>
+                            <button v-if="saved_build.build_name" class="w-full mt-4 flex items-center justify-center"
+                                :disabled="is_loading" @click="updateBuild">
                                 Update
                                 build
+                                <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </button>
-                            <button v-else class="w-full mt-4" @click="createNewBuild" :disabled="is_loading">
-                                <Loading v-if="is_loading"></Loading>
+                            <button v-else class="w-full mt-4 flex items-center justify-center" @click="createNewBuild"
+                                :disabled="is_loading">
                                 Create new build
+                                <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
+
                             </button>
-                            <div class="mt-2 text-gray-500 text-xs text-center" style="background:none;"> You are not signed
+                            <div v-if="!credential" class="mt-2 text-gray-500 text-xs text-center" style="background:none;">
+                                You are not signed
                                 in,
                                 saved builds will not be persisted across the devices</div>
                         </div>
@@ -245,7 +253,15 @@ export default {
                             <span class="text-xs text-gray-500">({{
                                 version }})</span>
                         </div>
-                        <button class="mt-4 invisible group-hover:visible" @click="is_editing = true"> Edit</button>
+                        <div v-if="build.user_name" class="text-gray-500 text-sm font-light" style="background:none;">
+                            {{ build.user_name }}
+                        </div>
+                        <button v-if="credential.email !== build.email" class="mt-4 " @click="createNewBuild">
+                            <span class="flex items-center justify-center">
+                                Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
+                            </span>
+                        </button>
+                        <button v-else class="mt-4 " @click="is_editing = true"> Edit</button>
                     </div>
                     <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:670px;left:45px;" @click="selection = 'Melee'">

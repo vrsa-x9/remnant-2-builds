@@ -12,9 +12,9 @@ const app = createApp(App);
 
 //Router
 const routes = [
-    { path: '/', component: Planner },
-    { path: '/builds', component: MyBuilds },
-    { path: '/build/:id', component: Build },
+    { name: 'planner', path: '/', component: Planner },
+    { name: 'my_builds', path: '/builds', component: MyBuilds },
+    { name: 'build', path: '/build/:id', component: Build },
 ]
 const router = createRouter({
     history: createWebHistory(),

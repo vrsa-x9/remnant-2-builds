@@ -3,6 +3,12 @@
         <div v-if="loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
             Loading...
         </div>
+        <div v-else-if="not_found" class="w-full h-full flex justify-center items-center ">
+            <div class="text-center">
+                <div class="text-2xl font-medium text-gray-600"> Build not found, must have got deleted :(</div>
+                <button class="mt-4" @click="$router.push({ path: '/' })"> Create new build</button>
+            </div>
+        </div>
         <Build v-else-if="build" :saved_build="build"></Build>
     </div>
 </template>
@@ -23,29 +29,40 @@ export default {
     data() {
         return {
             build: null,
-            loading: false
+            loading: false,
+            not_found: false
         }
     },
     async mounted() {
-        this.loading = true;
-        try {
-            const credentials = get_credentials();
-            const { id } = this.$route.params;
-            if (credentials) {
+        await this.initialize_data();
+    },
+    watch: {
+        '$route.params.id': function () {
+            this.initialize_data();
+        }
+    },
+    methods: {
+        async initialize_data() {
+            this.loading = true;
+            try {
+                const { id } = this.$route.params;
                 const { data, error } = await this.supabase
                     .from('Builds').select().eq('id', id);
                 this.build = data[0]?.build_data;
-            }
-            else {
-                const builds = JSON.parse(window.localStorage.getItem('builds'));
-                this.build = builds[id] || {};
-            }
-        }
-        catch (e) {
-            console.log(e);
-        }
-        this.loading = false;
+                if (!this.build) {
+                    const builds = JSON.parse(window.localStorage.getItem('builds'));
+                    this.build = builds?.[id];
+                }
 
+                if (!this.build) {
+                    this.not_found = true;
+                }
+            }
+            catch (e) {
+                console.log(e);
+            }
+            this.loading = false;
+        }
     }
 };
 </script>
