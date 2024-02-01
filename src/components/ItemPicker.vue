@@ -16,7 +16,7 @@
                 <div v-for="item in items_list" :key="item.name" class="mb-3 hover:bg-black rounded-xl p-3 cursor-pointer"
                     @click="$emit('select-item', item)">
                     <div class="grid gap-3" :style="`grid-template-columns:${is_weapon ? '150px' : '75px'} 1fr;`">
-                        <g-image :src="item.itemImageLinkFullPath" style="width:100%;" />
+                        <img :src="item.itemImageLinkFullPath" style="width:100%;" />
                         <div>
                             <div class="text-lg font-semibold text-gray-400">{{ item.itemName || item.skillName }}</div>
                             <div class="text-sm text-gray-400 mt">{{ item.itemDescription }}</div>

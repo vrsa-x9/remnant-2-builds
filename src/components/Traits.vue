@@ -17,13 +17,12 @@
                     <div @click="trait.points++; $forceUpdate();"
                         :class="{ 'opacity-10 pointer-events-none': trait.points == 10 }"
                         class="ml-2 opacity-60 hover:opacity-100">
-                        <font-awesome :icon="['fas', 'plus']" />
+                        <mdi-plus />
                     </div>
                     <div @click="trait.points--; $forceUpdate();"
                         :class="{ 'opacity-10 pointer-events-none': trait.points == 1 }"
-                        class="ml-2 opacity-60 hover:opacity-100"> <font-awesome :icon="['fas', 'minus']" /></div>
-                    <div @click="$emit('delete', i)" class="ml-2 opacity-60 hover:opacity-100"> <font-awesome
-                            :icon="['fas', 'trash']" /></div>
+                        class="ml-2 opacity-60 hover:opacity-100"> <mdi-minus /></div>
+                    <div @click="$emit('delete', i)" class="ml-2 opacity-60 hover:opacity-100"><mdi-trash /></div>
                 </div>
             </div>
         </div>

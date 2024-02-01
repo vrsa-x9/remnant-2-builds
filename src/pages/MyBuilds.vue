@@ -1,5 +1,5 @@
 <template>
-    <Layout>
+    <div>
         <div v-if="loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
             Loading...
         </div>
@@ -17,12 +17,12 @@
                     <div class="text-center text-xl font-semibold mb-2">{{ build.build_name }} </div>
                     <div class="grid gap-2 grid-cols-5 mt">
                         <div v-for="item in items" :key="item">
-                            <g-image v-if="build[item]" :src="build[item].itemImageLinkFullPath" style="width:100%;" />
+                            <img v-if="build[item]" :src="build[item].itemImageLinkFullPath" style="width:100%;" />
                         </div>
                     </div>
                     <div class="grid gap-2 grid-cols-3 mt">
                         <div v-for="weapon in weapons" :key="weapon">
-                            <g-image v-if="build[weapon]" :src="build[weapon].itemImageLinkFullPath" style="width:100%;" />
+                            <img v-if="build[weapon]" :src="build[weapon].itemImageLinkFullPath" style="width:100%;" />
                         </div>
                     </div>
                     <div class="invisible group-hover:visible">
@@ -31,12 +31,12 @@
                 </div>
             </div>
         </div>
-    </Layout>
+    </div>
 </template>
 
 <script>
 import { inject } from 'vue'
-import { get_credentials } from '~/constants.js'
+import { get_credentials } from '~/lib/auth.js'
 
 export default {
     metaInfo: {
@@ -58,12 +58,13 @@ export default {
         this.loading = true;
         try {
             const credentials = get_credentials();
-            const { data } = await this.supabase.from('Builds').select().eq('email', credentials?.email);
-            this.builds = data?.map(build => { return { ...build.build_data, id: build.id } }) || [];
             if (!credentials) {
                 this.builds = JSON.parse(localStorage.getItem('builds')) || [];
             }
-
+            else {
+                const { data } = await this.supabase.from('Builds').select().eq('email', credentials?.email);
+                this.builds = data?.map(build => { return { ...build.build_data, id: build.id } }) || [];
+            }
         }
         catch (e) {
             console.log(e);

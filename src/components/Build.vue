@@ -4,9 +4,12 @@ import Traits from '~/components/Traits.vue'
 import ItemPicker from '~/components/ItemPicker.vue'
 import Loading from '~/components/Loading.vue'
 import Item from '~/components/Item.vue'
-import { get_credentials } from '~/constants.js'
+import { get_credentials } from '~/lib/auth.js'
 import { inject } from 'vue'
 import { versions } from "../items/Versions.json"
+import remnantImage from '~/assets/remnant.webp'
+
+
 
 export default {
     metaInfo: {
@@ -37,7 +40,8 @@ export default {
             },
             traits: [],
             version: versions[0],
-            versions
+            versions,
+            remnantImage
         }
     },
     mounted() {
@@ -65,23 +69,23 @@ export default {
         async updateBuild() {
             this.is_loading = true;
             try {
+                const { id } = this.$route.params;
+                const credential = get_credentials();
                 const build = {
                     ...this.build,
                     version: this.version,
                     traits: this.traits,
-                    build_name: this.build_name
+                    build_name: this.build_name,
+                    email: credential.email
                 };
-                const { id } = this.$route.params;
-                const credential = get_credentials();
                 if (credential) {
-                    await this.upsertUserData(build, credential.email, build.email === credential.email ? id : undefined);
+                    await this.upsertUserData(build, credential.email, this.build.email === credential.email ? id : undefined);
                 }
                 else {
                     const builds = JSON.parse(window.localStorage.getItem('builds'));
                     builds[id] = build;
                     window.localStorage.setItem("builds", JSON.stringify(builds));
                 }
-                this.$router.push({ path: '/builds' });
             }
             catch (e) {
                 console.log(e);
@@ -111,7 +115,6 @@ export default {
                     builds.push(build);
                     window.localStorage.setItem("builds", JSON.stringify(builds));
                 }
-                this.$router.push({ path: '/builds' });
             }
             catch (e) {
                 console.log(e);
@@ -209,7 +212,7 @@ export default {
                     </div>
                 </div>
                 <div ref="scrollToMe" class="relative  rings z-2 group" style="height:780px;width:250px">
-                    <g-image src="~/assets/remnant.webp" width="500" style="margin-top:150px;" />
+                    <img :src="remnantImage" width="500" style="margin-top:150px;" />
                     <div v-if="is_editing" style="background:none;">
                         <div class="flex  mt-4 mb-4 text-center justify-center" style="background:none;">
                             <span class="text-gray-400 mr-2">Versions: </span>
@@ -309,7 +312,7 @@ export default {
                 <Traits v-if="build?.Archetype2 || build?.Archetype1"
                     :traits="[build.Archetype1?.trait, build.Archetype2?.trait].filter(trait => trait).map(trait => ({ is_archetype: true, itemName: trait, points: 10 }))">
                 </Traits>
-                <Traits :traits="traits" @delete="deleteTrait"></Traits>
+                <Traits :traits="traits" @delete="deleteTrait" class="mt-2"></Traits>
                 <div class="flex items-center justify-center"> <button class=" mt-4" @click="selection = 'Traits'"> Add
                         traits</button></div>
             </div>

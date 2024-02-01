@@ -8,14 +8,14 @@
           class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
           exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'house']" />
           HOME</g-link> -->
-        <g-link
-          class="nav__link p-2  md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600  text-gray-400 " to="/"> <font-awesome :icon="['fas', 'plus']" />
-          BUILD PLANNER</g-link>
-        <g-link
-          class="nav__link md:mr-3 mr-2 p-2 md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600 text-gray-400" to="/builds"> <font-awesome :icon="['fas', 'list']" />
-          MY BUILDS</g-link>
+        <router-link
+          class="nav__link p-2 flex items-center justify-center  md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
+          exact-active-class="border-gray-600  text-gray-400 " to="/"> <mdi-plus />
+          BUILD PLANNER</router-link>
+        <router-link
+          class="nav__link flex items-center justify-center md:mr-3 mr-2 p-2 md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
+          exact-active-class="border-gray-600 text-gray-400" to="/builds"> <mdi-account />
+          MY BUILDS</router-link>
 
       </nav>
       <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
@@ -31,11 +31,6 @@
 <script setup>
 import { ref, onMounted, provide } from "vue";
 import { jwtDecode } from "jwt-decode";
-import { createClient } from '@supabase/supabase-js'
-
-const supabase = createClient('https://oztxoqanibwswcpcqfnp.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96dHhvcWFuaWJ3c3djcGNxZm5wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDMwMDE2OTIsImV4cCI6MjAxODU3NzY5Mn0.2PUUL4_8WYW-OOXNk_7kvF399IF65r52e-QmZtU0xbI')
-provide('supabase', supabase);
-
 
 const signin_ref = ref(null);
 const user = ref(null);
@@ -64,11 +59,4 @@ onMounted(() => {
 })
 </script>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 

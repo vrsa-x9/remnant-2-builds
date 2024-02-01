@@ -1,7 +1,7 @@
 <template>
-  <Layout>
+  <div>
     <Build></Build>
-  </Layout>
+  </div>
 </template>
 
 <script>
