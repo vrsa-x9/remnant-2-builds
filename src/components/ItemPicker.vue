@@ -4,7 +4,7 @@
             style="background-color:#1a1f1f;">
             <div class="flex justify-between items-center cursor-pointer text-gray-200">
                 <div class="w-80">
-                    <div class="input" :class="{ active: isActive }">
+                    <div class="input custom" :class="{ active: isActive }">
                         <input v-model="search" class="text-gray-300" placeholder="Search item" @focus="isActive = true"
                             @blur="isActive = false">
                     </div>

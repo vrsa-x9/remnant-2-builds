@@ -7,7 +7,7 @@
             <div class="flex justify-center items-center h-full column" v-if="builds.length === 0">
                 <div class="text-center">
                     <div class="text-2xl font-medium text-gray-600"> No Builds Found </div>
-                    <button class="mt-4" @click="$router.push({ path: '/' })"> Create new build</button>
+                    <button class="mt-4 custom" @click="$router.push({ path: '/' })"> Create new build</button>
                 </div>
             </div>
             <div class="grid gap-4 m-4" style="grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));" v-else>
@@ -20,8 +20,11 @@
                             build.build_name
                         }}
                         <mdi-reload v-if="deleting === build.id" class="animate-spin"></mdi-reload>
-                        <mdi-trash v-else class="opacity-60 hover:opacity-100"
-                            @click.stop="deleteBuild(build, index)"></mdi-trash>
+                        <div v-else @click.stop="">
+                            <AlertPopup @continue="deleteBuild(build, index)">
+                                <mdi-trash class="opacity-60 hover:opacity-100"></mdi-trash>
+                            </AlertPopup>
+                        </div>
                     </div>
                     <div class="grid gap-2 grid-cols-5 mt">
                         <div v-for="item in items" :key="item">

@@ -234,20 +234,21 @@ export default {
                                 <option v-for="(version, index) in versions"> {{ version }} </option>
                             </select>
                         </div>
-                        <div class="input w-full" :class="{ 'active': isActive }">
+                        <div class="input w-full custom" :class="{ 'active': isActive }">
                             <input v-model="build_name" type="text" class="text-gray-300 font-medium"
                                 placeholder="Enter build name here" @focus="isActive = true" @blur="isActive = false" />
                         </div>
 
                         <div v-if="build_name.length > 0" style="background:none;">
-                            <button v-if="saved_build.build_name" class="w-full mt-4 flex items-center justify-center"
+                            <button v-if="saved_build.build_name"
+                                class="w-full mt-4 !flex items-center justify-center custom"
                                 :disabled="is_loading || max_allowed_trait_points > 85" @click="updateBuild">
                                 Update
                                 build
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </button>
-                            <button v-else class="w-full mt-4 flex items-center justify-center" @click="createNewBuild"
-                                :disabled="is_loading || max_allowed_trait_points > 85">
+                            <button v-else class="w-full mt-4 !flex items-center justify-center custom"
+                                @click="createNewBuild" :disabled="is_loading || max_allowed_trait_points > 85">
                                 Create new build
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
 
@@ -266,13 +267,13 @@ export default {
                         <div v-if="build.user_name" class="text-gray-500 text-sm font-light" style="background:none;">
                             {{ build.user_name }}
                         </div>
-                        <button v-if="credential.email !== build.email" class="mt-4"
+                        <button v-if="credential.email !== build.email" class="mt-4 custom"
                             :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild">
                             <span class="flex items-center justify-center">
                                 Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </span>
                         </button>
-                        <button v-else class="mt-4 " @click="is_editing = true"> Edit</button>
+                        <button v-else class="mt-4 custom" @click="is_editing = true"> Edit</button>
                     </div>
                     <div v-if="max_allowed_trait_points > 85" class="text-xs text-center mt-2"
                         style="background:none;color:#940D18"> ! Traits cannot be more
@@ -355,7 +356,7 @@ export default {
                 <Traits :traits="traits" @delete="deleteTrait" :enable_addition="max_allowed_trait_points < 85"
                     class="mt-2"></Traits>
                 <div v-if="max_allowed_trait_points < 85" class="flex items-center justify-center"> <button
-                        class=" mt-4 flex items-center justify-center" @click="selection = 'Traits'">
+                        class=" mt-4 !flex items-center justify-center custom" @click="selection = 'Traits'">
                         <mdi-plus></mdi-plus> Add traits</button></div>
             </div>
         </div>
