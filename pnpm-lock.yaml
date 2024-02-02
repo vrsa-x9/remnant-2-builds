@@ -8,12 +8,6 @@ dependencies:
   '@supabase/supabase-js':
     specifier: ^2.39.1
     version: 2.39.3
-  '@types/node':
-    specifier: ^20.11.16
-    version: 20.11.16
-  '@vue/compiler-sfc':
-    specifier: ^3.3.7
-    version: 3.4.15
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -40,7 +34,7 @@ dependencies:
     version: 6.3.7
   unplugin-icons:
     specifier: ^0.18.3
-    version: 0.18.3(@vue/compiler-sfc@3.4.15)
+    version: 0.18.3
   unplugin-vue-components:
     specifier: ^0.26.0
     version: 0.26.0(vue@3.4.15)
@@ -61,6 +55,9 @@ devDependencies:
   '@iconify-json/mdi':
     specifier: ^1.1.64
     version: 1.1.64
+  '@types/node':
+    specifier: ^20.11.16
+    version: 20.11.16
   '@vitejs/plugin-vue':
     specifier: ^4.5.2
     version: 4.6.2(vite@5.0.12)(vue@3.4.15)
@@ -1663,7 +1660,7 @@ packages:
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  /unplugin-icons@0.18.3(@vue/compiler-sfc@3.4.15):
+  /unplugin-icons@0.18.3:
     resolution: {integrity: sha512-6EHPMXOq7XL8JAULzX0o3KqOsJHhYfpDfB1WvBWwZJH/PutIkV/ahRpHytucQ1evfRFuv/DVIozEmFIhP1xRxA==}
     peerDependencies:
       '@svgr/core': '>=7.0.0'
@@ -1686,7 +1683,6 @@ packages:
       '@antfu/install-pkg': 0.3.1
       '@antfu/utils': 0.7.7
       '@iconify/utils': 2.1.20
-      '@vue/compiler-sfc': 3.4.15
       debug: 4.3.4
       kolorist: 1.8.0
       local-pkg: 0.5.0

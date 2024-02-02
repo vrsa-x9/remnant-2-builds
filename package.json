@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.1",
-    "@types/node": "^20.11.16",
-    "@vue/compiler-sfc": "^3.3.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "jwt-decode": "^4.0.0",
@@ -29,6 +27,7 @@
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.64",
+    "@types/node": "^20.11.16",
     "@vitejs/plugin-vue": "^4.5.2",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
