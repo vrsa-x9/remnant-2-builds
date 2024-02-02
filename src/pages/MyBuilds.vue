@@ -45,6 +45,8 @@
 <script>
 import { inject } from 'vue'
 import { get_credentials } from '~/lib/auth.js'
+import { useToast } from "@/components/shadcn/ui/toast/use-toast"
+
 
 export default {
     metaInfo: {
@@ -52,7 +54,9 @@ export default {
     },
     setup() {
         const supabase = inject('supabase');
-        return { supabase }
+        const { toast } = useToast()
+
+        return { supabase, toast }
     },
     data() {
         return {
@@ -89,6 +93,9 @@ export default {
                 if (credentials) {
                     await this.supabase.from('Builds').delete().eq('id', build.id);
                     this.builds.splice(index, 1);
+                    this.toast({
+                        title: "Build deleted successfully",
+                    });
                 }
                 else {
                     this.builds.splice(index, 1);

@@ -2,6 +2,7 @@
 import { provide } from 'vue'
 import { createClient } from '@supabase/supabase-js'
 import Layout from '~/layouts/Layout.vue'
+import { Toaster } from "~/components/shadcn/ui/toast"
 
 
 export default {
@@ -30,5 +31,6 @@ export default {
   <Layout>
     <router-view></router-view>
   </Layout>
+  <Toaster />
 </template>
 

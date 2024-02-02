@@ -8,6 +8,7 @@ import { get_credentials } from '~/lib/auth.js'
 import { inject } from 'vue'
 import { versions } from "../items/Versions.json"
 import remnantImage from '~/assets/remnant.webp'
+import { useToast } from "@/components/shadcn/ui/toast/use-toast"
 
 
 
@@ -18,7 +19,9 @@ export default {
     setup() {
         const supabase = inject('supabase');
         const credential = get_credentials();
-        return { supabase, credential }
+        const { toast } = useToast()
+
+        return { supabase, credential, toast }
     },
     props: {
         saved_build: {
@@ -89,6 +92,9 @@ export default {
                 };
                 if (credential) {
                     await this.upsertUserData(build, credential.email, id);
+                    this.toast({
+                        title: "Build Updated successfully",
+                    });
                 }
                 else {
                     const builds = JSON.parse(window.localStorage.getItem('builds'));
@@ -107,7 +113,7 @@ export default {
                 .upsert({ email, game_version: build.version, build_data: build, id, name: build.build_name }).select();
             return data?.[0];
         },
-        async createNewBuild() {
+        async createNewBuild(is_import) {
             this.is_loading = true;
             try {
                 const credential = get_credentials();
@@ -121,6 +127,9 @@ export default {
                 };
                 if (credential) {
                     const new_build = await this.upsertUserData(build, credential.email);
+                    this.toast({
+                        title: is_import ? "Build imported successfully" : "Build created successfully",
+                    });
                     if (new_build?.id) {
                         this.$router.push({ name: "build", params: { id: new_build.id } })
                     }
@@ -248,7 +257,7 @@ export default {
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </button>
                             <button v-else class="w-full mt-4 !flex items-center justify-center custom"
-                                @click="createNewBuild" :disabled="is_loading || max_allowed_trait_points > 85">
+                                @click="createNewBuild()" :disabled="is_loading || max_allowed_trait_points > 85">
                                 Create new build
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
 
@@ -268,7 +277,7 @@ export default {
                             {{ build.user_name }}
                         </div>
                         <button v-if="credential.email !== build.email" class="mt-4 custom"
-                            :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild">
+                            :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild(true)">
                             <span class="flex items-center justify-center">
                                 Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </span>
