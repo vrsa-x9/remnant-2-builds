@@ -56,6 +56,14 @@ export default {
             this.$nextTick(() => el.scrollIntoView({ inline: 'center' }));
 
     },
+    computed: {
+        max_allowed_trait_points() {
+            const pre_set_points = (this.build?.Archetype2 ? 10 : 0) + (this.build?.Archetype1 ? 10 : 0)
+            const allocated_trait_points = this.traits.map(trait => trait.points).reduce((sum, point) => sum + point, 0);
+            const total_points = allocated_trait_points + pre_set_points;
+            return total_points;
+        },
+    },
     methods: {
         selectItem(item) {
             if (this.selection === 'Traits') {
@@ -177,12 +185,12 @@ export default {
                         <Item :item="build.Body"></Item>
                     </div>
                     <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
-                        style="top:370px;right:210px;" @click="selection = 'Gloves'">
-                        <Item :item="build.Gloves"></Item>
+                        style="top:370px;right:210px;" @click="selection = 'Legs'">
+                        <Item :item="build.Legs"></Item>
                     </div>
                     <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
-                        style="top:470px;right:185px;" @click="selection = 'Legs'">
-                        <Item :item="build.Legs"></Item>
+                        style="top:470px;right:185px;" @click="selection = 'Gloves'">
+                        <Item :item="build.Gloves"></Item>
                     </div>
                     <div class="absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:570px;right:150px;" @click="selection = 'Relics'">
@@ -209,7 +217,9 @@ export default {
                         <Item :item="build.Mutator1" :image="{ height: 73 }"></Item>
                     </div>
                     <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
-                        style="top:585px;right:65px; width:75px;height:75px;" @click="selection = 'Mod1'">
+                        style="top:585px;right:65px; width:75px;height:75px;"
+                        :class="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1) ? 'cursor-not-allowed' : ''"
+                        @click="selection = get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1) ? null : 'Mod1'">
                         <Item :item="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1)"
                             :image="{ height: 73 }">
                         </Item>
@@ -231,13 +241,13 @@ export default {
 
                         <div v-if="build_name.length > 0" style="background:none;">
                             <button v-if="saved_build.build_name" class="w-full mt-4 flex items-center justify-center"
-                                :disabled="is_loading" @click="updateBuild">
+                                :disabled="is_loading || max_allowed_trait_points > 85" @click="updateBuild">
                                 Update
                                 build
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </button>
                             <button v-else class="w-full mt-4 flex items-center justify-center" @click="createNewBuild"
-                                :disabled="is_loading">
+                                :disabled="is_loading || max_allowed_trait_points > 85">
                                 Create new build
                                 <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
 
@@ -256,19 +266,27 @@ export default {
                         <div v-if="build.user_name" class="text-gray-500 text-sm font-light" style="background:none;">
                             {{ build.user_name }}
                         </div>
-                        <button v-if="credential.email !== build.email" class="mt-4 " @click="createNewBuild">
+                        <button v-if="credential.email !== build.email" class="mt-4"
+                            :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild">
                             <span class="flex items-center justify-center">
                                 Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </span>
                         </button>
                         <button v-else class="mt-4 " @click="is_editing = true"> Edit</button>
                     </div>
+                    <div v-if="max_allowed_trait_points > 85" class="text-xs text-center mt-2"
+                        style="background:none;color:#940D18"> ! Traits cannot be more
+                        than
+                        85 points
+                    </div>
                     <div class="absolute w-40 h-20 border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:670px;left:45px;" @click="selection = 'Melee'">
                         <Item :item="build.Melee"></Item>
                     </div>
                     <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
-                        style="top:585px;left:45px; width:75px;height:75px;" @click="selection = 'Mod2'">
+                        style="top:585px;left:45px; width:75px;height:75px;"
+                        :class="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2) ? 'cursor-not-allowed' : ''"
+                        @click="selection = get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2) ? null : 'Mod2'">
                         <Item :item="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2)" :image="{ height: 73 }">
                         </Item>
                     </div>
@@ -313,7 +331,9 @@ export default {
                         <Item :item="build.handGuns"></Item>
                     </div>
                     <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
-                        style="top:585px;left:-20px; width:75px;height:75px;" @click="selection = 'Mod3'">
+                        style="top:585px;left:-20px; width:75px;height:75px;"
+                        :class="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3) ? 'cursor-not-allowed' : ''"
+                        @click="selection = get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3) ? null : 'Mod3'">
                         <Item :item="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3)"
                             :image="{ height: 73 }">
                         </Item>
@@ -325,12 +345,18 @@ export default {
                 </div>
             </div>
             <div>
+                <div v-if="max_allowed_trait_points">
+                    <div class="text-gray-400 text-center text-lg"> Traits</div>
+                    <div class="mb-4 text-gray-400 text-center "> {{ max_allowed_trait_points }} / 85</div>
+                </div>
                 <Traits v-if="build?.Archetype2 || build?.Archetype1"
                     :traits="[build.Archetype1?.trait, build.Archetype2?.trait].filter(trait => trait).map(trait => ({ is_archetype: true, itemName: trait, points: 10 }))">
                 </Traits>
-                <Traits :traits="traits" @delete="deleteTrait" class="mt-2"></Traits>
-                <div class="flex items-center justify-center"> <button class=" mt-4" @click="selection = 'Traits'"> Add
-                        traits</button></div>
+                <Traits :traits="traits" @delete="deleteTrait" :enable_addition="max_allowed_trait_points < 85"
+                    class="mt-2"></Traits>
+                <div v-if="max_allowed_trait_points < 85" class="flex items-center justify-center"> <button
+                        class=" mt-4 flex items-center justify-center" @click="selection = 'Traits'">
+                        <mdi-plus></mdi-plus> Add traits</button></div>
             </div>
         </div>
         <ItemPicker v-if="selection" :selected_item="selection" :build="build" :traits="traits"

@@ -141,7 +141,11 @@ export default {
         items_list() {
             const removeExistingItemsFn = removeExistingItems(this.selected_item, this.build, this.traits);
             return (this.selected_item?.data || this.items_map[this.selected_item] || []).filter(removeExistingItemsFn).filter(item => {
-                return (item.skillName || item.itemName).toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
+                const has_item_name = (item.skillName || item.itemName || '').toLowerCase().indexOf(this.search.toLowerCase()) >= 0;
+                console.log(item);
+                const has_item_description = (item.skillDescription || item.itemDescription || '').toLowerCase().indexOf(this.search.toLowerCase()) >= 0
+
+                return has_item_name || has_item_description;
             })
         }
     }

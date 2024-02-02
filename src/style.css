@@ -65,6 +65,12 @@ button:active{
   background: linear-gradient(45deg,#940D18,#940D18);
 }
 
+button:disabled{
+  position: static;
+  cursor: not-allowed;
+  background: #b64650 !important;
+}
+
 
 .input{
   display: flex;
