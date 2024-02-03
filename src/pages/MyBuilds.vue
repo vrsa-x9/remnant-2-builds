@@ -19,14 +19,22 @@
                         {{
                             build.build_name
                         }}
-                        <mdi-loading v-if="deleting === build.id" class="animate-spin"></mdi-loading>
-                        <div v-else @click.stop="">
-                            <AlertPopup @continue="deleteBuild(build, index)">
-                                <mdi-trash class="opacity-60 hover:opacity-100"></mdi-trash>
-                                <template #content>
-                                    {{ build.build_name }}
-                                </template>
-                            </AlertPopup>
+                        <div class="flex items-start">
+                            <mdi-edit class="opacity-60 hover:opacity-100 mr-2"></mdi-edit>
+                            <div @click.stop>
+                                <SharePopup :url="getUrl(build)">
+                                    <mdi-share class="opacity-60 hover:opacity-100 mr-2"></mdi-share>
+                                </SharePopup>
+                            </div>
+                            <mdi-loading v-if="deleting === build.id" class="animate-spin"></mdi-loading>
+                            <div v-else @click.stop="">
+                                <AlertPopup @continue="deleteBuild(build, index)">
+                                    <mdi-trash class="opacity-60 hover:opacity-100 text-red-400"></mdi-trash>
+                                    <template #content>
+                                        {{ build.build_name }}
+                                    </template>
+                                </AlertPopup>
+                            </div>
                         </div>
                     </div>
                     <div class="grid gap-2 grid-cols-5 mt">
@@ -89,6 +97,9 @@ export default {
 
     },
     methods: {
+        getUrl(build) {
+            return window.location.origin + '/build/' + build?.id;
+        },
         async deleteBuild(build, index) {
             this.deleting = build.id;
             try {

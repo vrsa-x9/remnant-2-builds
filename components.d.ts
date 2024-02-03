@@ -37,6 +37,7 @@ declare module 'vue' {
     MdiContentCopy: typeof import('~icons/mdi/content-copy')['default']
     MdiCopy: typeof import('~icons/mdi/copy')['default']
     MdiDuplicate: typeof import('~icons/mdi/duplicate')['default']
+    MdiEdit: typeof import('~icons/mdi/edit')['default']
     MdiLoading: typeof import('~icons/mdi/loading')['default']
     MdiMinus: typeof import('~icons/mdi/minus')['default']
     MdiPlus: typeof import('~icons/mdi/plus')['default']

@@ -15,8 +15,17 @@ import { Input } from '@/components/shadcn/ui/input'
 import { Label } from '@/components/shadcn/ui/label'
 import { useToast } from "@/components/shadcn/ui/toast/use-toast"
 
-const link = window.location.href;
 const { toast } = useToast()
+
+const prop = defineProps({
+    url: {
+        type: String,
+    },
+})
+
+
+const link = prop.url || window.location.href;
+
 
 const copyContent = async () => {
     try {
@@ -35,10 +44,7 @@ const copyContent = async () => {
 <template>
     <Dialog>
         <DialogTrigger as-child>
-            <Button variant="outline">
-                <mdi-share></mdi-share>
-                Share
-            </Button>
+            <slot></slot>
         </DialogTrigger>
         <DialogContent class="sm:max-w-md">
             <DialogHeader>

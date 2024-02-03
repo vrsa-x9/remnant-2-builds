@@ -284,7 +284,12 @@ export default {
                         </button>
                         <span v-else class="flex items-center justify-center mt-4">
                             <button v-if="credential" class="custom mr-4" @click="is_editing = true"> Edit</button>
-                            <SharePopup></SharePopup>
+                            <SharePopup>
+                                <Button variant="outline">
+                                    <mdi-share></mdi-share>
+                                    Share
+                                </Button>
+                            </SharePopup>
                         </span>
                     </div>
                     <div v-if="max_allowed_trait_points > 85" class="text-xs text-center mt-2"
