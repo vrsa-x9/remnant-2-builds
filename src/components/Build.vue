@@ -269,7 +269,7 @@ export default {
                         <img :src="remnantImage" width="500" class="mt-4 md:mt-20" />
                         <div v-if="is_editing" style="background:none;">
                             <div class="flex  mt-4 mb-4 text-center items-center justify-center" style="background:none;">
-                                <span class="text-gray-400 mr-8">Versions: </span>
+                                <span class="text-gray-400 mr-6 whitespace-nowrap">Game Version: </span>
                                 <VersionSelect :versions="versions" v-model="version"></VersionSelect>
                             </div>
                             <div class="input w-full custom" :class="{ 'active': isActive }">
@@ -506,7 +506,7 @@ export default {
     }
 
     .traits-container {
-        padding-bottom: 60px;
+        padding-bottom: 100px;
     }
 
 }
