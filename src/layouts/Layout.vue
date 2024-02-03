@@ -23,7 +23,7 @@
             MY BUILDS</router-link>
         </nav>
       </div>
-      <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
+      <div v-show="!user" ref="signin_ref" class="absolute right-5 md:top-3 bottom-2 md:bottom-unset cursor-pointer">
       </div>
       <div>
         <div
@@ -59,7 +59,7 @@ var renderGoogleSigninButton = function () {
       }
     }
   });
-  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", size: 'medium', text: 'Sign in' })
+  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", size: 'medium', text: 'Sign in', type: window.innerWidth < 768 ? 'icon' : 'standard' })
 };
 
 

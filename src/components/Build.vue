@@ -196,12 +196,12 @@ export default {
                     </div>
                     <div class="flex items-center justify-center mb-2" style="background:none">
                         <div v-if="build.Archetype1"
-                            class="md:absolute w-20 h-20 border border-gray-800 mr-2 rounded hover:border-white cursor-pointer"
+                            class="md:absolute md:w-20 md:h-20 w-16 h-16 border border-gray-800 mr-2 rounded hover:border-white cursor-pointer"
                             style="top:45px;right:180px;"
                             @click="selection = { data: build.Archetype1.skills, key: 'skill1' }">
                             <Item :item="build.skill1"></Item>
                         </div>
-                        <div class="md:absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
+                        <div class="md:absolute md:w-28 md:h-28 w-24 h-24 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
                             style="top:30px;right:50px;" @click="selection = 'Archetype1'">
                             <Item :item="build.Archetype1" :image="{ height: 120, class: 'p-3  relative -top-1' }"></Item>
                         </div>
@@ -356,12 +356,12 @@ export default {
                     <div class="border-r ring-background right pointer-events-none hidden md:inline"
                         style="background:transparent"></div>
                     <div class="flex items-center justify-center mb-2" style="background:none">
-                        <div class="md:absolute w-28 h-28 rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
+                        <div class="md:absolute md:w-28 md:h-28 w-24 h-24  rounded-full border border-gray-800 hover:border-white cursor-pointer overflow-hidden"
                             style="top:30px;left:50px;" @click="selection = 'Archetype2'">
                             <Item :item="build.Archetype2" :image="{ height: 120, class: 'p-3 relative -top-1' }"></Item>
                         </div>
                         <div v-if="build.Archetype2"
-                            class="md:absolute w-20 h-20 border border-gray-800 rounded hover:border-white cursor-pointer ml-2"
+                            class="md:absolute  md:w-20 md:h-20 w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer ml-2"
                             style="top:45px;left:180px;"
                             @click="selection = { data: build.Archetype2.skills, key: 'skill2' }">
                             <Item :item="build.skill2"></Item>
@@ -478,8 +478,6 @@ export default {
     .build-container {
         grid-template-columns: 1fr 850px 1fr;
     }
-
-
 }
 
 @media (max-width: 768px) {
