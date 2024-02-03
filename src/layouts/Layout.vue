@@ -55,10 +55,11 @@ var renderGoogleSigninButton = function () {
       if (user_profile?.credential) {
         window.localStorage.setItem('credential', user_profile?.credential);
         user.value = jwtDecode(user_profile?.credential);
+        window.location.reload();
       }
     }
   });
-  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", size: 'medium', locale: 'zh_CN', text: 'Sign in' })
+  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", size: 'medium', text: 'Sign in' })
 };
 
 
