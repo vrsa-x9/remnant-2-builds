@@ -94,7 +94,8 @@ export default {
                     await this.supabase.from('Builds').delete().eq('id', build.id);
                     this.builds.splice(index, 1);
                     this.toast({
-                        title: "Build deleted successfully",
+                        title: "Success!",
+                        description: "Build deleted successfully",
                     });
                 }
                 else {

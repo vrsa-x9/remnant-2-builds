@@ -9,6 +9,7 @@ import { inject } from 'vue'
 import { versions } from "../items/Versions.json"
 import remnantImage from '~/assets/remnant.webp'
 import { useToast } from "@/components/shadcn/ui/toast/use-toast"
+import { Button } from '@/components/shadcn/ui/button'
 
 
 
@@ -30,7 +31,7 @@ export default {
         }
     },
     components: {
-        Stats, Traits, ItemPicker, Item
+        Stats, Traits, ItemPicker, Item, Button
     },
     data() {
         return {
@@ -93,7 +94,8 @@ export default {
                 if (credential) {
                     await this.upsertUserData(build, credential.email, id);
                     this.toast({
-                        title: "Build Updated successfully",
+                        title: "Success!",
+                        description: "Build Updated successfully",
                     });
                 }
                 else {
@@ -128,7 +130,8 @@ export default {
                 if (credential) {
                     const new_build = await this.upsertUserData(build, credential.email);
                     this.toast({
-                        title: is_import ? "Build imported successfully" : "Build created successfully",
+                        title: "Success!",
+                        description: is_import ? "Build imported successfully" : "Build created successfully",
                     });
                     if (new_build?.id) {
                         this.$router.push({ name: "build", params: { id: new_build.id } })
@@ -237,11 +240,9 @@ export default {
                 <div ref="scrollToMe" class="relative  rings z-2 group" style="height:780px;width:250px">
                     <img :src="remnantImage" width="500" style="margin-top:150px;" />
                     <div v-if="is_editing" style="background:none;">
-                        <div class="flex  mt-4 mb-4 text-center justify-center" style="background:none;">
-                            <span class="text-gray-400 mr-2">Versions: </span>
-                            <select v-model="version">
-                                <option v-for="(version, index) in versions"> {{ version }} </option>
-                            </select>
+                        <div class="flex  mt-4 mb-4 text-center items-center justify-center" style="background:none;">
+                            <span class="text-gray-400 mr-8">Versions: </span>
+                            <VersionSelect :versions="versions" v-model="version"></VersionSelect>
                         </div>
                         <div class="input w-full custom" :class="{ 'active': isActive }">
                             <input v-model="build_name" type="text" class="text-gray-300 font-medium"
@@ -282,7 +283,10 @@ export default {
                                 Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
                             </span>
                         </button>
-                        <button v-else class="mt-4 custom" @click="is_editing = true"> Edit</button>
+                        <span v-else class="flex items-center justify-center mt-4">
+                            <button class="custom mr-4" @click="is_editing = true"> Edit</button>
+                            <SharePopup></SharePopup>
+                        </span>
                     </div>
                     <div v-if="max_allowed_trait_points > 85" class="text-xs text-center mt-2"
                         style="background:none;color:#940D18"> ! Traits cannot be more
