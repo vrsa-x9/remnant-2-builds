@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen bg-opacity-90 flex flex-col" style="text-shadow: 1px 1px #2c2c2c; background:#121313">
+  <div class="w-full h-screen bg-opacity-90 grid layout" style="text-shadow: 1px 1px #2c2c2c; background:#121313">
     <div
       class="text-gray-600 font-medium text-lg md:sticky fixed w-full bottom-0 md:top-0 md:bottom-unset z-10 border-b border-slate-600	"
       style="background:#121313; max-height:52px;">
@@ -73,4 +73,17 @@ onMounted(() => {
 })
 </script>
 
+<style>
+.layout {
+  grid-template-rows: 52px 1fr;
+  ;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    grid-template-rows: 1fr;
+    ;
+  }
+}
+</style>
 
