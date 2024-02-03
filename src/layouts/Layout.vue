@@ -45,7 +45,7 @@ var renderGoogleSigninButton = function () {
       }
     }
   });
-  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", shape: "circle", size: 'medium', type: 'icon' })
+  google.accounts.id.renderButton(signin_ref.value, { theme: "filled_black", size: 'medium', locale: 'zh_CN', text: 'Sign in' })
 };
 
 
