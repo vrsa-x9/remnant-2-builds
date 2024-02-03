@@ -19,7 +19,7 @@
             BUILD PLANNER</router-link>
           <router-link
             class="nav__link flex items-center justify-center md:mr-3 mr-2 p-2 md:p-3 hover:border-slate-300 border-transparent border-b-2 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-            exact-active-class="border-gray-600 text-gray-400" to="/builds"> <mdi-account />
+            exact-active-class="border-gray-600 text-gray-400" to="/builds"> <mdi-format-list-bulleted />
             MY BUILDS</router-link>
         </nav>
       </div>

@@ -115,6 +115,23 @@ export default {
                 .upsert({ email, game_version: build.version, build_data: build, id, name: build.build_name }).select();
             return data?.[0];
         },
+        async deleteBuild(build) {
+            const credentials = get_credentials();
+            try {
+                if (credentials.email === build.email) {
+                    const { id } = this.$route.params;
+                    await this.supabase.from('Builds').delete().eq('id', id);
+                    this.toast({
+                        title: "Success!",
+                        description: "Build deleted successfully",
+                    });
+                    this.$router.push({ name: "my_builds" })
+                }
+            }
+            catch (e) {
+                console.log(e);
+            }
+        },
         async createNewBuild(is_import) {
             this.is_loading = true;
             try {
@@ -278,7 +295,7 @@ export default {
                         <button v-if="credential?.email !== build.email" class="mt-4 custom"
                             :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild(true)">
                             <span class="flex items-center justify-center">
-                                <mdi-content-copy></mdi-content-copy> Copy build <mdi-loading v-if="is_loading"
+                                <mdi-content-copy class="mr-2"></mdi-content-copy> Copy build <mdi-loading v-if="is_loading"
                                     class="animate-spin ml-2"></mdi-loading>
                             </span>
                         </button>
@@ -290,6 +307,12 @@ export default {
                                     Share
                                 </Button>
                             </SharePopup>
+                            <AlertPopup @continue="deleteBuild(build)">
+                                <button class="custom ml-4"> Delete </button>
+                                <template #content>
+                                    {{ build.build_name }}
+                                </template>
+                            </AlertPopup>
                         </span>
                     </div>
                     <div v-if="max_allowed_trait_points > 85" class="text-xs text-center mt-2"
