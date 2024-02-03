@@ -28,9 +28,11 @@ export default {
 </script>
 
 <template>
-  <Layout>
-    <router-view></router-view>
-  </Layout>
-  <Toaster />
+  <div>
+    <Layout>
+      <router-view></router-view>
+    </Layout>
+    <Toaster />
+  </div>
 </template>
 

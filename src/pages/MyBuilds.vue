@@ -1,7 +1,7 @@
 <template>
     <div style="background: #121313;">
         <div v-if="loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
-            Loading...
+            <mdi-loading class="animate-spin ml-2"></mdi-loading>
         </div>
         <div v-else class="h-full">
             <div class="flex justify-center items-center h-full column" v-if="builds.length === 0">
@@ -19,7 +19,7 @@
                         {{
                             build.build_name
                         }}
-                        <mdi-reload v-if="deleting === build.id" class="animate-spin"></mdi-reload>
+                        <mdi-loading v-if="deleting === build.id" class="animate-spin"></mdi-loading>
                         <div v-else @click.stop="">
                             <AlertPopup @continue="deleteBuild(build, index)">
                                 <mdi-trash class="opacity-60 hover:opacity-100"></mdi-trash>

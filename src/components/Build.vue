@@ -152,7 +152,6 @@ export default {
             this.traits.splice(index, 1);
         },
         get_locked_mod_data(locked_mod, actual_mod) {
-
             return locked_mod?.modName ? {
                 itemImageLinkFullPath: locked_mod.modImageFullPath,
                 itemName: locked_mod.modName,
@@ -249,26 +248,24 @@ export default {
                             <input v-model="build_name" type="text" class="text-gray-300 font-medium"
                                 placeholder="Enter build name here" @focus="isActive = true" @blur="isActive = false" />
                         </div>
-
-                        <div v-if="build_name.length > 0" style="background:none;">
+                        <div v-if="credential" style="background:none;">
                             <button v-if="saved_build.build_name"
                                 class="w-full mt-4 !flex items-center justify-center custom"
-                                :disabled="is_loading || max_allowed_trait_points > 85" @click="updateBuild">
+                                :disabled="is_loading || max_allowed_trait_points > 85 || build_name.length === 0"
+                                @click="updateBuild">
                                 Update
                                 build
-                                <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
+                                <mdi-loading v-if="is_loading" class="animate-spin ml-2"></mdi-loading>
                             </button>
                             <button v-else class="w-full mt-4 !flex items-center justify-center custom"
-                                @click="createNewBuild()" :disabled="is_loading || max_allowed_trait_points > 85">
+                                @click="createNewBuild()"
+                                :disabled="is_loading || max_allowed_trait_points > 85 || build_name.length === 0">
                                 Create new build
-                                <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
-
+                                <mdi-loading v-if="is_loading" class="animate-spin ml-2"></mdi-loading>
                             </button>
-                            <div v-if="!credential" class="mt-2 text-gray-500 text-xs text-center" style="background:none;">
-                                You are not signed
-                                in,
-                                saved builds will not be persisted across the devices</div>
                         </div>
+                        <div v-else class="mt-2 text-gray-500  text-center" style="background:none;">
+                            Signin to create or update builds</div>
                     </div>
                     <div class="text-center" style="background:none;" v-else>
                         <div class="text-gray-300 text-lg mt-10 font-semibold" style="background:none;"> {{ build_name }}
@@ -281,11 +278,12 @@ export default {
                         <button v-if="credential?.email !== build.email" class="mt-4 custom"
                             :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild(true)">
                             <span class="flex items-center justify-center">
-                                Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
+                                <mdi-content-copy></mdi-content-copy> Copy build <mdi-loading v-if="is_loading"
+                                    class="animate-spin ml-2"></mdi-loading>
                             </span>
                         </button>
                         <span v-else class="flex items-center justify-center mt-4">
-                            <button class="custom mr-4" @click="is_editing = true"> Edit</button>
+                            <button v-if="credential" class="custom mr-4" @click="is_editing = true"> Edit</button>
                             <SharePopup></SharePopup>
                         </span>
                     </div>

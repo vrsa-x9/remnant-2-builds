@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-if="loading" class="w-full h-full flex justify-center items-center text-2xl font-medium text-gray-600">
-            Loading...
+            <mdi-loading class="animate-spin ml-2"></mdi-loading>
         </div>
         <div v-else-if="not_found" class="w-full h-full flex justify-center items-center ">
             <div class="text-center">
