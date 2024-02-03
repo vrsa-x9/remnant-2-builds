@@ -83,6 +83,7 @@ onMounted(() => {
   .layout {
     grid-template-rows: 1fr;
     ;
+    padding-bottom: 60px;
   }
 }
 </style>
