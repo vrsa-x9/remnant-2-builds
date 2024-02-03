@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full h-screen bg-opacity-90 grid"
-    style="grid-template-rows:52px auto; text-shadow: 1px 1px #2c2c2c; background:#121313">
-    <header class="header text-gray-600 font-medium text-lg sticky top-0 z-10 border-b border-slate-600	"
-      style="background:#121313">
+  <div class="w-full h-screen bg-opacity-90 flex flex-col" style="text-shadow: 1px 1px #2c2c2c; background:#121313">
+    <div
+      class="text-gray-600 font-medium text-lg md:sticky fixed w-full bottom-0 md:top-0 md:bottom-unset z-10 border-b border-slate-600	"
+      style="background:#121313; max-height:52px;">
       <div class="flex justify-between">
-        <div class="p-2">
+        <div class="p-2 hidden md:block">
           <img :src="remnantImage" style="width:40px;" class="ml-2" />
         </div>
         <nav
@@ -26,7 +26,8 @@
       <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
       </div>
       <div>
-        <div class="absolute right-5 top-3 cursor-pointer rounded-full w-8 h-8 overflow-hidden">
+        <div
+          class="absolute right-5 md:top-3 bottom-2 md:bottom-unset cursor-pointer rounded-full w-8 h-8 overflow-hidden">
           <LogoutPopover v-show="user">
             <div>
               <img :src="user?.picture" />
@@ -34,7 +35,7 @@
           </LogoutPopover>
         </div>
       </div>
-    </header>
+    </div>
     <slot />
   </div>
 </template>
