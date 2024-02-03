@@ -1,27 +1,39 @@
 <template>
   <div class="w-full h-screen bg-opacity-90 grid"
-    style="grid-template-rows:52px auto; text-shadow: 1px 1px #2c2c2c; background:#0f0f12">
-    <header class="header text-gray-600 font-medium text-lg sticky top-0 z-10" style="background:#0f0f12">
-      <nav
-        class="nav grid grid-flow-col auto-cols-fr text-center max-w-3xl m-auto justify-center items-center h-full pr-10">
-        <!-- <g-link
+    style="grid-template-rows:52px auto; text-shadow: 1px 1px #2c2c2c; background:#121313">
+    <header class="header text-gray-600 font-medium text-lg sticky top-0 z-10 border-b border-slate-600	"
+      style="background:#121313">
+      <div class="flex justify-between">
+        <div class="p-2">
+          <img :src="remnantImage" style="width:40px;" class="ml-2" />
+        </div>
+        <nav
+          class="nav grid grid-flow-col auto-cols-fr text-center max-w-3xl m-auto justify-center items-center h-full pr-10">
+          <!-- <g-link
           class="nav__link mr-3 p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
           exact-active-class="border-gray-600 text-gray-400" to="/"> <font-awesome :icon="['fas', 'house']" />
           HOME</g-link> -->
-        <router-link
-          class="nav__link p-2 flex items-center justify-center  md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600  text-gray-400 " to="/"> <mdi-plus />
-          BUILD PLANNER</router-link>
-        <router-link
-          class="nav__link flex items-center justify-center md:mr-3 mr-2 p-2 md:p-3 hover:border-gray-600 border-transparent border-b-4 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
-          exact-active-class="border-gray-600 text-gray-400" to="/builds"> <mdi-account />
-          MY BUILDS</router-link>
+          <router-link
+            class="nav__link p-2 flex items-center justify-center  md:p-3 hover:border-slate-300 border-transparent border-b-2 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
+            exact-active-class="border-gray-600  text-gray-400 " to="/"> <mdi-plus />
+            BUILD PLANNER</router-link>
+          <router-link
+            class="nav__link flex items-center justify-center md:mr-3 mr-2 p-2 md:p-3 hover:border-slate-300 border-transparent border-b-2 hover:border-current hover:text-gray-400 border-opacity-25 hover:border-opacity-25"
+            exact-active-class="border-gray-600 text-gray-400" to="/builds"> <mdi-account />
+            MY BUILDS</router-link>
 
-      </nav>
+        </nav>
+      </div>
       <div v-show="!user" ref="signin_ref" class="absolute right-5 top-3 cursor-pointer">
       </div>
-      <div v-show="user" class="absolute right-5 top-3 cursor-pointer rounded-full w-8 h-8 overflow-hidden">
-        <img :src="user?.picture" />
+      <div>
+        <div class="absolute right-5 top-3 cursor-pointer rounded-full w-8 h-8 overflow-hidden">
+          <LogoutPopover v-show="user">
+            <div>
+              <img :src="user?.picture" />
+            </div>
+          </LogoutPopover>
+        </div>
       </div>
     </header>
     <slot />
@@ -31,6 +43,7 @@
 <script setup>
 import { ref, onMounted, provide } from "vue";
 import { jwtDecode } from "jwt-decode";
+import remnantImage from '~/assets/remnant.webp'
 
 const signin_ref = ref(null);
 const user = ref(null);

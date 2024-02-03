@@ -92,7 +92,7 @@ export default {
                     user_name: credential.name
                 };
                 if (credential) {
-                    await this.upsertUserData(build, credential.email, id);
+                    await this.upsertUserData(build, credential?.email, id);
                     this.toast({
                         title: "Success!",
                         description: "Build Updated successfully",
@@ -169,6 +169,7 @@ export default {
 
 </script>
 
+
 <template>
     <div class="h-full" style="background: radial-gradient(#121313 65%, #1a1f1f);">
         <div
@@ -230,7 +231,7 @@ export default {
                     </div>
                     <div class="absolute border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:585px;right:65px; width:75px;height:75px;"
-                        :class="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1) ? 'cursor-not-allowed' : ''"
+                        :class="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1) ? '!cursor-not-allowed' : ''"
                         @click="selection = get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1) ? null : 'Mod1'">
                         <Item :item="get_locked_mod_data(build.LongGuns?.lockedModInfo, build.Mod1)"
                             :image="{ height: 73 }">
@@ -277,7 +278,7 @@ export default {
                         <div v-if="build.user_name" class="text-gray-500 text-sm font-light" style="background:none;">
                             {{ build.user_name }}
                         </div>
-                        <button v-if="credential.email !== build.email" class="mt-4 custom"
+                        <button v-if="credential?.email !== build.email" class="mt-4 custom"
                             :disabled="is_loading || max_allowed_trait_points > 85" @click="createNewBuild(true)">
                             <span class="flex items-center justify-center">
                                 Import <mdi-reload v-if="is_loading" class="animate-spin ml-2"></mdi-reload>
@@ -299,7 +300,7 @@ export default {
                     </div>
                     <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:585px;left:45px; width:75px;height:75px;"
-                        :class="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2) ? 'cursor-not-allowed' : ''"
+                        :class="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2) ? '!cursor-not-allowed' : ''"
                         @click="selection = get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2) ? null : 'Mod2'">
                         <Item :item="get_locked_mod_data(build.Melee?.lockedModInfo, build.Mod2)" :image="{ height: 73 }">
                         </Item>
@@ -346,7 +347,7 @@ export default {
                     </div>
                     <div class="absolute w-16 h-16 border border-gray-800 rounded hover:border-white cursor-pointer"
                         style="top:585px;left:-20px; width:75px;height:75px;"
-                        :class="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3) ? 'cursor-not-allowed' : ''"
+                        :class="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3) ? '!cursor-not-allowed' : ''"
                         @click="selection = get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3) ? null : 'Mod3'">
                         <Item :item="get_locked_mod_data(build.handGuns?.lockedModInfo, build.Mod3)"
                             :image="{ height: 73 }">
@@ -358,17 +359,17 @@ export default {
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="pl-10">
                 <div v-if="max_allowed_trait_points">
-                    <div class="text-gray-400 text-center text-lg"> Traits</div>
-                    <div class="mb-4 text-gray-400 text-center "> {{ max_allowed_trait_points }} / 85</div>
+                    <div class="text-gray-400  text-lg"> Traits</div>
+                    <div class="mb-4 text-gray-400  "> {{ max_allowed_trait_points }} / 85</div>
                 </div>
                 <Traits v-if="build?.Archetype2 || build?.Archetype1"
                     :traits="[build.Archetype1?.trait, build.Archetype2?.trait].filter(trait => trait).map(trait => ({ is_archetype: true, itemName: trait, points: 10 }))">
                 </Traits>
                 <Traits :traits="traits" @delete="deleteTrait" :enable_addition="max_allowed_trait_points < 85"
                     class="mt-2"></Traits>
-                <div v-if="max_allowed_trait_points < 85" class="flex items-center justify-center"> <button
+                <div v-if="max_allowed_trait_points < 85" class="flex items-center "> <button
                         class=" mt-4 !flex items-center justify-center custom" @click="selection = 'Traits'">
                         <mdi-plus></mdi-plus> Add traits</button></div>
             </div>
