@@ -23,6 +23,9 @@
                         <div v-else @click.stop="">
                             <AlertPopup @continue="deleteBuild(build, index)">
                                 <mdi-trash class="opacity-60 hover:opacity-100"></mdi-trash>
+                                <template #content>
+                                    {{ build.build_name }}
+                                </template>
                             </AlertPopup>
                         </div>
                     </div>
