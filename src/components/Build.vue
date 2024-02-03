@@ -407,7 +407,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="grid justify-center items-center grid-cols-1">
+            <div class="grid justify-center items-center grid-cols-1 traits-container">
                 <div style="max-width:200px;" class="m-auto">
                     <div v-if="max_allowed_trait_points">
                         <div class="text-gray-400  text-lg"> Traits</div>
@@ -503,6 +503,10 @@ export default {
 
     .build-slots>div {
         width: unset;
+    }
+
+    .traits-container {
+        padding-bottom: 60px;
     }
 
 }
